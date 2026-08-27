@@ -1,0 +1,25 @@
+public enum QuestType
+{
+	none = 0,
+	punchEnemyBurnStatus = 1,
+	punchEnemyLightningStatus = 2,
+	punchEnemyFreezeStatus = 3,
+	collectCoin = 4,
+	gatherGem = 5,
+	unlockChest = 6,
+	reachComboMultiplier = 7,
+	defeatBoss = 8,
+	defeatEnemies = 9,
+	growArminFight = 10,
+	gainLevelinFight = 11,
+	increasePunchRange = 12,
+	regainHpInFight = 13,
+	inflictFreeze = 14,
+	inflictburn = 15,
+	inflictLightning = 16,
+	dealCriticalDamage = 17,
+	reachRank = 18,
+	buildPiecesHouse = 19,
+	mergeItems = 20,
+	levelUpItems = 21
+}

@@ -1,0 +1,31 @@
+using UnityEngine;
+
+namespace VolumetricFogAndMist2.Demos
+{
+	public class CapsuleController : MonoBehaviour
+	{
+		public VolumetricFog fogVolume;
+
+		public float moveSpeed;
+
+		public float fogHoleRadius;
+
+		public float clearDuration;
+
+		public float distanceCheck;
+
+		private Vector3 lastPos;
+
+		private void Start()
+		{
+		}
+
+		public void SetFogHoleRadius(float radius, bool refreshNow = true)
+		{
+		}
+
+		private void Update()
+		{
+		}
+	}
+}
