@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 3
+  tags:
+  - Missile
+  - Hammer
+  - MainCam
+  - Scrollable
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Ground
+  - Water
+  - UI
+  - MultiplierDoor
+  - Collectable
+  - Enemy
+  - Player
+  - Border
+  - emptyLayer
+  - enemyRagdoll
+  - ItemEnv
+  - IHitable
+  - Invisible
+  - InventoryCharacter
+  - bomb
+  - slotLayer
+  - connectionLayer
+  - RingModels
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Canvas
+    uniqueID: 4290128601
+    locked: 0
+  m_RenderingLayers:
+  - Default
