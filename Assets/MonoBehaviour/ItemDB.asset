@@ -1,0 +1,1582 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de118203a7d2aa0b8c2f3fc10b2ae0d2, type: 3}
+  m_Name: ItemDB
+  m_EditorClassIdentifier:
+  items:
+  - uIName: Iron Claw
+    description: Your punches hit with a crushing force that breaks through defenses.
+    itemRarity: 0
+    slot: 0
+    statsWRarity:
+    - itemRarity: 0
+      stats:
+      - statType: 0
+        statValues: 4
+      specialEffect: 0
+      valueSpecialEffect: 0
+      specialDescription:
+    - itemRarity: 1
+      stats:
+      - statType: 0
+        statValues: 6
+      specialEffect: 0
+      valueSpecialEffect: 0
+      specialDescription:
+    - itemRarity: 2
+      stats:
+      - statType: 0
+        statValues: 8
+      specialEffect: 13
+      valueSpecialEffect: 10
+      specialDescription: +10% freeze damage bonus
+    - itemRarity: 3
+      stats:
+      - statType: 0
+        statValues: 10
+      specialEffect: 19
+      valueSpecialEffect: 100
+      specialDescription: Increase damage to bosses 100%
+    - itemRarity: 4
+      stats:
+      - statType: 0
+        statValues: 12
+      specialEffect: 1
+      valueSpecialEffect: 5
+      specialDescription: Increase punch range by 5%
+    upgradePrices:
+    - prices:
+        startPrice: 0
+        priceIncrease: 25
+        rarityPrices:
+        - rarity: 0
+          price: 50
+        - rarity: 1
+          price: 100
+        - rarity: 2
+          price: 150
+        - rarity: 3
+          price: 200
+        - rarity: 4
+          price: 250
+        currencyType: 1
+    icon: {fileID: 21300000, guid: 5f9b576068082604c8ebf775bd501999, type: 2}
+    count: 0
+    id: 0
+    mergeItemID: 1
+    level: 0
+    itemCountsForStackUpgrade: 01000000040000000600000008000000
+    isUsing: 0
+  - uIName: Flame Gloves
+    description: Each hit builds a fiery pressure that ramps up your attack tempo.
+    itemRarity: 0
+    slot: 0
+    statsWRarity:
+    - itemRarity: 0
+      stats:
+      - statType: 0
+        statValues: 3
+      - statType: 3
+        statValues: 1
+      specialEffect: 0
+      valueSpecialEffect: 0
+      specialDescription:
+    - itemRarity: 1
+      stats:
+      - statType: 0
+        statValues: 4
+      - statType: 3
+        statValues: 3
+      specialEffect: 0
+      valueSpecialEffect: 0
+      specialDescription:
+    - itemRarity: 2
+      stats:
+      - statType: 0
+        statValues: 5
+      - statType: 3
+        statValues: 5
+      specialEffect: 3
+      valueSpecialEffect: 50
+      specialDescription: Critical damage increased +50%
+    - itemRarity: 3
+      stats:
+      - statType: 0
+        statValues: 6
+      - statType: 3
+        statValues: 7
+      specialEffect: 10
+      valueSpecialEffect: 50
+      specialDescription: Increase burn damage by 50%
+    - itemRarity: 4
+      stats:
+      - statType: 0
+        statValues: 7
+      - statType: 3
+        statValues: 9
+      specialEffect: 15
+      valueSpecialEffect: 200
+      specialDescription: Increase lightning damage by 200%
+    upgradePrices:
+    - prices:
+        startPrice: 0
+        priceIncrease: 20
+        rarityPrices:
+        - rarity: 0
+          price: 50
+        - rarity: 1
+          price: 100
+        - rarity: 2
+          price: 150
+        - rarity: 3
+          price: 200
+        - rarity: 4
+          price: 250
+        currencyType: 1
+    icon: {fileID: 21300000, guid: 2f0122c4f53536c438ae61bc6d7a70a3, type: 2}
+    count: 0
+    id: 1
+    mergeItemID: 2
+    level: 0
+    itemCountsForStackUpgrade: 01000000040000000600000008000000
+    isUsing: 0
+  - uIName: Storm Fist
+    description: Delivers rapid combos that keep opponents struggling to breathe.
+    itemRarity: 0
+    slot: 0
+    statsWRarity:
+    - itemRarity: 0
+      stats:
+      - statType: 0
+        statValues: 2
+      specialEffect: 0
+      valueSpecialEffect: 0
+      specialDescription:
+    - itemRarity: 1
+      stats:
+      - statType: 0
+        statValues: 4
+      specialEffect: 3
+      valueSpecialEffect: 25
+      specialDescription: Critical damage increased +25%
+    - itemRarity: 2
+      stats:
+      - statType: 0
+        statValues: 6
+      specialEffect: 2
+      valueSpecialEffect: 30
+      specialDescription: Skill damages increased +30%
+    - itemRarity: 3
+      stats:
+      - statType: 0
+        statValues: 8
+      specialEffect: 36
+      valueSpecialEffect: 2
+      specialDescription: Needed punch counts for skill activations decreased by 2
+    - itemRarity: 4
+      stats:
+      - statType: 0
+        statValues: 10
+      specialEffect: 37
+      valueSpecialEffect: 2
+      specialDescription: Punches have 3% chance to instant kill non-elite enemies
+    upgradePrices:
+    - prices:
+        startPrice: 0
+        priceIncrease: 50
+        rarityPrices:
+        - rarity: 0
+          price: 50
+        - rarity: 1
+          price: 100
+        - rarity: 2
+          price: 150
+        - rarity: 3
+          price: 200
+        - rarity: 4
+          price: 250
+        currencyType: 1
+    icon: {fileID: 21300000, guid: 5b70cf36ceff26f41b2ae83aa8bccc7b, type: 2}
+    count: 0
+    id: 2
+    mergeItemID: 3
+    level: 0
+    itemCountsForStackUpgrade: 01000000040000000600000008000000
+    isUsing: 0
+  - uIName: Critical Touch
+    description: Perfectly timed strikes spike your damage in an instant.
+    itemRarity: 0
+    slot: 0
+    statsWRarity:
+    - itemRarity: 0
+      stats:
+      - statType: 0
+        statValues: 4
+      - statType: 4
+        statValues: 0.1
+      specialEffect: 0
+      valueSpecialEffect: 0
+      specialDescription:
+    - itemRarity: 1
+      stats:
+      - statType: 0
+        statValues: 5
+      - statType: 4
+        statValues: 0.2
+      specialEffect: 4
+      valueSpecialEffect: 5
+      specialDescription: Crit Chance increased by 5%
+    - itemRarity: 2
+      stats:
+      - statType: 0
+        statValues: 6
+      - statType: 4
+        statValues: 0.3
+      specialEffect: 5
+      valueSpecialEffect: 25
+      specialDescription: Knocback distance increased by 25%
+    - itemRarity: 3
+      stats:
+      - statType: 0
+        statValues: 7
+      - statType: 4
+        statValues: 0.4
+      specialEffect: 10
+      valueSpecialEffect: 100
+      specialDescription: Increase burn damage by 100%
+    - itemRarity: 4
+      stats:
+      - statType: 0
+        statValues: 7
+      - statType: 4
+        statValues: 0.4
+      specialEffect: 19
+      valueSpecialEffect: 200
+      specialDescription: Increase damage to bosses 200%
+    upgradePrices:
+    - prices:
+        startPrice: 0
+        priceIncrease: 50
+        rarityPrices:
+        - rarity: 0
+          price: 50
+        - rarity: 1
+          price: 100
+        - rarity: 2
+          price: 150
+        - rarity: 3
+          price: 200
+        - rarity: 4
+          price: 250
+        currencyType: 1
+    icon: {fileID: 21300000, guid: 2dc7a85c5e746af4688463a1bfbadc7a, type: 2}
+    count: 0
+    id: 3
+    mergeItemID: 4
+    level: 0
+    itemCountsForStackUpgrade: 01000000040000000600000008000000
+    isUsing: 0
+  - uIName: Shadow Strike
+    description: Sudden, sneaky blows disrupt your opponent’s rhythm.
+    itemRarity: 0
+    slot: 0
+    statsWRarity:
+    - itemRarity: 0
+      stats:
+      - statType: 0
+        statValues: 6
+      specialEffect: 0
+      valueSpecialEffect: 0
+      specialDescription:
+    - itemRarity: 1
+      stats:
+      - statType: 0
+        statValues: 7
+      specialEffect: 0
+      valueSpecialEffect: 0
+      specialDescription:
+    - itemRarity: 2
+      stats:
+      - statType: 0
+        statValues: 8
+      specialEffect: 21
+      valueSpecialEffect: 50
+      specialDescription: Each extra arm increases punch damage by 50%
+    - itemRarity: 3
+      stats:
+      - statType: 0
+        statValues: 9
+      specialEffect: 14
+      valueSpecialEffect: 100
+      specialDescription: Increases freeze duration by 100%
+    - itemRarity: 4
+      stats:
+      - statType: 0
+        statValues: 10
+      specialEffect: 25
+      valueSpecialEffect: 50
+      specialDescription: Gold gained from the enemies increased 50%
+    upgradePrices:
+    - prices:
+        startPrice: 0
+        priceIncrease: 25
+        rarityPrices:
+        - rarity: 0
+          price: 50
+        - rarity: 1
+          price: 100
+        - rarity: 2
+          price: 150
+        - rarity: 3
+          price: 200
+        - rarity: 4
+          price: 250
+        currencyType: 1
+    icon: {fileID: 21300000, guid: 062a175a5c51c4d488c2a676f4c15685, type: 2}
+    count: 0
+    id: 4
+    mergeItemID: 5
+    level: 0
+    itemCountsForStackUpgrade: 01000000040000000600000008000000
+    isUsing: 0
+  - uIName: Speed Shorts
+    description: Lightweight fabric boosts footwork speed and overall mobility.
+    itemRarity: 0
+    slot: 1
+    statsWRarity:
+    - itemRarity: 0
+      stats:
+      - statType: 5
+        statValues: 10
+      specialEffect: 0
+      valueSpecialEffect: 0
+      specialDescription:
+    - itemRarity: 1
+      stats:
+      - statType: 5
+        statValues: 20
+      specialEffect: 35
+      valueSpecialEffect: 1
+      specialDescription: Level up's restore 1% HP
+    - itemRarity: 2
+      stats:
+      - statType: 5
+        statValues: 30
+      specialEffect: 4
+      valueSpecialEffect: 5
+      specialDescription: Increase crit chance by 5%
+    - itemRarity: 3
+      stats:
+      - statType: 5
+        statValues: 40
+      specialEffect: 22
+      valueSpecialEffect: 20
+      specialDescription: Each extra arm increases the defense by 20
+    - itemRarity: 4
+      stats:
+      - statType: 5
+        statValues: 50
+      specialEffect: 33
+      valueSpecialEffect: 50
+      specialDescription: 'Revive with 50% HP after death, effective only once in a match '
+    upgradePrices:
+    - prices:
+        startPrice: 0
+        priceIncrease: 25
+        rarityPrices:
+        - rarity: 0
+          price: 50
+        - rarity: 1
+          price: 100
+        - rarity: 2
+          price: 150
+        - rarity: 3
+          price: 200
+        - rarity: 4
+          price: 250
+        currencyType: 1
+    icon: {fileID: 21300000, guid: a72b82a2eeb1c694a938ff3d4c14b81a, type: 2}
+    count: 0
+    id: 0
+    mergeItemID: 1
+    level: 0
+    itemCountsForStackUpgrade: 01000000040000000600000008000000
+    isUsing: 0
+  - uIName: King of the Ring
+    description: Gives a confident stance that makes your performance feel steadier.
+    itemRarity: 0
+    slot: 1
+    statsWRarity:
+    - itemRarity: 0
+      stats:
+      - statType: 5
+        statValues: 15
+      - statType: 2
+        statValues: 2
+      specialEffect: 0
+      valueSpecialEffect: 0
+      specialDescription:
+    - itemRarity: 1
+      stats:
+      - statType: 5
+        statValues: 20
+      - statType: 2
+        statValues: 4
+      specialEffect: 0
+      valueSpecialEffect: 0
+      specialDescription:
+    - itemRarity: 2
+      stats:
+      - statType: 5
+        statValues: 25
+      - statType: 2
+        statValues: 6
+      specialEffect: 11
+      valueSpecialEffect: 100
+      specialDescription: Increase burn duration by 100%
+    - itemRarity: 3
+      stats:
+      - statType: 5
+        statValues: 30
+      - statType: 2
+        statValues: 8
+      specialEffect: 37
+      valueSpecialEffect: 1
+      specialDescription: Punches have 1% chance to instant kill non-elite enemies
+    - itemRarity: 4
+      stats:
+      - statType: 5
+        statValues: 35
+      - statType: 2
+        statValues: 10
+      specialEffect: 39
+      valueSpecialEffect: 1
+      specialDescription: Regain decaying health instead of dying. Kill 10 enemies in 4s to revive with remaining health..
+    upgradePrices:
+    - prices:
+        startPrice: 0
+        priceIncrease: 20
+        rarityPrices:
+        - rarity: 0
+          price: 50
+        - rarity: 1
+          price: 100
+        - rarity: 2
+          price: 150
+        - rarity: 3
+          price: 200
+        - rarity: 4
+          price: 250
+        currencyType: 1
+    icon: {fileID: 21300000, guid: 2e32b5b31a670e744ac1daf578aa3af5, type: 2}
+    count: 0
+    id: 1
+    mergeItemID: 2
+    level: 0
+    itemCountsForStackUpgrade: 01000000040000000600000008000000
+    isUsing: 0
+  - uIName: Endurance Shorts
+    description: Maintains comfort in long rounds so your pace doesn’t drop.
+    itemRarity: 0
+    slot: 1
+    statsWRarity:
+    - itemRarity: 0
+      stats:
+      - statType: 5
+        statValues: 12.5
+      - statType: 3
+        statValues: 1
+      specialEffect: 0
+      valueSpecialEffect: 0
+      specialDescription:
+    - itemRarity: 1
+      stats:
+      - statType: 5
+        statValues: 20
+      - statType: 3
+        statValues: 2
+      specialEffect: 25
+      valueSpecialEffect: 5
+      specialDescription: Gold gained from the enemies increased 5%
+    - itemRarity: 2
+      stats:
+      - statType: 5
+        statValues: 27.5
+      - statType: 3
+        statValues: 3
+      specialEffect: 5
+      valueSpecialEffect: 25
+      specialDescription: Knocback distance increased +25%
+    - itemRarity: 3
+      stats:
+      - statType: 5
+        statValues: 35
+      - statType: 3
+        statValues: 4
+      specialEffect: 9
+      valueSpecialEffect: 50
+      specialDescription: Attack damage increased 50% below 30% HP
+    - itemRarity: 4
+      stats:
+      - statType: 5
+        statValues: 35
+      - statType: 3
+        statValues: 4
+      specialEffect: 2
+      valueSpecialEffect: 50
+      specialDescription: Increase all skill damages by 50%
+    upgradePrices:
+    - prices:
+        startPrice: 0
+        priceIncrease: 50
+        rarityPrices:
+        - rarity: 0
+          price: 50
+        - rarity: 1
+          price: 100
+        - rarity: 2
+          price: 150
+        - rarity: 3
+          price: 200
+        - rarity: 4
+          price: 250
+        currencyType: 1
+    icon: {fileID: 21300000, guid: 57067b4674241604aaf4f145df0aa4d4, type: 2}
+    count: 0
+    id: 2
+    mergeItemID: 3
+    level: 0
+    itemCountsForStackUpgrade: 01000000040000000600000008000000
+    isUsing: 0
+  - uIName: Sharp Step
+    description: Flexible fit keeps movement smooth during quick direction changes.
+    itemRarity: 0
+    slot: 1
+    statsWRarity:
+    - itemRarity: 0
+      stats:
+      - statType: 5
+        statValues: 20
+      specialEffect: 0
+      valueSpecialEffect: 0
+      specialDescription:
+    - itemRarity: 1
+      stats:
+      - statType: 5
+        statValues: 25
+      specialEffect: 0
+      valueSpecialEffect: 0
+      specialDescription:
+    - itemRarity: 2
+      stats:
+      - statType: 5
+        statValues: 30
+      specialEffect: 34
+      valueSpecialEffect: 15
+      specialDescription: Received damage reduced by 15%
+    - itemRarity: 3
+      stats:
+      - statType: 5
+        statValues: 35
+      specialEffect: 2
+      valueSpecialEffect: 25
+      specialDescription: Increase all skill damages by 25%
+    - itemRarity: 4
+      stats:
+      - statType: 5
+        statValues: 40
+      specialEffect: 9
+      valueSpecialEffect: 100
+      specialDescription: Attack damage increased 100% below 30% HP
+    upgradePrices:
+    - prices:
+        startPrice: 0
+        priceIncrease: 50
+        rarityPrices:
+        - rarity: 0
+          price: 50
+        - rarity: 1
+          price: 100
+        - rarity: 2
+          price: 150
+        - rarity: 3
+          price: 200
+        - rarity: 4
+          price: 250
+        currencyType: 1
+    icon: {fileID: 21300000, guid: a45e45e660b79c1479c05f458eb7e957, type: 2}
+    count: 0
+    id: 3
+    mergeItemID: 4
+    level: 0
+    itemCountsForStackUpgrade: 01000000040000000600000008000000
+    isUsing: 0
+  - uIName: Champion Waist
+    description: Secure waistband makes you feel more controlled and fight-ready.
+    itemRarity: 0
+    slot: 1
+    statsWRarity:
+    - itemRarity: 0
+      stats:
+      - statType: 5
+        statValues: 12.5
+      - statType: 9
+        statValues: 5
+      specialEffect: 0
+      valueSpecialEffect: 0
+      specialDescription:
+    - itemRarity: 1
+      stats:
+      - statType: 5
+        statValues: 20
+      - statType: 9
+        statValues: 10
+      specialEffect: 15
+      valueSpecialEffect: 10
+      specialDescription: Increase lightning damage by 10%
+    - itemRarity: 2
+      stats:
+      - statType: 5
+        statValues: 27.5
+      - statType: 9
+        statValues: 15
+      specialEffect: 23
+      valueSpecialEffect: 50
+      specialDescription: Each extra arm increases the critical damage by 50%
+    - itemRarity: 3
+      stats:
+      - statType: 5
+        statValues: 35
+      - statType: 9
+        statValues: 20
+      specialEffect: 33
+      valueSpecialEffect: 10
+      specialDescription: 'Revive with 10% HP after death, effective only once in a match '
+    - itemRarity: 4
+      stats:
+      - statType: 5
+        statValues: 42.5
+      - statType: 9
+        statValues: 25
+      specialEffect: 38
+      valueSpecialEffect: 200
+      specialDescription: Return back 200% of the received damage to the attacker
+    upgradePrices:
+    - prices:
+        startPrice: 0
+        priceIncrease: 25
+        rarityPrices:
+        - rarity: 0
+          price: 50
+        - rarity: 1
+          price: 100
+        - rarity: 2
+          price: 150
+        - rarity: 3
+          price: 200
+        - rarity: 4
+          price: 250
+        currencyType: 1
+    icon: {fileID: 21300000, guid: ee786078c4cedab4bb569c7ea3aa8345, type: 2}
+    count: 0
+    id: 4
+    mergeItemID: 5
+    level: 0
+    itemCountsForStackUpgrade: 01000000040000000600000008000000
+    isUsing: 0
+  - uIName: Iron Shield
+    description: Provides solid protection that keeps your head feeling secure under heavy hits.
+    itemRarity: 2
+    slot: 2
+    statsWRarity:
+    - itemRarity: 0
+      stats:
+      - statType: 9
+        statValues: 10
+      specialEffect: 0
+      valueSpecialEffect: 0
+      specialDescription:
+    - itemRarity: 1
+      stats:
+      - statType: 9
+        statValues: 20
+      specialEffect: 31
+      valueSpecialEffect: 10
+      specialDescription: Received damage reduced +10% when below 20% HP
+    - itemRarity: 2
+      stats:
+      - statType: 9
+        statValues: 30
+      specialEffect: 10
+      valueSpecialEffect: 30
+      specialDescription: Increase burn damage by 30%
+    - itemRarity: 3
+      stats:
+      - statType: 9
+        statValues: 40
+      specialEffect: 25
+      valueSpecialEffect: 25
+      specialDescription: Gold gained from the enemies increased 25%
+    - itemRarity: 4
+      stats:
+      - statType: 9
+        statValues: 50
+      specialEffect: 13
+      valueSpecialEffect: 200
+      specialDescription: Increase freeze damage by 200%
+    upgradePrices:
+    - prices:
+        startPrice: 0
+        priceIncrease: 25
+        rarityPrices:
+        - rarity: 0
+          price: 50
+        - rarity: 1
+          price: 100
+        - rarity: 2
+          price: 150
+        - rarity: 3
+          price: 200
+        - rarity: 4
+          price: 250
+        currencyType: 1
+    icon: {fileID: 21300000, guid: 8206821f14bd1c94ca55355f20097d97, type: 2}
+    count: 0
+    id: 0
+    mergeItemID: 1
+    level: 0
+    itemCountsForStackUpgrade: 01000000040000000600000008000000
+    isUsing: 0
+  - uIName: Ring Guardian
+    description: Strengthens your defense so you can stay focused throughout the match.
+    itemRarity: 0
+    slot: 2
+    statsWRarity:
+    - itemRarity: 0
+      stats:
+      - statType: 9
+        statValues: 20
+      - statType: 4
+        statValues: 0.1
+      specialEffect: 0
+      valueSpecialEffect: 0
+      specialDescription:
+    - itemRarity: 1
+      stats:
+      - statType: 9
+        statValues: 25
+      - statType: 4
+        statValues: 0.2
+      specialEffect: 0
+      valueSpecialEffect: 0
+      specialDescription:
+    - itemRarity: 2
+      stats:
+      - statType: 9
+        statValues: 30
+      - statType: 4
+        statValues: 0.3
+      specialEffect: 33
+      valueSpecialEffect: 20
+      specialDescription: 'Revive with 20% HP after death, effective only once in a match '
+    - itemRarity: 3
+      stats:
+      - statType: 9
+        statValues: 35
+      - statType: 4
+        statValues: 0.4
+      specialEffect: 35
+      valueSpecialEffect: 5
+      specialDescription: Level up's restore 5% HP
+    - itemRarity: 4
+      stats:
+      - statType: 9
+        statValues: 40
+      - statType: 4
+        statValues: 0.5
+      specialEffect: 7
+      valueSpecialEffect: 20
+      specialDescription: Gain +100 defense for 5 seconds after killing 50 enemies
+    upgradePrices:
+    - prices:
+        startPrice: 0
+        priceIncrease: 20
+        rarityPrices:
+        - rarity: 0
+          price: 50
+        - rarity: 1
+          price: 100
+        - rarity: 2
+          price: 150
+        - rarity: 3
+          price: 200
+        - rarity: 4
+          price: 250
+        currencyType: 1
+    icon: {fileID: 21300000, guid: 2665653884b56144aa89a3d253e4d77c, type: 2}
+    count: 0
+    id: 1
+    mergeItemID: 2
+    level: 0
+    itemCountsForStackUpgrade: 01000000040000000600000008000000
+    isUsing: 0
+  - uIName: Impact Absorber
+    description: Reduces the force of incoming hits to help you stay in control.
+    itemRarity: 0
+    slot: 2
+    statsWRarity:
+    - itemRarity: 0
+      stats:
+      - statType: 9
+        statValues: 10
+      - statType: 0
+        statValues: 5
+      specialEffect: 0
+      valueSpecialEffect: 0
+      specialDescription:
+    - itemRarity: 1
+      stats:
+      - statType: 9
+        statValues: 15
+      - statType: 0
+        statValues: 10
+      specialEffect: 0
+      valueSpecialEffect: 0
+      specialDescription:
+    - itemRarity: 2
+      stats:
+      - statType: 9
+        statValues: 20
+      - statType: 0
+        statValues: 15
+      specialEffect: 17
+      valueSpecialEffect: 10
+      specialDescription: 'Increase lightning skill damages by 10% '
+    - itemRarity: 3
+      stats:
+      - statType: 9
+        statValues: 25
+      - statType: 0
+        statValues: 20
+      specialEffect: 8
+      valueSpecialEffect: 10
+      specialDescription: Gain a massive shield when your health drops below 50%, effective only once in a match
+    - itemRarity: 4
+      stats:
+      - statType: 9
+        statValues: 30
+      - statType: 0
+        statValues: 25
+      specialEffect: 16
+      valueSpecialEffect: 200
+      specialDescription: Lightning duration increased 200%
+    upgradePrices:
+    - prices:
+        startPrice: 0
+        priceIncrease: 50
+        rarityPrices:
+        - rarity: 0
+          price: 50
+        - rarity: 1
+          price: 100
+        - rarity: 2
+          price: 150
+        - rarity: 3
+          price: 200
+        - rarity: 4
+          price: 250
+        currencyType: 1
+    icon: {fileID: 21300000, guid: 84a8b1a747088bb4699a2a743d284439, type: 2}
+    count: 0
+    id: 2
+    mergeItemID: 3
+    level: 0
+    itemCountsForStackUpgrade: 01000000040000000600000008000000
+    isUsing: 0
+  - uIName: Champion Helm
+    description: Makes you feel stronger in the ring with a confident presence.
+    itemRarity: 1
+    slot: 2
+    statsWRarity:
+    - itemRarity: 0
+      stats:
+      - statType: 9
+        statValues: 15
+      - statType: 1
+        statValues: 0.05
+      specialEffect: 0
+      valueSpecialEffect: 0
+      specialDescription:
+    - itemRarity: 1
+      stats:
+      - statType: 9
+        statValues: 15
+      - statType: 1
+        statValues: 0.1
+      specialEffect: 3
+      valueSpecialEffect: 25
+      specialDescription: Critical damage increased +25%
+    - itemRarity: 2
+      stats:
+      - statType: 9
+        statValues: 20
+      - statType: 1
+        statValues: 0.15
+      specialEffect: 9
+      valueSpecialEffect: 30
+      specialDescription: Attack damage increased 30% when HP is below 30%
+    - itemRarity: 3
+      stats:
+      - statType: 9
+        statValues: 25
+      - statType: 1
+        statValues: 0.2
+      specialEffect: 5
+      valueSpecialEffect: 50
+      specialDescription: Knocback distance increased +50%
+    - itemRarity: 4
+      stats:
+      - statType: 9
+        statValues: 30
+      - statType: 1
+        statValues: 0.25
+      specialEffect: 38
+      valueSpecialEffect: 100
+      specialDescription: Return back 100% of the received damage to the attacker
+    upgradePrices:
+    - prices:
+        startPrice: 0
+        priceIncrease: 50
+        rarityPrices:
+        - rarity: 0
+          price: 50
+        - rarity: 1
+          price: 100
+        - rarity: 2
+          price: 150
+        - rarity: 3
+          price: 200
+        - rarity: 4
+          price: 250
+        currencyType: 1
+    icon: {fileID: 21300000, guid: d0e1037e99c238f4aa08a0e4fbb34285, type: 2}
+    count: 0
+    id: 3
+    mergeItemID: 4
+    level: 0
+    itemCountsForStackUpgrade: 01000000040000000600000008000000
+    isUsing: 0
+  - uIName: Shadow Armor
+    description: Designed to keep your flow and visibility while moving fast.
+    itemRarity: 0
+    slot: 2
+    statsWRarity:
+    - itemRarity: 0
+      stats:
+      - statType: 9
+        statValues: 25
+      specialEffect: 0
+      valueSpecialEffect: 0
+      specialDescription:
+    - itemRarity: 1
+      stats:
+      - statType: 9
+        statValues: 35
+      specialEffect: 0
+      valueSpecialEffect: 0
+      specialDescription:
+    - itemRarity: 2
+      stats:
+      - statType: 9
+        statValues: 45
+      specialEffect: 10
+      valueSpecialEffect: 50
+      specialDescription: Increase burn damage by 50%
+    - itemRarity: 3
+      stats:
+      - statType: 9
+        statValues: 55
+      specialEffect: 9
+      valueSpecialEffect: 15
+      specialDescription: Attack damage increased 15% when HP is below 30%
+    - itemRarity: 4
+      stats:
+      - statType: 9
+        statValues: 65
+      specialEffect: 33
+      valueSpecialEffect: 50
+      specialDescription: 'Revive with 50% HP after death, effective only once in a match '
+    upgradePrices:
+    - prices:
+        startPrice: 0
+        priceIncrease: 25
+        rarityPrices:
+        - rarity: 0
+          price: 50
+        - rarity: 1
+          price: 100
+        - rarity: 2
+          price: 150
+        - rarity: 3
+          price: 200
+        - rarity: 4
+          price: 250
+        currencyType: 1
+    icon: {fileID: 21300000, guid: fc9ac4a0b0048b2499b1b48a64dbf5a0, type: 2}
+    count: 0
+    id: 4
+    mergeItemID: 5
+    level: 0
+    itemCountsForStackUpgrade: 01000000040000000600000008000000
+    isUsing: 0
+  - uIName: Speed Step
+    description: A lightweight sole helps you reposition faster in the ring.
+    itemRarity: 2
+    slot: 3
+    statsWRarity:
+    - itemRarity: 0
+      stats:
+      - statType: 0
+        statValues: 2.5
+      - statType: 2
+        statValues: 2
+      specialEffect: 0
+      valueSpecialEffect: 0
+      specialDescription:
+    - itemRarity: 1
+      stats:
+      - statType: 0
+        statValues: 3.75
+      - statType: 2
+        statValues: 4
+      specialEffect: 13
+      valueSpecialEffect: 10
+      specialDescription: Increase freeze damage by 10%
+    - itemRarity: 2
+      stats:
+      - statType: 0
+        statValues: 5
+      - statType: 2
+        statValues: 6
+      specialEffect: 24
+      valueSpecialEffect: 25
+      specialDescription: Each extra arm increases the skill damages by 25%
+    - itemRarity: 3
+      stats:
+      - statType: 0
+        statValues: 6.25
+      - statType: 2
+        statValues: 8
+      specialEffect: 1
+      valueSpecialEffect: 4
+      specialDescription: 'Increase base punch range by 4% '
+    - itemRarity: 4
+      stats:
+      - statType: 0
+        statValues: 7.5
+      - statType: 2
+        statValues: 10
+      specialEffect: 37
+      valueSpecialEffect: 3
+      specialDescription: Punches have 3% chance to instant kill non-elite enemies
+    upgradePrices:
+    - prices:
+        startPrice: 0
+        priceIncrease: 25
+        rarityPrices:
+        - rarity: 0
+          price: 50
+        - rarity: 1
+          price: 100
+        - rarity: 2
+          price: 150
+        - rarity: 3
+          price: 200
+        - rarity: 4
+          price: 250
+        currencyType: 1
+    icon: {fileID: 21300000, guid: af744ae41dd28f3498fde31f3f579a46, type: 2}
+    count: 0
+    id: 0
+    mergeItemID: 1
+    level: 0
+    itemCountsForStackUpgrade: 01000000040000000600000008000000
+    isUsing: 0
+  - uIName: Ring Dancer
+    description: Smooth footwork helps you break your opponent’s angles.
+    itemRarity: 0
+    slot: 3
+    statsWRarity:
+    - itemRarity: 0
+      stats:
+      - statType: 3
+        statValues: 1
+      - statType: 1
+        statValues: 0.05
+      specialEffect: 0
+      valueSpecialEffect: 0
+      specialDescription:
+    - itemRarity: 1
+      stats:
+      - statType: 3
+        statValues: 3
+      - statType: 1
+        statValues: 0.1
+      specialEffect: 0
+      valueSpecialEffect: 0
+      specialDescription:
+    - itemRarity: 2
+      stats:
+      - statType: 3
+        statValues: 5
+      - statType: 1
+        statValues: 0.15
+      specialEffect: 1
+      valueSpecialEffect: 3
+      specialDescription: Increase base punch range by 3%
+    - itemRarity: 3
+      stats:
+      - statType: 3
+        statValues: 7
+      - statType: 1
+        statValues: 0.2
+      specialEffect: 5
+      valueSpecialEffect: 50
+      specialDescription: Increase knockback distance by 50%
+    - itemRarity: 4
+      stats:
+      - statType: 3
+        statValues: 10
+      - statType: 1
+        statValues: 0.25
+      specialEffect: 25
+      valueSpecialEffect: 50
+      specialDescription: Gold gained from the enemies increased 50%
+    upgradePrices:
+    - prices:
+        startPrice: 0
+        priceIncrease: 20
+        rarityPrices:
+        - rarity: 0
+          price: 50
+        - rarity: 1
+          price: 100
+        - rarity: 2
+          price: 150
+        - rarity: 3
+          price: 200
+        - rarity: 4
+          price: 250
+        currencyType: 1
+    icon: {fileID: 21300000, guid: 20e6cf95c23947d409a81dd5ef5cdfdd, type: 2}
+    count: 0
+    id: 1
+    mergeItemID: 2
+    level: 0
+    itemCountsForStackUpgrade: 01000000040000000600000008000000
+    isUsing: 0
+  - uIName: Sharp Turn
+    description: Supports quick pivots without losing balance.
+    itemRarity: 0
+    slot: 3
+    statsWRarity:
+    - itemRarity: 0
+      stats:
+      - statType: 0
+        statValues: 2.5
+      - statType: 4
+        statValues: 0.1
+      specialEffect: 0
+      valueSpecialEffect: 0
+      specialDescription:
+    - itemRarity: 1
+      stats:
+      - statType: 0
+        statValues: 5
+      - statType: 4
+        statValues: 0.2
+      specialEffect: 12
+      valueSpecialEffect: 1
+      specialDescription: Increase burn stack limit by 1
+    - itemRarity: 2
+      stats:
+      - statType: 0
+        statValues: 7.5
+      - statType: 4
+        statValues: 0.3
+      specialEffect: 5
+      valueSpecialEffect: 30
+      specialDescription: Increase knockback distance by 30%
+    - itemRarity: 3
+      stats:
+      - statType: 0
+        statValues: 10
+      - statType: 4
+        statValues: 0.4
+      specialEffect: 9
+      valueSpecialEffect: 30
+      specialDescription: Attack damage increased 30% below 50% HP
+    - itemRarity: 4
+      stats:
+      - statType: 0
+        statValues: 10
+      - statType: 4
+        statValues: 0.4
+      specialEffect: 18
+      valueSpecialEffect: 2
+      specialDescription: Lightning stuns enemies for 2 seconds when applied for the first time
+    upgradePrices:
+    - prices:
+        startPrice: 0
+        priceIncrease: 50
+        rarityPrices:
+        - rarity: 0
+          price: 50
+        - rarity: 1
+          price: 100
+        - rarity: 2
+          price: 150
+        - rarity: 3
+          price: 200
+        - rarity: 4
+          price: 250
+        currencyType: 1
+    icon: {fileID: 21300000, guid: 451c44d16ce7bbd4c95c7b427610087b, type: 2}
+    count: 0
+    id: 2
+    mergeItemID: 3
+    level: 0
+    itemCountsForStackUpgrade: 01000000040000000600000008000000
+    isUsing: 0
+  - uIName: Steel Grip
+    description: Strong grip reduces slipping and increases control.
+    itemRarity: 0
+    slot: 3
+    statsWRarity:
+    - itemRarity: 0
+      stats:
+      - statType: 9
+        statValues: 5
+      - statType: 5
+        statValues: 5
+      specialEffect: 0
+      valueSpecialEffect: 0
+      specialDescription:
+    - itemRarity: 1
+      stats:
+      - statType: 9
+        statValues: 10
+      - statType: 5
+        statValues: 15
+      specialEffect: 0
+      valueSpecialEffect: 0
+      specialDescription:
+    - itemRarity: 2
+      stats:
+      - statType: 9
+        statValues: 15
+      - statType: 5
+        statValues: 25
+      specialEffect: 16
+      valueSpecialEffect: 100
+      specialDescription: Increase lightning duration by 100%
+    - itemRarity: 3
+      stats:
+      - statType: 9
+        statValues: 20
+      - statType: 5
+        statValues: 35
+      specialEffect: 14
+      valueSpecialEffect: 50
+      specialDescription: Increase freeze duration by 50%
+    - itemRarity: 4
+      stats:
+      - statType: 9
+        statValues: 25
+      - statType: 5
+        statValues: 45
+      specialEffect: 34
+      valueSpecialEffect: 10
+      specialDescription: Received damage reduced by 10%
+    upgradePrices:
+    - prices:
+        startPrice: 0
+        priceIncrease: 50
+        rarityPrices:
+        - rarity: 0
+          price: 50
+        - rarity: 1
+          price: 100
+        - rarity: 2
+          price: 150
+        - rarity: 3
+          price: 200
+        - rarity: 4
+          price: 250
+        currencyType: 1
+    icon: {fileID: 21300000, guid: 4f7c524da22246d4ab673e3498bfe78a, type: 2}
+    count: 0
+    id: 3
+    mergeItemID: 4
+    level: 0
+    itemCountsForStackUpgrade: 01000000040000000600000008000000
+    isUsing: 0
+  - uIName: Round Breeze
+    description: Breathable build keeps you comfortable during high pace.
+    itemRarity: 0
+    slot: 3
+    statsWRarity:
+    - itemRarity: 0
+      stats:
+      - statType: 1
+        statValues: 0.05
+      - statType: 2
+        statValues: 2
+      specialEffect: 0
+      valueSpecialEffect: 0
+      specialDescription:
+    - itemRarity: 1
+      stats:
+      - statType: 1
+        statValues: 0.1
+      - statType: 2
+        statValues: 4
+      specialEffect: 2
+      valueSpecialEffect: 5
+      specialDescription: Increase all skill damages by 5%
+    - itemRarity: 2
+      stats:
+      - statType: 1
+        statValues: 0.15
+      - statType: 2
+        statValues: 6
+      specialEffect: 11
+      valueSpecialEffect: 100
+      specialDescription: Increase burn duration by 100%
+    - itemRarity: 3
+      stats:
+      - statType: 1
+        statValues: 0.2
+      - statType: 2
+        statValues: 8
+      specialEffect: 34
+      valueSpecialEffect: 25
+      specialDescription: Received damage reduced by 25%
+    - itemRarity: 4
+      stats:
+      - statType: 1
+        statValues: 0.25
+      - statType: 2
+        statValues: 10
+      specialEffect: 21
+      valueSpecialEffect: 100
+      specialDescription: Each extra arm increases punch damage by 100%
+    upgradePrices:
+    - prices:
+        startPrice: 0
+        priceIncrease: 25
+        rarityPrices:
+        - rarity: 0
+          price: 50
+        - rarity: 1
+          price: 100
+        - rarity: 2
+          price: 150
+        - rarity: 3
+          price: 200
+        - rarity: 4
+          price: 250
+        currencyType: 1
+    icon: {fileID: 21300000, guid: b0fc05112b4a3a44e90a28ec641434e2, type: 2}
+    count: 0
+    id: 4
+    mergeItemID: 5
+    level: 0
+    itemCountsForStackUpgrade: 01000000040000000600000008000000
+    isUsing: 0
+  upgradePercentages:
+    statUpgradePercentages:
+    - statType: 0
+      upgradeItem:
+      - upgradeGroup: 1
+        minLevel: 0
+        maxLevel: 10
+        upgradePercentage: 20
+      - upgradeGroup: 2
+        minLevel: 10
+        maxLevel: 20
+        upgradePercentage: 10
+      - upgradeGroup: 3
+        minLevel: 20
+        maxLevel: 30
+        upgradePercentage: 5
+      - upgradeGroup: 4
+        minLevel: 30
+        maxLevel: 40
+        upgradePercentage: 2.5
+      - upgradeGroup: 5
+        minLevel: 40
+        maxLevel: 50
+        upgradePercentage: 1
+    - statType: 1
+      upgradeItem:
+      - upgradeGroup: 1
+        minLevel: 0
+        maxLevel: 10
+        upgradePercentage: 4
+      - upgradeGroup: 2
+        minLevel: 10
+        maxLevel: 20
+        upgradePercentage: 3
+      - upgradeGroup: 3
+        minLevel: 20
+        maxLevel: 30
+        upgradePercentage: 2
+      - upgradeGroup: 4
+        minLevel: 30
+        maxLevel: 40
+        upgradePercentage: 1
+      - upgradeGroup: 5
+        minLevel: 40
+        maxLevel: 50
+        upgradePercentage: 0.5
+    - statType: 2
+      upgradeItem:
+      - upgradeGroup: 1
+        minLevel: 0
+        maxLevel: 10
+        upgradePercentage: 20
+      - upgradeGroup: 2
+        minLevel: 10
+        maxLevel: 20
+        upgradePercentage: 10
+      - upgradeGroup: 3
+        minLevel: 20
+        maxLevel: 30
+        upgradePercentage: 5
+      - upgradeGroup: 4
+        minLevel: 30
+        maxLevel: 40
+        upgradePercentage: 2.5
+      - upgradeGroup: 5
+        minLevel: 40
+        maxLevel: 50
+        upgradePercentage: 1
+    - statType: 3
+      upgradeItem:
+      - upgradeGroup: 1
+        minLevel: 0
+        maxLevel: 10
+        upgradePercentage: 10
+      - upgradeGroup: 2
+        minLevel: 10
+        maxLevel: 20
+        upgradePercentage: 8
+      - upgradeGroup: 3
+        minLevel: 20
+        maxLevel: 30
+        upgradePercentage: 6
+      - upgradeGroup: 4
+        minLevel: 30
+        maxLevel: 40
+        upgradePercentage: 4
+      - upgradeGroup: 5
+        minLevel: 40
+        maxLevel: 50
+        upgradePercentage: 2
+    - statType: 4
+      upgradeItem:
+      - upgradeGroup: 1
+        minLevel: 0
+        maxLevel: 10
+        upgradePercentage: 20
+      - upgradeGroup: 2
+        minLevel: 10
+        maxLevel: 20
+        upgradePercentage: 10
+      - upgradeGroup: 3
+        minLevel: 20
+        maxLevel: 30
+        upgradePercentage: 5
+      - upgradeGroup: 4
+        minLevel: 30
+        maxLevel: 40
+        upgradePercentage: 2.5
+      - upgradeGroup: 5
+        minLevel: 40
+        maxLevel: 50
+        upgradePercentage: 1
+    - statType: 5
+      upgradeItem:
+      - upgradeGroup: 1
+        minLevel: 0
+        maxLevel: 10
+        upgradePercentage: 20
+      - upgradeGroup: 2
+        minLevel: 10
+        maxLevel: 20
+        upgradePercentage: 10
+      - upgradeGroup: 3
+        minLevel: 20
+        maxLevel: 30
+        upgradePercentage: 5
+      - upgradeGroup: 4
+        minLevel: 30
+        maxLevel: 40
+        upgradePercentage: 2.5
+      - upgradeGroup: 5
+        minLevel: 40
+        maxLevel: 50
+        upgradePercentage: 1
+    - statType: 9
+      upgradeItem:
+      - upgradeGroup: 1
+        minLevel: 0
+        maxLevel: 10
+        upgradePercentage: 10
+      - upgradeGroup: 2
+        minLevel: 10
+        maxLevel: 20
+        upgradePercentage: 8
+      - upgradeGroup: 3
+        minLevel: 20
+        maxLevel: 30
+        upgradePercentage: 6
+      - upgradeGroup: 4
+        minLevel: 30
+        maxLevel: 40
+        upgradePercentage: 4
+      - upgradeGroup: 5
+        minLevel: 40
+        maxLevel: 50
+        upgradePercentage: 2
+    upgradeItem:
+    - upgradeGroup: 1
+      minLevel: 0
+      maxLevel: 10
+      upgradePercentage: 20
+    - upgradeGroup: 2
+      minLevel: 10
+      maxLevel: 20
+      upgradePercentage: 10
+    - upgradeGroup: 3
+      minLevel: 20
+      maxLevel: 30
+      upgradePercentage: 5
+    - upgradeGroup: 4
+      minLevel: 30
+      maxLevel: 40
+      upgradePercentage: 2.5
+    - upgradeGroup: 5
+      minLevel: 40
+      maxLevel: 50
+      upgradePercentage: 1

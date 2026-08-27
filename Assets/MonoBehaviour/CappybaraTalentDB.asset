@@ -1,0 +1,739 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b9b4085824fc38ac59da45b6fcd31be, type: 3}
+  m_Name: CappybaraTalentDB
+  m_EditorClassIdentifier:
+  allTalentReview:
+  - nameStage: Rookie
+    levelLength: 8
+    leaguePrizeMoneyAmount:
+    - priceStart: 50
+      prizeIncrease: 010000000100000001000000
+    - priceStart: 160
+      prizeIncrease: 010000000100000001000000
+    - priceStart: 210
+      prizeIncrease: 010000000100000001000000
+    typeMileStone: 0
+    prizeTalents:
+    - type: 24
+      value: 1
+    - type: 25
+      value: 1
+    - type: 0
+      value: 2
+    - type: 12
+      value: 1
+    - type: 1
+      value: 765
+    - type: 0
+      value: 3
+    - type: 13
+      value: 2400
+    - type: 3
+      value: 1
+    goldRewardMultiplier: 1.5
+    moneyStart: 100
+    moneyIncrease: 75
+  - nameStage: Amateur
+    levelLength: 15
+    leaguePrizeMoneyAmount:
+    - priceStart: 290
+      prizeIncrease: 040000000200000003000000
+    - priceStart: 380
+      prizeIncrease: 020000000200000002000000
+    - priceStart: 510
+      prizeIncrease: 020000000200000002000000
+    - priceStart: 750
+      prizeIncrease: 020000000200000002000000
+    - priceStart: 1250
+      prizeIncrease: 020000000200000002000000
+    typeMileStone: 1
+    prizeTalents:
+    - type: 0
+      value: 1
+    - type: 1
+      value: 4200
+    - type: 22
+      value: 1
+    - type: 0
+      value: 2
+    - type: 15
+      value: 1
+    - type: 4
+      value: 5
+    - type: 0
+      value: 1
+    - type: 1
+      value: 12600
+    - type: 16
+      value: 1
+    - type: 0
+      value: 4
+    - type: 6
+      value: 1
+    - type: 17
+      value: 5
+    - type: 0
+      value: 5
+    - type: 1
+      value: 29550
+    - type: 18
+      value: 1
+    goldRewardMultiplier: 1.5
+    moneyStart: 500
+    moneyIncrease: 150
+  - nameStage: Prospect
+    levelLength: 30
+    leaguePrizeMoneyAmount:
+    - priceStart: 1790
+      prizeIncrease: 030000000300000003000000
+    - priceStart: 2150
+      prizeIncrease: 030000000300000003000000
+    - priceStart: 2800
+      prizeIncrease: 030000000300000003000000
+    - priceStart: 3600
+      prizeIncrease: 030000000300000003000000
+    - priceStart: 4400
+      prizeIncrease: 030000000300000003000000
+    - priceStart: 5400
+      prizeIncrease: 030000000300000003000000
+    - priceStart: 6700
+      prizeIncrease: 030000000300000003000000
+    - priceStart: 7100
+      prizeIncrease: 030000000300000003000000
+    - priceStart: 8400
+      prizeIncrease: 030000000300000003000000
+    - priceStart: 9900
+      prizeIncrease: 030000000300000003000000
+    typeMileStone: 2
+    prizeTalents:
+    - type: 0
+      value: 1
+    - type: 1
+      value: 41850
+    - type: 19
+      value: 1
+    - type: 0
+      value: 2
+    - type: 20
+      value: 1
+    - type: 8
+      value: 15
+    - type: 0
+      value: 1
+    - type: 1
+      value: 61800
+    - type: 21
+      value: 1
+    - type: 0
+      value: 4
+    - type: 14
+      value: 1
+    - type: 5
+      value: 2.5
+    - type: 0
+      value: 5
+    - type: 1
+      value: 29550
+    - type: 23
+      value: 1
+    - type: 0
+      value: 6
+    - type: 11
+      value: 1
+    - type: 8
+      value: 5
+    - type: 0
+      value: 7
+    - type: 1
+      value: 52050
+    - type: 9
+      value: 10
+    - type: 0
+      value: 8
+    - type: 1
+      value: 61800
+    - type: 5
+      value: 2.5
+    - type: 0
+      value: 9
+    - type: 1
+      value: 68250
+    - type: 7
+      value: 10
+    - type: 0
+      value: 10
+    - type: 1
+      value: 68250
+    - type: 9
+      value: 10
+    goldRewardMultiplier: 1.5
+    moneyStart: 1000
+    moneyIncrease: 225
+  - nameStage: Contender
+    levelLength: 45
+    leaguePrizeMoneyAmount:
+    - priceStart: 11900
+      prizeIncrease: 040000000400000004000000
+    - priceStart: 13200
+      prizeIncrease: 040000000400000004000000
+    - priceStart: 15100
+      prizeIncrease: 040000000400000004000000
+    - priceStart: 17800
+      prizeIncrease: 040000000400000004000000
+    - priceStart: 19700
+      prizeIncrease: 040000000400000004000000
+    - priceStart: 22300
+      prizeIncrease: 040000000400000004000000
+    - priceStart: 25700
+      prizeIncrease: 040000000400000004000000
+    - priceStart: 27900
+      prizeIncrease: 040000000400000004000000
+    - priceStart: 30200
+      prizeIncrease: 040000000400000004000000
+    - priceStart: 32300
+      prizeIncrease: 040000000400000004000000
+    - priceStart: 34700
+      prizeIncrease: 040000000400000004000000
+    - priceStart: 37100
+      prizeIncrease: 040000000400000004000000
+    - priceStart: 39700
+      prizeIncrease: 040000000400000004000000
+    - priceStart: 41200
+      prizeIncrease: 040000000400000004000000
+    - priceStart: 45500
+      prizeIncrease: 040000000400000004000000
+    typeMileStone: 3
+    prizeTalents:
+    - type: 0
+      value: 1
+    - type: 1
+      value: 22650
+    - type: 10
+      value: 1
+    - type: 0
+      value: 2
+    - type: 1
+      value: 33450
+    - type: 4
+      value: 5
+    - type: 0
+      value: 1
+    - type: 1
+      value: 45300
+    - type: 9
+      value: 5
+    - type: 0
+      value: 4
+    - type: 1
+      value: 55650
+    - type: 10
+      value: 1
+    - type: 0
+      value: 5
+    - type: 1
+      value: 68250
+    - type: 5
+      value: 2.5
+    - type: 0
+      value: 6
+    - type: 1
+      value: 68250
+    - type: 7
+      value: 5
+    - type: 0
+      value: 7
+    - type: 1
+      value: 68250
+    - type: 8
+      value: 5
+    - type: 0
+      value: 8
+    - type: 1
+      value: 68250
+    - type: 10
+      value: 1
+    - type: 0
+      value: 9
+    - type: 1
+      value: 2
+    - type: 3
+      value: 1
+    - type: 0
+      value: 10
+    - type: 1
+      value: 2
+    - type: 10
+      value: 1
+    - type: 0
+      value: 11
+    - type: 1
+      value: 2
+    - type: 7
+      value: 5
+    - type: 0
+      value: 12
+    - type: 1
+      value: 2
+    - type: 8
+      value: 5
+    - type: 0
+      value: 13
+    - type: 1
+      value: 2
+    - type: 5
+      value: 2.5
+    - type: 0
+      value: 14
+    - type: 1
+      value: 2
+    - type: 10
+      value: 1
+    - type: 0
+      value: 15
+    - type: 1
+      value: 2
+    - type: 4
+      value: 5
+    goldRewardMultiplier: 1.5
+    moneyStart: 3000
+    moneyIncrease: 1250
+  - nameStage: Challenger
+    levelLength: 60
+    leaguePrizeMoneyAmount:
+    - priceStart: 11900
+      prizeIncrease: 050000000500000005000000
+    - priceStart: 13200
+      prizeIncrease: 050000000500000005000000
+    - priceStart: 15100
+      prizeIncrease: 050000000500000005000000
+    - priceStart: 17800
+      prizeIncrease: 050000000500000005000000
+    - priceStart: 19700
+      prizeIncrease: 050000000500000005000000
+    - priceStart: 22300
+      prizeIncrease: 050000000500000005000000
+    - priceStart: 25700
+      prizeIncrease: 050000000500000005000000
+    - priceStart: 27900
+      prizeIncrease: 050000000500000005000000
+    - priceStart: 30200
+      prizeIncrease: 050000000500000005000000
+    - priceStart: 32300
+      prizeIncrease: 050000000500000005000000
+    - priceStart: 34700
+      prizeIncrease: 050000000500000005000000
+    - priceStart: 37100
+      prizeIncrease: 050000000500000005000000
+    - priceStart: 39700
+      prizeIncrease: 050000000500000005000000
+    - priceStart: 41200
+      prizeIncrease: 050000000500000005000000
+    - priceStart: 45500
+      prizeIncrease: 050000000500000005000000
+    - priceStart: 45500
+      prizeIncrease: 050000000500000005000000
+    - priceStart: 45500
+      prizeIncrease: 050000000500000005000000
+    - priceStart: 45500
+      prizeIncrease: 050000000500000005000000
+    - priceStart: 45500
+      prizeIncrease: 050000000500000005000000
+    - priceStart: 45500
+      prizeIncrease: 050000000500000005000000
+    typeMileStone: 4
+    prizeTalents:
+    - type: 0
+      value: 1
+    - type: 1
+      value: 2
+    - type: 10
+      value: 1
+    - type: 0
+      value: 2
+    - type: 1
+      value: 2
+    - type: 4
+      value: 5
+    - type: 0
+      value: 1
+    - type: 1
+      value: 2
+    - type: 9
+      value: 5
+    - type: 0
+      value: 4
+    - type: 1
+      value: 2
+    - type: 10
+      value: 1
+    - type: 0
+      value: 5
+    - type: 1
+      value: 2
+    - type: 5
+      value: 2.5
+    - type: 0
+      value: 6
+    - type: 1
+      value: 2
+    - type: 7
+      value: 5
+    - type: 0
+      value: 7
+    - type: 1
+      value: 2
+    - type: 8
+      value: 5
+    - type: 0
+      value: 8
+    - type: 1
+      value: 2
+    - type: 10
+      value: 1
+    - type: 0
+      value: 9
+    - type: 1
+      value: 2
+    - type: 3
+      value: 1
+    - type: 0
+      value: 10
+    - type: 1
+      value: 2
+    - type: 10
+      value: 1
+    - type: 0
+      value: 11
+    - type: 1
+      value: 2
+    - type: 7
+      value: 5
+    - type: 0
+      value: 12
+    - type: 1
+      value: 2
+    - type: 8
+      value: 5
+    - type: 0
+      value: 13
+    - type: 1
+      value: 2
+    - type: 5
+      value: 2.5
+    - type: 0
+      value: 14
+    - type: 1
+      value: 2
+    - type: 10
+      value: 1
+    - type: 0
+      value: 15
+    - type: 1
+      value: 2
+    - type: 4
+      value: 5
+    - type: 0
+      value: 16
+    - type: 1
+      value: 2
+    - type: 10
+      value: 1
+    - type: 0
+      value: 17
+    - type: 1
+      value: 2
+    - type: 3
+      value: 1
+    - type: 0
+      value: 18
+    - type: 1
+      value: 2
+    - type: 5
+      value: 2.5
+    - type: 0
+      value: 19
+    - type: 1
+      value: 2
+    - type: 8
+      value: 5
+    - type: 0
+      value: 20
+    - type: 1
+      value: 2
+    - type: 7
+      value: 5
+    goldRewardMultiplier: 1.5
+    moneyStart: 10000
+    moneyIncrease: 2500
+  - nameStage: Champion
+    levelLength: 75
+    leaguePrizeMoneyAmount:
+    - priceStart: 11900
+      prizeIncrease: 060000000600000006000000
+    - priceStart: 13200
+      prizeIncrease: 060000000600000006000000
+    - priceStart: 15100
+      prizeIncrease: 060000000600000006000000
+    - priceStart: 17800
+      prizeIncrease: 060000000600000006000000
+    - priceStart: 19700
+      prizeIncrease: 060000000600000006000000
+    - priceStart: 22300
+      prizeIncrease: 060000000600000006000000
+    - priceStart: 25700
+      prizeIncrease: 060000000600000006000000
+    - priceStart: 27900
+      prizeIncrease: 060000000600000006000000
+    - priceStart: 30200
+      prizeIncrease: 060000000600000006000000
+    - priceStart: 32300
+      prizeIncrease: 060000000600000006000000
+    - priceStart: 34700
+      prizeIncrease: 060000000600000006000000
+    - priceStart: 37100
+      prizeIncrease: 060000000600000006000000
+    - priceStart: 39700
+      prizeIncrease: 060000000600000006000000
+    - priceStart: 41200
+      prizeIncrease: 060000000600000006000000
+    - priceStart: 45500
+      prizeIncrease: 060000000600000006000000
+    - priceStart: 45500
+      prizeIncrease: 060000000600000006000000
+    - priceStart: 45500
+      prizeIncrease: 060000000600000006000000
+    - priceStart: 45500
+      prizeIncrease: 060000000600000006000000
+    - priceStart: 45500
+      prizeIncrease: 060000000600000006000000
+    - priceStart: 45500
+      prizeIncrease: 060000000600000006000000
+    - priceStart: 45500
+      prizeIncrease: 060000000600000006000000
+    - priceStart: 45500
+      prizeIncrease: 060000000600000006000000
+    - priceStart: 45500
+      prizeIncrease: 060000000600000006000000
+    - priceStart: 45500
+      prizeIncrease: 060000000600000006000000
+    - priceStart: 45500
+      prizeIncrease: 060000000600000006000000
+    typeMileStone: 5
+    prizeTalents:
+    - type: 0
+      value: 1
+    - type: 1
+      value: 2
+    - type: 10
+      value: 1
+    - type: 0
+      value: 2
+    - type: 1
+      value: 2
+    - type: 4
+      value: 5
+    - type: 0
+      value: 1
+    - type: 1
+      value: 2
+    - type: 9
+      value: 5
+    - type: 0
+      value: 4
+    - type: 1
+      value: 2
+    - type: 10
+      value: 1
+    - type: 0
+      value: 5
+    - type: 1
+      value: 2
+    - type: 5
+      value: 2.5
+    - type: 0
+      value: 6
+    - type: 1
+      value: 2
+    - type: 7
+      value: 5
+    - type: 0
+      value: 7
+    - type: 1
+      value: 2
+    - type: 8
+      value: 5
+    - type: 0
+      value: 8
+    - type: 1
+      value: 2
+    - type: 10
+      value: 1
+    - type: 0
+      value: 9
+    - type: 1
+      value: 2
+    - type: 3
+      value: 1
+    - type: 0
+      value: 10
+    - type: 1
+      value: 2
+    - type: 10
+      value: 1
+    - type: 0
+      value: 11
+    - type: 1
+      value: 2
+    - type: 7
+      value: 5
+    - type: 0
+      value: 12
+    - type: 1
+      value: 2
+    - type: 8
+      value: 5
+    - type: 0
+      value: 13
+    - type: 1
+      value: 2
+    - type: 5
+      value: 2.5
+    - type: 0
+      value: 14
+    - type: 1
+      value: 2
+    - type: 10
+      value: 1
+    - type: 0
+      value: 15
+    - type: 1
+      value: 2
+    - type: 4
+      value: 5
+    - type: 0
+      value: 16
+    - type: 1
+      value: 2
+    - type: 10
+      value: 1
+    - type: 0
+      value: 17
+    - type: 1
+      value: 2
+    - type: 3
+      value: 1
+    - type: 0
+      value: 18
+    - type: 1
+      value: 2
+    - type: 5
+      value: 2.5
+    - type: 0
+      value: 19
+    - type: 1
+      value: 2
+    - type: 8
+      value: 5
+    - type: 0
+      value: 20
+    - type: 1
+      value: 2
+    - type: 7
+      value: 5
+    - type: 0
+      value: 21
+    - type: 1
+      value: 2
+    - type: 3
+      value: 1
+    - type: 0
+      value: 22
+    - type: 1
+      value: 2
+    - type: 8
+      value: 3
+    - type: 0
+      value: 23
+    - type: 1
+      value: 2
+    - type: 9
+      value: 4
+    - type: 0
+      value: 24
+    - type: 1
+      value: 2
+    - type: 5
+      value: 2.5
+    - type: 0
+      value: 25
+    - type: 1
+      value: 2
+    - type: 10
+      value: 1
+    goldRewardMultiplier: 1.5
+    moneyStart: 25000
+    moneyIncrease: 5500
+  prizeTalentDescript:
+  - type: 0
+    description: --
+  - type: 1
+    description: Shiny gold coins that are used to enhance talents.
+  - type: 2
+    description: Unlock skill slot
+  - type: 3
+    description: Increase the chance of higher-rarity cards appearing by 1%
+  - type: 4
+    description: Restore 5% health when leveling up
+  - type: 5
+    description: Recover 2.5% health after resting for 5 seconds
+  - type: 6
+    description: Unlock reroll of skills
+  - type: 7
+    description: Increases gold gained from battle
+  - type: 8
+    description: Increases the amount of EXP gained
+  - type: 9
+    description: Increases gold gain from combo prizes
+  - type: 10
+    description: Reroll of skills per level
+  - type: 11
+    description: New Skill:\nPunch Meteor can be found in future fights
+  - type: 12
+    description: New Skill:\nDeathbomb Punch can be found in future fights
+  - type: 13
+    description: New Skill:\nVoid Punch can be found in future fights
+  - type: 14
+    description: New Skill:\nIce Zone can be found in future fights
+  - type: 15
+    description: 'New Skill: Grenade Punch can be used on future fights'
+  - type: 16
+    description: 'New Skill: Lightning Punch can be used on future fights'
+  - type: 17
+    description: 'New Skill: Missile Punches can be used on future fights'
+  - type: 18
+    description: New Skill:\nRocket Punch can be found in future fights
+  - type: 19
+    description: New Skill:\nIce Punch can be found in future fights
+  - type: 20
+    description: New Skill:\nGun Punch can be found in future fights
+  - type: 21
+    description: New Skill:\nFire Zone can be found in future fights
+  - type: 22
+    description: New Skill:\nLightning Zone can be found in future fights
+  - type: 23
+    description: New Skill:\nKnife Volley can be found in future fights
+  - type: 24
+    description: New Skill:\nBouncing Punch can be found in future fights
+  - type: 25
+    description: Quest system unlocked\nNew missions are waiting you.
+  collectedTalentReview: []

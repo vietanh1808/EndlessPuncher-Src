@@ -1,0 +1,188 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e9307999460cd23e9adeded66600a73, type: 3}
+  m_Name: PlayerDB
+  m_EditorClassIdentifier:
+  rankUpDamageReward: 1
+  rankUpHpReward: 20
+  rankUpDefenceReward: 10
+  rankUpDamageRewardMultiplier: 1.2
+  rankUpHpRewardMultiplier: 1.2
+  rankUpDefenceRewardMultiplier: 1.2
+  allPlayers:
+  - typePlayer: 0
+    playerStats:
+    - statType: 0
+      statStartValue: 5
+      statIncreaseAmount: 0
+      roomStatValue: 2.25
+    - statType: 1
+      statStartValue: 4.5
+      statIncreaseAmount: 0
+      roomStatValue: 0
+    - statType: 2
+      statStartValue: 0.75
+      statIncreaseAmount: 0
+      roomStatValue: 0.6
+    - statType: 3
+      statStartValue: 0
+      statIncreaseAmount: 0
+      roomStatValue: 0.1
+    - statType: 4
+      statStartValue: 1.5
+      statIncreaseAmount: 0
+      roomStatValue: 0
+    - statType: 5
+      statStartValue: 10
+      statIncreaseAmount: 0
+      roomStatValue: 0
+    - statType: 6
+      statStartValue: 1
+      statIncreaseAmount: 0
+      roomStatValue: 0
+    - statType: 7
+      statStartValue: 0
+      statIncreaseAmount: 0
+      roomStatValue: 0
+    - statType: 8
+      statStartValue: 0.75
+      statIncreaseAmount: 0
+      roomStatValue: 0.02
+    - statType: 9
+      statStartValue: 10
+      statIncreaseAmount: 0
+      roomStatValue: 0
+    - statType: 11
+      statStartValue: 0
+      statIncreaseAmount: 0
+      roomStatValue: 0
+    - statType: 10
+      statStartValue: 0
+      statIncreaseAmount: 0
+      roomStatValue: 0.75
+  allRoomStats:
+  - statType: 0
+    statAmount: 2.25
+  - statType: 3
+    statAmount: 0.1
+  - statType: 8
+    statAmount: 0.02
+  - statType: 10
+    statAmount: 0.75
+  - statType: 2
+    statAmount: 0.6
+  totalPowers:
+  - statType: 0
+    statMassValue: 15
+  - statType: 1
+    statMassValue: 10
+  - statType: 2
+    statMassValue: 15
+  - statType: 3
+    statMassValue: 8
+  - statType: 4
+    statMassValue: 8
+  - statType: 5
+    statMassValue: 3
+  - statType: 6
+    statMassValue: 1
+  - statType: 7
+    statMassValue: 10
+  - statType: 8
+    statMassValue: 2
+  - statType: 9
+    statMassValue: 10
+  - statType: 10
+    statMassValue: 1
+  - statType: 11
+    statMassValue: 2
+  specialBonusPowers:
+  - specialEffectType: 0
+    effectMassValue: 0
+  - specialEffectType: 1
+    effectMassValue: 55
+  - specialEffectType: 2
+    effectMassValue: 78
+  - specialEffectType: 3
+    effectMassValue: 62
+  - specialEffectType: 4
+    effectMassValue: 74
+  - specialEffectType: 5
+    effectMassValue: 48
+  - specialEffectType: 6
+    effectMassValue: 42
+  - specialEffectType: 7
+    effectMassValue: 50
+  - specialEffectType: 8
+    effectMassValue: 80
+  - specialEffectType: 9
+    effectMassValue: 72
+  - specialEffectType: 10
+    effectMassValue: 58
+  - specialEffectType: 11
+    effectMassValue: 40
+  - specialEffectType: 12
+    effectMassValue: 52
+  - specialEffectType: 13
+    effectMassValue: 60
+  - specialEffectType: 14
+    effectMassValue: 54
+  - specialEffectType: 15
+    effectMassValue: 63
+  - specialEffectType: 16
+    effectMassValue: 46
+  - specialEffectType: 17
+    effectMassValue: 66
+  - specialEffectType: 18
+    effectMassValue: 57
+  - specialEffectType: 19
+    effectMassValue: 70
+  - specialEffectType: 20
+    effectMassValue: 96
+  - specialEffectType: 21
+    effectMassValue: 84
+  - specialEffectType: 22
+    effectMassValue: 65
+  - specialEffectType: 23
+    effectMassValue: 76
+  - specialEffectType: 24
+    effectMassValue: 79
+  - specialEffectType: 25
+    effectMassValue: 44
+  - specialEffectType: 26
+    effectMassValue: 0
+  - specialEffectType: 27
+    effectMassValue: 68
+  - specialEffectType: 28
+    effectMassValue: 61
+  - specialEffectType: 29
+    effectMassValue: 53
+  - specialEffectType: 30
+    effectMassValue: 64
+  - specialEffectType: 31
+    effectMassValue: 67
+  - specialEffectType: 32
+    effectMassValue: 59
+  - specialEffectType: 33
+    effectMassValue: 94
+  - specialEffectType: 34
+    effectMassValue: 77
+  - specialEffectType: 35
+    effectMassValue: 47
+  - specialEffectType: 36
+    effectMassValue: 73
+  - specialEffectType: 37
+    effectMassValue: 91
+  - specialEffectType: 38
+    effectMassValue: 69
+  - specialEffectType: 39
+    effectMassValue: 88

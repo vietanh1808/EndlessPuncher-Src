@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5adabf49993c14f34c7d041a5722f11, type: 3}
+  m_Name: RingUpgradeSO
+  m_EditorClassIdentifier:
+  purchaseCountPerStar: 100
+  starsPerSpecialLevel: 10
+  currencyType: 7
+  startPrice: 5
+  priceIncreasePerPurchase: 0
+  offerPriceValue: 300
+  offerEarnedPriceValue: 300
+  stats:
+  - typeStat: 5
+    increasePerLevel: 10
+    prefix: +
+    suffix:
+  - typeStat: 0
+    increasePerLevel: 5
+    prefix: +
+    suffix:
+  - typeStat: 9
+    increasePerLevel: 10
+    prefix: +
+    suffix:
+  specialUpgrades:
+  - specialEffect: 10
+    valueSpecialEffect: 25
+    specialDescription: Increase burn damage by 25%
+  - specialEffect: 21
+    valueSpecialEffect: 20
+    specialDescription: Each extra arm increases punch damage by 20%
+  - specialEffect: 35
+    valueSpecialEffect: 3
+    specialDescription: Level ups restore 3% hp
+  - specialEffect: 38
+    valueSpecialEffect: 15
+    specialDescription: Reflect received damage 15%
+  - specialEffect: 37
+    valueSpecialEffect: 2
+    specialDescription: Instant kill non elit enemies 2%
+  - specialEffect: 1
+    valueSpecialEffect: 5
+    specialDescription: Increase punch range by 5%
+  - specialEffect: 19
+    valueSpecialEffect: 150
+    specialDescription: Increase damage to bosses 150%
+  - specialEffect: 16
+    valueSpecialEffect: 20
+    specialDescription: Increase lightning duration by 20%
+  - specialEffect: 14
+    valueSpecialEffect: 50
+    specialDescription: Increase freeze duration by 50%
+  - specialEffect: 25
+    valueSpecialEffect: 15
+    specialDescription: Gold gained from the enemies increased 15%
+  - specialEffect: 11
+    valueSpecialEffect: 40
+    specialDescription: Increase burn duration by 40%
+  - specialEffect: 3
+    valueSpecialEffect: 30
+    specialDescription: Critical damage increased +30%
+  - specialEffect: 12
+    valueSpecialEffect: 1
+    specialDescription: Increase burn stack limit by 1
+  - specialEffect: 31
+    valueSpecialEffect: 10
+    specialDescription: Received damage reduced +10% when below 20% HP
+  - specialEffect: 15
+    valueSpecialEffect: 25
+    specialDescription: Increase lightning damage by 25%
+  ringNames:
+  - Iron Fist Arena
+  - Thunder Ring
+  - Knockout Kingdom
+  - Crimson Corner
+  - Champion’s Circle
+  - Steel Cage
+  - Royal Rumble Ring
+  - Fury Arena
+  - Last Punch Stadium
+  - Golden Gloves Ring
+  ringIcons:
+  - {fileID: 0}

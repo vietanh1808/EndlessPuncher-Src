@@ -1,0 +1,302 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3bb5a559d459e245548e87737e3c895, type: 3}
+  m_Name: WaveDB
+  m_EditorClassIdentifier:
+  stageCountRules:
+  - minChapter: 0
+    stageCount: 20
+  generatedStageTemplates:
+  - id: Opening
+    enemyPool: 0000000000000000
+    difficulty: 1
+    hpMultiplier: 1
+    damageMultiplier: 1
+    spawnTuning:
+      startDelayMultiplier: 1.15
+      decreaseMultiplier: 1
+      minDelayMultiplier: 1.05
+    chapterVariants:
+    - minChapter: 1
+      enemyPool: 0000000001000000020000000300000008000000
+      difficultyOverride: 1
+      hpMultiplier: 1.1
+      damageMultiplier: 1.05
+      sizeMultiplier: 1
+      overrideSpawnTuning: 0
+      spawnTuning:
+        startDelayMultiplier: 1
+        decreaseMultiplier: 1
+        minDelayMultiplier: 1
+    - minChapter: 2
+      enemyPool: 00000000010000000200000003000000080000000900000004000000
+      difficultyOverride: 1
+      hpMultiplier: 1.1
+      damageMultiplier: 1.05
+      sizeMultiplier: 1
+      overrideSpawnTuning: 0
+      spawnTuning:
+        startDelayMultiplier: 1
+        decreaseMultiplier: 1
+        minDelayMultiplier: 1
+    - minChapter: 3
+      enemyPool: 000000000100000002000000030000000800000009000000040000000500000006000000
+      difficultyOverride: 1
+      hpMultiplier: 1.1
+      damageMultiplier: 1.05
+      sizeMultiplier: 1
+      overrideSpawnTuning: 0
+      spawnTuning:
+        startDelayMultiplier: 1
+        decreaseMultiplier: 1
+        minDelayMultiplier: 1
+  - id: Pressure
+    enemyPool: 000000000000000000000000000000000200000001000000
+    difficulty: 1
+    hpMultiplier: 1
+    damageMultiplier: 1
+    spawnTuning:
+      startDelayMultiplier: 1
+      decreaseMultiplier: 1
+      minDelayMultiplier: 1
+    chapterVariants:
+    - minChapter: 1
+      enemyPool: 0000000001000000020000000300000008000000
+      difficultyOverride: 2
+      hpMultiplier: 1.05
+      damageMultiplier: 1.1
+      sizeMultiplier: 1
+      overrideSpawnTuning: 1
+      spawnTuning:
+        startDelayMultiplier: 0.95
+        decreaseMultiplier: 1.05
+        minDelayMultiplier: 0.95
+    - minChapter: 2
+      enemyPool: 00000000010000000200000003000000080000000900000004000000
+      difficultyOverride: 2
+      hpMultiplier: 1.05
+      damageMultiplier: 1.1
+      sizeMultiplier: 1
+      overrideSpawnTuning: 1
+      spawnTuning:
+        startDelayMultiplier: 0.95
+        decreaseMultiplier: 1.05
+        minDelayMultiplier: 0.95
+    - minChapter: 3
+      enemyPool: 000000000100000002000000030000000800000009000000040000000500000006000000
+      difficultyOverride: 2
+      hpMultiplier: 1.05
+      damageMultiplier: 1.1
+      sizeMultiplier: 1
+      overrideSpawnTuning: 0
+      spawnTuning:
+        startDelayMultiplier: 0.95
+        decreaseMultiplier: 1.05
+        minDelayMultiplier: 0.95
+  - id: Elite
+    enemyPool: 0000000000000000000000000200000001000000
+    difficulty: 2
+    hpMultiplier: 1.05
+    damageMultiplier: 1.05
+    spawnTuning:
+      startDelayMultiplier: 1.05
+      decreaseMultiplier: 0.95
+      minDelayMultiplier: 1
+    chapterVariants:
+    - minChapter: 1
+      enemyPool: 0000000001000000020000000300000008000000
+      difficultyOverride: 3
+      hpMultiplier: 1.15
+      damageMultiplier: 1.05
+      sizeMultiplier: 1
+      overrideSpawnTuning: 0
+      spawnTuning:
+        startDelayMultiplier: 1
+        decreaseMultiplier: 1
+        minDelayMultiplier: 1
+    - minChapter: 2
+      enemyPool: 00000000010000000200000003000000080000000900000004000000
+      difficultyOverride: 3
+      hpMultiplier: 1.15
+      damageMultiplier: 1.05
+      sizeMultiplier: 1
+      overrideSpawnTuning: 0
+      spawnTuning:
+        startDelayMultiplier: 1
+        decreaseMultiplier: 1
+        minDelayMultiplier: 1
+    - minChapter: 3
+      enemyPool: 000000000100000002000000030000000800000009000000040000000500000006000000
+      difficultyOverride: 3
+      hpMultiplier: 1.15
+      damageMultiplier: 1.05
+      sizeMultiplier: 1
+      overrideSpawnTuning: 0
+      spawnTuning:
+        startDelayMultiplier: 1
+        decreaseMultiplier: 1
+        minDelayMultiplier: 1
+  - id: Swarm
+    enemyPool: 000000000000000000000000020000000200000000000000
+    difficulty: 2
+    hpMultiplier: 0.9
+    damageMultiplier: 1
+    spawnTuning:
+      startDelayMultiplier: 0.9
+      decreaseMultiplier: 1.15
+      minDelayMultiplier: 0.9
+    chapterVariants:
+    - minChapter: 1
+      enemyPool: 0000000001000000020000000300000008000000
+      difficultyOverride: 2
+      hpMultiplier: 1
+      damageMultiplier: 1.15
+      sizeMultiplier: 1
+      overrideSpawnTuning: 1
+      spawnTuning:
+        startDelayMultiplier: 0.85
+        decreaseMultiplier: 2
+        minDelayMultiplier: 0.85
+    - minChapter: 2
+      enemyPool: 00000000010000000200000003000000080000000900000004000000
+      difficultyOverride: 2
+      hpMultiplier: 1.05
+      damageMultiplier: 1.1
+      sizeMultiplier: 1
+      overrideSpawnTuning: 1
+      spawnTuning:
+        startDelayMultiplier: 0.85
+        decreaseMultiplier: 2
+        minDelayMultiplier: 0.85
+    - minChapter: 3
+      enemyPool: 000000000100000002000000030000000800000009000000040000000500000006000000
+      difficultyOverride: 2
+      hpMultiplier: 1
+      damageMultiplier: 1.15
+      sizeMultiplier: 1
+      overrideSpawnTuning: 0
+      spawnTuning:
+        startDelayMultiplier: 0.85
+        decreaseMultiplier: 2
+        minDelayMultiplier: 0.85
+  - id: Endurance
+    enemyPool: 000000000000000000000000020000000100000001000000
+    difficulty: 3
+    hpMultiplier: 1.35
+    damageMultiplier: 0.75
+    spawnTuning:
+      startDelayMultiplier: 1.1
+      decreaseMultiplier: 0.9
+      minDelayMultiplier: 1
+    chapterVariants:
+    - minChapter: 1
+      enemyPool: 0000000001000000020000000300000008000000
+      difficultyOverride: 4
+      hpMultiplier: 1.2
+      damageMultiplier: 1.15
+      sizeMultiplier: 1
+      overrideSpawnTuning: 0
+      spawnTuning:
+        startDelayMultiplier: 1
+        decreaseMultiplier: 1
+        minDelayMultiplier: 1
+    - minChapter: 2
+      enemyPool: 00000000010000000200000003000000080000000900000004000000
+      difficultyOverride: 4
+      hpMultiplier: 1.2
+      damageMultiplier: 1.1
+      sizeMultiplier: 1
+      overrideSpawnTuning: 0
+      spawnTuning:
+        startDelayMultiplier: 1
+        decreaseMultiplier: 1
+        minDelayMultiplier: 1
+    - minChapter: 3
+      enemyPool: 000000000100000002000000030000000800000009000000040000000500000006000000
+      difficultyOverride: 4
+      hpMultiplier: 1.2
+      damageMultiplier: 1.15
+      sizeMultiplier: 1
+      overrideSpawnTuning: 0
+      spawnTuning:
+        startDelayMultiplier: 1
+        decreaseMultiplier: 1
+        minDelayMultiplier: 1
+  generatedBossTemplates:
+  - minChapter: 0
+    bossType: 12
+    difficulty: 2
+    hpMultiplier: 1
+    damageMultiplier: 1
+    sizeMultiplier: 1
+  - minChapter: 10
+    bossType: 13
+    difficulty: 3
+    hpMultiplier: 1.15
+    damageMultiplier: 1.1
+    sizeMultiplier: 1
+  - minChapter: 20
+    bossType: 14
+    difficulty: 3
+    hpMultiplier: 1.3
+    damageMultiplier: 1.15
+    sizeMultiplier: 1
+  - minChapter: 30
+    bossType: 15
+    difficulty: 4
+    hpMultiplier: 1.5
+    damageMultiplier: 1.25
+    sizeMultiplier: 1.05
+  allDifficultySettings:
+  - id: 0
+    name: Easy
+    hpMultiplier: 0.8
+    damageMultiplier: 0.8
+  - id: 1
+    name: Normal
+    hpMultiplier: 1
+    damageMultiplier: 1
+  - id: 2
+    name: Hard
+    hpMultiplier: 1.25
+    damageMultiplier: 1.25
+  - id: 3
+    name: Very Hard
+    hpMultiplier: 1.5
+    damageMultiplier: 1.5
+  - id: 4
+    name: Nightmare
+    hpMultiplier: 2
+    damageMultiplier: 2
+  enemyScaling:
+    baseHP: 5
+    baseDamage: 1
+    baseSize: 30
+    baseEnemyCount: 10
+    maxEnemyCount: 300
+    hpGrowthPerChapter: 1
+    damageGrowthPerChapter: 0.075
+    sizeGrowthPerChapter: 0.025
+    enemyCountIncreasePerChapter: 1
+    hpGrowthPerStage: 0.1
+    damageGrowthPerStage: 0.01
+    enemyCountIncreasePerStage: 0.5
+    hpGrowthInWave: 0
+    damageGrowthInWave: 0
+    sizeGrowthInWave: 0
+  bossScaling:
+    hpMultiplier: 1
+    damageMultiplier: 2
+    sizeMultiplier: 1.4
+    hpGrowthPerChapter: 0.35
+    damageGrowthPerChapter: 0.1
+    sizeGrowthPerChapter: 0.01

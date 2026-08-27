@@ -1,0 +1,175 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6644083ef8b40d6c7c6e674fc3b6518e, type: 3}
+  m_Name: RoomDB
+  m_EditorClassIdentifier:
+  allRooms:
+  - name: Work & Fitness Room
+    description: Build your house to become a better fighter.
+    icon: {fileID: 21300000, guid: 44dc64861d88f534497258298df3a6f7, type: 2}
+    maxPurhcaseableCount: 22
+    priceStart: 150
+    priceIncrease: 10
+    prizes:
+    - mileStone: 0.12
+      typePrize: 0
+      prizeAmount: 10
+    - mileStone: 0.65
+      typePrize: 1
+      prizeAmount: 0.25
+    - mileStone: 1
+      typePrize: 3
+      prizeAmount: 25
+  - name: Bright Home Office Lounge
+    description: Build your house to become a better fighter.
+    icon: {fileID: 21300000, guid: 8873024e82caf6b45b2c129af7495c21, type: 2}
+    maxPurhcaseableCount: 26
+    priceStart: 200
+    priceIncrease: 50
+    prizes:
+    - mileStone: 0.3
+      typePrize: 5
+      prizeAmount: 10
+    - mileStone: 0.65
+      typePrize: 4
+      prizeAmount: 5
+    - mileStone: 1
+      typePrize: 3
+      prizeAmount: 50
+  - name: 'Entry Lounge  '
+    description: Build your house to become a better fighter.
+    icon: {fileID: 21300000, guid: c47efbb34a23c4c46b15e317a16f27a9, type: 2}
+    maxPurhcaseableCount: 32
+    priceStart: 200
+    priceIncrease: 50
+    prizes:
+    - mileStone: 0.3
+      typePrize: 1
+      prizeAmount: 0.25
+    - mileStone: 0.65
+      typePrize: 4
+      prizeAmount: 5
+    - mileStone: 1
+      typePrize: 5
+      prizeAmount: 15
+  - name: Cloudy Kids Room
+    description: Build your house to become a better fighter.
+    icon: {fileID: 21300000, guid: f84f843945928ee469a19e2346662ab1, type: 2}
+    maxPurhcaseableCount: 24
+    priceStart: 200
+    priceIncrease: 50
+    prizes:
+    - mileStone: 0.3
+      typePrize: 2
+      prizeAmount: 2
+    - mileStone: 0.65
+      typePrize: 1
+      prizeAmount: 3
+    - mileStone: 1
+      typePrize: 3
+      prizeAmount: 50
+  - name: Blue Cabinet Kitchen
+    description: Build your house to become a better fighter.
+    icon: {fileID: 21300000, guid: 6db0b30f8eb5e2d459549c9c28cad222, type: 2}
+    maxPurhcaseableCount: 31
+    priceStart: 200
+    priceIncrease: 50
+    prizes:
+    - mileStone: 0.3
+      typePrize: 1
+      prizeAmount: 0.25
+    - mileStone: 0.65
+      typePrize: 2
+      prizeAmount: 5
+    - mileStone: 1
+      typePrize: 5
+      prizeAmount: 15
+  - name: Teal Work Lounge
+    description: Build your house to become a better fighter.
+    icon: {fileID: 21300000, guid: 2b405bc7ca4add74e8c0f3b2590defef, type: 2}
+    maxPurhcaseableCount: 49
+    priceStart: 200
+    priceIncrease: 50
+    prizes:
+    - mileStone: 0.3
+      typePrize: 2
+      prizeAmount: 5
+    - mileStone: 0.65
+      typePrize: 1
+      prizeAmount: 0.25
+    - mileStone: 1
+      typePrize: 3
+      prizeAmount: 25
+  - name: Bath & Laundry Room
+    description: Build your house to become a better fighter.
+    icon: {fileID: 21300000, guid: 1c2db7b487f50e04da429fb113f35b26, type: 2}
+    maxPurhcaseableCount: 24
+    priceStart: 200
+    priceIncrease: 50
+    prizes:
+    - mileStone: 0.3
+      typePrize: 1
+      prizeAmount: 0.25
+    - mileStone: 0.65
+      typePrize: 2
+      prizeAmount: 5
+    - mileStone: 1
+      typePrize: 5
+      prizeAmount: 15
+  - name: Turquoise Family Kitchen
+    description: Build your house to become a better fighter.
+    icon: {fileID: 21300000, guid: 09d4e1aa0facde24ca70166afe6fb1df, type: 2}
+    maxPurhcaseableCount: 24
+    priceStart: 200
+    priceIncrease: 50
+    prizes:
+    - mileStone: 0.3
+      typePrize: 2
+      prizeAmount: 5
+    - mileStone: 0.65
+      typePrize: 1
+      prizeAmount: 0.2
+    - mileStone: 1
+      typePrize: 3
+      prizeAmount: 25
+  - name: Creative Studio Lounge
+    description: Build your house to become a better fighter.
+    icon: {fileID: 21300000, guid: d7ea37a60360a4f418bd050d8874c0f5, type: 2}
+    maxPurhcaseableCount: 35
+    priceStart: 200
+    priceIncrease: 50
+    prizes:
+    - mileStone: 0.3
+      typePrize: 2
+      prizeAmount: 5
+    - mileStone: 0.65
+      typePrize: 1
+      prizeAmount: 0.2
+    - mileStone: 1
+      typePrize: 3
+      prizeAmount: 50
+  - name: 'Teen Room: Music Corner'
+    description: Build your house to become a better fighter.
+    icon: {fileID: 21300000, guid: 72aabde2108197447bd0146facee355a, type: 2}
+    maxPurhcaseableCount: 21
+    priceStart: 200
+    priceIncrease: 50
+    prizes:
+    - mileStone: 0.3
+      typePrize: 2
+      prizeAmount: 5
+    - mileStone: 0.65
+      typePrize: 1
+      prizeAmount: 0.3
+    - mileStone: 1
+      typePrize: 3
+      prizeAmount: 50

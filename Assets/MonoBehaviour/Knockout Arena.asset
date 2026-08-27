@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc9e9c3e1ad1cf9bb14b207d32028f58, type: 3}
+  m_Name: Knockout Arena
+  m_EditorClassIdentifier:
+  dungeonName: Knockout Arena
+  dungeonIcon: {fileID: 21300000, guid: 07bd9d0429427ff47b21b33d4006552f, type: 2}
+  ticketIcon: {fileID: 21300000, guid: 78934c396d18d2046b97956e37b8cc6e, type: 2}
+  maximumTicketCount: 1
+  rewardMultiplierPerLevel: 1
+  rewardAddPerLevel: 25
+  uniqueReward:
+    item: {fileID: 11400000, guid: ae86b07cec97673429b8b4b59c1644ae, type: 2}
+    amount: 100
+  rewards: []
+  disablePlayerPunches: 1
+  baseSkipGlobalPower: 500
+  skipGlobalPowerIncreasePerLevel: 250
+  unlockChapterCount: 4
+  rewardedType: 9

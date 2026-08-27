@@ -1,0 +1,1546 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66392bdced14170f68097f0530b9665c, type: 3}
+  m_Name: CollectiblesSO
+  m_EditorClassIdentifier:
+  collectibles:
+  - collectibleId: 0
+    collectibleName: Ancient Coin
+    icon: {fileID: 21300000, guid: 9a9471b1d8da9a6449954eaef4cf6694, type: 2}
+    iconDeactive: {fileID: 21300000, guid: 47edc6d900c1bd44fa3596b427bca6f0, type: 2}
+    description: An old golden coin marked with the symbol of a forgotten champion.
+    rarity: 2
+    levelStar: 1
+    piecesRequiredPerLevel: 0a0000000f00000019000000280000003c0000003c0000003c0000003c0000003c0000003c000000
+    pieceForLevelUp: 10
+    goldRequiredPerStarUp: 3c0000005a00000087000000cb00000030010000c8010000ac0200000204000002060000
+    statType: 5
+    activatedStatValue: 45
+    value: 90
+    increasePerLevel: 90
+    specialEffects:
+    - specialEffect: 1
+      requiredStarLevel: 1
+      value: 12.5
+      description: Gold gained from enemies increased by 12.5%
+    - specialEffect: 6
+      requiredStarLevel: 5
+      value: 0.5
+      description: Level up restores 0.5% HP
+  - collectibleId: 1
+    collectibleName: Ancient Horn
+    icon: {fileID: 21300000, guid: a7d8dbe710833d740b463dd465a03878, type: 2}
+    iconDeactive: {fileID: 21300000, guid: deaa42e0429b28c4e82f132ea4483f48, type: 2}
+    description: A worn horn from an ancient creature, carrying the strength of old battles.
+    rarity: 0
+    levelStar: 1
+    piecesRequiredPerLevel: 0a0000000f00000019000000280000003c0000003c0000003c0000003c0000003c0000003c000000
+    pieceForLevelUp: 10
+    goldRequiredPerStarUp: 140000001e0000002d000000440000006600000098000000e40000005601000001020000
+    statType: 0
+    activatedStatValue: 5
+    value: 10
+    increasePerLevel: 10
+    specialEffects:
+    - specialEffect: 9
+      requiredStarLevel: 5
+      value: 7.5
+      description: Base punch damage increased by 7.5%
+  - collectibleId: 2
+    collectibleName: Angel Sandle
+    icon: {fileID: 21300000, guid: 8bf53818c2059ce4cabe8382ddbd35f6, type: 2}
+    iconDeactive: {fileID: 21300000, guid: 2ed522b0e2ff3044396f8ea8d17647cb, type: 2}
+    description: A blessed sandal that carries the lightness and grace of an angel.
+    rarity: 2
+    levelStar: 1
+    piecesRequiredPerLevel: 0a0000000f00000019000000280000003c0000003c0000003c0000003c0000003c0000003c000000
+    pieceForLevelUp: 10
+    goldRequiredPerStarUp: 3c0000005a00000087000000cb00000030010000c8010000ac0200000204000002060000
+    statType: 0
+    activatedStatValue: 15
+    value: 30
+    increasePerLevel: 30
+    specialEffects:
+    - specialEffect: 4
+      requiredStarLevel: 1
+      value: 2.5
+      description: Crit Chance increased by 2.5%
+    - specialEffect: 3
+      requiredStarLevel: 5
+      value: 12.5
+      description: Critical damage increased by 12.5%
+  - collectibleId: 3
+    collectibleName: Band Hat
+    icon: {fileID: 21300000, guid: a2f268359dc8dd047919f874fb6fe8c7, type: 2}
+    iconDeactive: {fileID: 21300000, guid: ddf273e3576d37b4ca96ff3c29790c3b, type: 2}
+    description: A bold blue hat once worn by a fearless arena performer.
+    rarity: 2
+    levelStar: 1
+    piecesRequiredPerLevel: 0a0000000f00000019000000280000003c0000003c0000003c0000003c0000003c0000003c000000
+    pieceForLevelUp: 10
+    goldRequiredPerStarUp: 3c0000005a00000087000000cb00000030010000c8010000ac0200000204000002060000
+    statType: 0
+    activatedStatValue: 15
+    value: 30
+    increasePerLevel: 30
+    specialEffects:
+    - specialEffect: 10
+      requiredStarLevel: 1
+      value: 25
+      description: Burn damage increased by 25%
+    - specialEffect: 2
+      requiredStarLevel: 5
+      value: 12.5
+      description: Increase all skill damages by 12.5%
+  - collectibleId: 4
+    collectibleName: Bunny Boots
+    icon: {fileID: 21300000, guid: f27bfef1ec1e8fd48a1075a9191ccefb, type: 2}
+    iconDeactive: {fileID: 21300000, guid: d92a1f0a626d11d45bdb0cba6fff318c, type: 2}
+    description: Soft bunny boots that make every step feel quick and playful.
+    rarity: 2
+    levelStar: 1
+    piecesRequiredPerLevel: 0a0000000f00000019000000280000003c0000003c0000003c0000003c0000003c0000003c000000
+    pieceForLevelUp: 10
+    goldRequiredPerStarUp: 3c0000005a00000087000000cb00000030010000c8010000ac0200000204000002060000
+    statType: 5
+    activatedStatValue: 45
+    value: 90
+    increasePerLevel: 90
+    specialEffects:
+    - specialEffect: 25
+      requiredStarLevel: 1
+      value: 12.5
+      description: Gold gained from enemies increased by 12.5%
+    - specialEffect: 34
+      requiredStarLevel: 5
+      value: 7.5
+      description: Received damage reduced by 7.5%
+  - collectibleId: 5
+    collectibleName: Butterfly Brooch
+    icon: {fileID: 21300000, guid: f71efa5c046c7c74f950aae12fe7a188, type: 2}
+    iconDeactive: {fileID: 21300000, guid: 0f93aa7e1020ba5439927f27419419c2, type: 2}
+    description: A bright butterfly brooch filled with delicate magical energy.
+    rarity: 4
+    levelStar: 1
+    piecesRequiredPerLevel: 0a0000000f00000019000000280000003c0000003c0000003c0000003c0000003c0000003c000000
+    pieceForLevelUp: 10
+    goldRequiredPerStarUp: 6400000096000000e100000052010000fb010000f802000074040000ad060000030a0000
+    statType: 5
+    activatedStatValue: 90
+    value: 180
+    increasePerLevel: 180
+    specialEffects:
+    - specialEffect: 35
+      requiredStarLevel: 1
+      value: 2.5
+      description: Level up restores 2.5% HP
+    - specialEffect: 33
+      requiredStarLevel: 5
+      value: 25
+      description: Revive with 25% HP after death, effective only once in a match
+    - specialEffect: 38
+      requiredStarLevel: 10
+      value: 10
+      description: Return back 10% of the received damage to the attacker
+  - collectibleId: 6
+    collectibleName: Carrot Wand
+    icon: {fileID: 21300000, guid: 2d388640676319f4594081c26352df60, type: 2}
+    iconDeactive: {fileID: 21300000, guid: 410c5fb5d2d4efa448f47270eab13101, type: 2}
+    description: A strange carrot-shaped wand that channels playful battle magic.
+    rarity: 2
+    levelStar: 1
+    piecesRequiredPerLevel: 0a0000000f00000019000000280000003c0000003c0000003c0000003c0000003c0000003c000000
+    pieceForLevelUp: 10
+    goldRequiredPerStarUp: 3c0000005a00000087000000cb00000030010000c8010000ac0200000204000002060000
+    statType: 0
+    activatedStatValue: 15
+    value: 30
+    increasePerLevel: 30
+    specialEffects:
+    - specialEffect: 1
+      requiredStarLevel: 1
+      value: 12.5
+      description: Base punch range increased by 12.5%
+    - specialEffect: 0
+      requiredStarLevel: 5
+      value: 2
+      description: Punch rate increased by 2%
+  - collectibleId: 7
+    collectibleName: Christmas Globe
+    icon: {fileID: 21300000, guid: 6d18082343abd1d46b3776d99ab0c524, type: 2}
+    iconDeactive: {fileID: 21300000, guid: 40c85a74368f4a24d8f7fd804dfe27bd, type: 2}
+    description: A festive snow globe that holds the calm magic of a winter night.
+    rarity: 2
+    levelStar: 1
+    piecesRequiredPerLevel: 0a0000000f00000019000000280000003c0000003c0000003c0000003c0000003c0000003c000000
+    pieceForLevelUp: 10
+    goldRequiredPerStarUp: 3c0000005a00000087000000cb00000030010000c8010000ac0200000204000002060000
+    statType: 9
+    activatedStatValue: 7.5
+    value: 15
+    increasePerLevel: 15
+    specialEffects:
+    - specialEffect: 13
+      requiredStarLevel: 1
+      value: 5
+      description: Increase freeze damage by 5%
+    - specialEffect: 14
+      requiredStarLevel: 5
+      value: 25
+      description: Increase freeze duration by 25%
+  - collectibleId: 8
+    collectibleName: Devil Horns
+    icon: {fileID: 21300000, guid: 0a286caa4a12e0540a7c729cdfa445bc, type: 2}
+    iconDeactive: {fileID: 21300000, guid: cdc032b3f9db21645a1aec3370ebbb14, type: 2}
+    description: Fiery red horns that awaken a reckless fighting spirit.
+    rarity: 2
+    levelStar: 1
+    piecesRequiredPerLevel: 0a0000000f00000019000000280000003c0000003c0000003c0000003c0000003c0000003c000000
+    pieceForLevelUp: 10
+    goldRequiredPerStarUp: 3c0000005a00000087000000cb00000030010000c8010000ac0200000204000002060000
+    statType: 9
+    activatedStatValue: 7.5
+    value: 15
+    increasePerLevel: 15
+    specialEffects:
+    - specialEffect: 34
+      requiredStarLevel: 1
+      value: 7.5
+      description: Received damage reduced by 7.5%
+    - specialEffect: 38
+      requiredStarLevel: 5
+      value: 50
+      description: Return back 50% of the received damage to the attacker
+  - collectibleId: 9
+    collectibleName: Dragon Ring
+    icon: {fileID: 21300000, guid: 79ccfb9654734aa4199a63831ceb27c3, type: 2}
+    iconDeactive: {fileID: 21300000, guid: 072504cf9d3b93a49af48e1864ecbe53, type: 2}
+    description: A fierce green ring shaped by the power of a dragon’s bite.
+    rarity: 4
+    levelStar: 1
+    piecesRequiredPerLevel: 0a0000000f00000019000000280000003c0000003c0000003c0000003c0000003c0000003c000000
+    pieceForLevelUp: 10
+    goldRequiredPerStarUp: 6400000096000000e100000052010000fb010000f802000074040000ad060000030a0000
+    statType: 5
+    activatedStatValue: 90
+    value: 180
+    increasePerLevel: 180
+    specialEffects:
+    - specialEffect: 2
+      requiredStarLevel: 1
+      value: 12.5
+      description: Increase all skill damages by 12.5%
+    - specialEffect: 24
+      requiredStarLevel: 5
+      value: 12.5
+      description: Each extra arm increases the skill damages by 12.5%
+    - specialEffect: 14
+      requiredStarLevel: 10
+      value: 55
+      description: Increase freeze duration by 55%
+  - collectibleId: 10
+    collectibleName: Eagle Talisman
+    icon: {fileID: 21300000, guid: 6456dad0a3fa0fa44879e8967ae38301, type: 2}
+    iconDeactive: {fileID: 21300000, guid: 455143294eaa7a149914157964a8edfd, type: 2}
+    description: A fierce eagle talisman that watches over its bearer with sharp instinct.
+    rarity: 0
+    levelStar: 1
+    piecesRequiredPerLevel: 0a0000000f00000019000000280000003c0000003c0000003c0000003c0000003c0000003c000000
+    pieceForLevelUp: 10
+    goldRequiredPerStarUp: 140000001e0000002d000000440000006600000098000000e40000005601000001020000
+    statType: 5
+    activatedStatValue: 20
+    value: 40
+    increasePerLevel: 40
+    specialEffects:
+    - specialEffect: 35
+      requiredStarLevel: 5
+      value: 0.5
+      description: Level up restores 0.5% HP
+  - collectibleId: 11
+    collectibleName: Fire Cape
+    icon: {fileID: 21300000, guid: 2765366e99fb9224ba11162b0795d059, type: 2}
+    iconDeactive: {fileID: 21300000, guid: c2979432aa47e8e499752f11efb29a9f, type: 2}
+    description: A blazing red cape that carries the heat of a fearless fighter.
+    rarity: 2
+    levelStar: 1
+    piecesRequiredPerLevel: 0a0000000f00000019000000280000003c0000003c0000003c0000003c0000003c0000003c000000
+    pieceForLevelUp: 10
+    goldRequiredPerStarUp: 3c0000005a00000087000000cb00000030010000c8010000ac0200000204000002060000
+    statType: 9
+    activatedStatValue: 7.5
+    value: 15
+    increasePerLevel: 15
+    specialEffects:
+    - specialEffect: 31
+      requiredStarLevel: 1
+      value: 5
+      description: Received damage reduced +5% when below 20% HP
+    - specialEffect: 33
+      requiredStarLevel: 5
+      value: 10
+      description: Revive with 10% HP after death, effective only once in a match
+  - collectibleId: 12
+    collectibleName: Fish Rattle
+    icon: {fileID: 21300000, guid: 8788fe9df3db97541be38222d63c658a, type: 2}
+    iconDeactive: {fileID: 21300000, guid: 57dbbd9662620814a8a920d80bd751d4, type: 2}
+    description: A playful fish-shaped rattle that shakes with strange battle rhythm.
+    rarity: 0
+    levelStar: 1
+    piecesRequiredPerLevel: 0a0000000f00000019000000280000003c0000003c0000003c0000003c0000003c0000003c000000
+    pieceForLevelUp: 10
+    goldRequiredPerStarUp: 140000001e0000002d000000440000006600000098000000e40000005601000001020000
+    statType: 0
+    activatedStatValue: 5
+    value: 10
+    increasePerLevel: 10
+    specialEffects:
+    - specialEffect: 1
+      requiredStarLevel: 5
+      value: 7.5
+      description: Increase base punch range by 7.5%
+  - collectibleId: 13
+    collectibleName: Flame Scarf
+    icon: {fileID: 21300000, guid: 86c3389ce6535f44485c9f015e5c6cda, type: 2}
+    iconDeactive: {fileID: 21300000, guid: 966b1eab48bbbc64d80d752c1df3bf7f, type: 2}
+    description: A warm scarf wrapped with the spirit of dancing flames.
+    rarity: 3
+    levelStar: 1
+    piecesRequiredPerLevel: 0a0000000f00000019000000280000003c0000003c0000003c0000003c0000003c0000003c000000
+    pieceForLevelUp: 10
+    goldRequiredPerStarUp: 5000000078000000b40000000e0100009501000060020000900300005705000003080000
+    statType: 5
+    activatedStatValue: 65
+    value: 130
+    increasePerLevel: 130
+    specialEffects:
+    - specialEffect: 9
+      requiredStarLevel: 1
+      value: 3
+      description: Attack damage increased 3% when HP is below 30%
+    - specialEffect: 34
+      requiredStarLevel: 5
+      value: 2.5
+      description: Received damage reduced by 2.5%
+  - collectibleId: 14
+    collectibleName: Flower Wreath
+    icon: {fileID: 21300000, guid: 51de7a33297e9114f89f99f20f15da74, type: 2}
+    iconDeactive: {fileID: 21300000, guid: c63c9504a8518d94dbf04a1f7f0bd3c8, type: 2}
+    description: A colorful flower wreath that brings charm and cheerful fortune.
+    rarity: 2
+    levelStar: 1
+    piecesRequiredPerLevel: 0a0000000f00000019000000280000003c0000003c0000003c0000003c0000003c0000003c000000
+    pieceForLevelUp: 10
+    goldRequiredPerStarUp: 3c0000005a00000087000000cb00000030010000c8010000ac0200000204000002060000
+    statType: 0
+    activatedStatValue: 15
+    value: 30
+    increasePerLevel: 30
+    specialEffects:
+    - specialEffect: 25
+      requiredStarLevel: 1
+      value: 2.5
+      description: Gold gained from enemies increased by 2.5%
+    - specialEffect: 34
+      requiredStarLevel: 5
+      value: 2.5
+      description: Received damage reduced by 2.5%
+  - collectibleId: 15
+    collectibleName: Fountain Pen
+    icon: {fileID: 21300000, guid: ff92d284b1fc15746939e5cdaf234398, type: 2}
+    iconDeactive: {fileID: 21300000, guid: c409e0be2b21a77409cba23daae78e73, type: 2}
+    description: An elegant pen said to write the fate of every battle.
+    rarity: 3
+    levelStar: 1
+    piecesRequiredPerLevel: 0a0000000f00000019000000280000003c0000003c0000003c0000003c0000003c0000003c000000
+    pieceForLevelUp: 10
+    goldRequiredPerStarUp: 5000000078000000b40000000e0100009501000060020000900300005705000003080000
+    statType: 0
+    activatedStatValue: 30
+    value: 60
+    increasePerLevel: 60
+    specialEffects:
+    - specialEffect: 2
+      requiredStarLevel: 1
+      value: 5
+      description: Skill damages increased by 5%
+    - specialEffect: 1
+      requiredStarLevel: 5
+      value: 5
+      description: Increase base punch range by 5%
+  - collectibleId: 17
+    collectibleName: Frog Hat
+    icon: {fileID: 21300000, guid: 726bed4b3859e3e41832cac2a8bf51f9, type: 2}
+    iconDeactive: {fileID: 21300000, guid: 810fda3a40e359b40bd14924e420e989, type: 2}
+    description: A cute frog hat that gives its wearer a bouncy fighting spirit.
+    rarity: 2
+    levelStar: 1
+    piecesRequiredPerLevel: 0a0000000f00000019000000280000003c0000003c0000003c0000003c0000003c0000003c000000
+    pieceForLevelUp: 10
+    goldRequiredPerStarUp: 3c0000005a00000087000000cb00000030010000c8010000ac0200000204000002060000
+    statType: 9
+    activatedStatValue: 7.5
+    value: 15
+    increasePerLevel: 15
+    specialEffects:
+    - specialEffect: 5
+      requiredStarLevel: 1
+      value: 7.5
+      description: Knockback distance increased by 7.5%
+    - specialEffect: 1
+      requiredStarLevel: 5
+      value: 7.5
+      description: Increase base punch range by 7.5%
+  - collectibleId: 18
+    collectibleName: Frog Umbrella
+    icon: {fileID: 21300000, guid: f5b8ac98bdc4efa4ba23d4119d5aa379, type: 2}
+    iconDeactive: {fileID: 21300000, guid: 891698b0eff5a7649a0864d570b868f9, type: 2}
+    description: A cute frog hat that gives its wearer a bouncy fighting spirit.
+    rarity: 1
+    levelStar: 1
+    piecesRequiredPerLevel: 0a0000000f00000019000000280000003c0000003c0000003c0000003c0000003c0000003c000000
+    pieceForLevelUp: 10
+    goldRequiredPerStarUp: 280000003c0000005a00000087000000cb00000030010000c8010000ac02000002040000
+    statType: 0
+    activatedStatValue: 10
+    value: 20
+    increasePerLevel: 20
+    specialEffects:
+    - specialEffect: 0
+      requiredStarLevel: 1
+      value: 1
+      description: Punch rate increased by 1%
+    - specialEffect: 4
+      requiredStarLevel: 5
+      value: 2.5
+      description: Crit Chance increased by 2.5%
+  - collectibleId: 19
+    collectibleName: Glass Shoes
+    icon: {fileID: 21300000, guid: 16373f7cdaa35ff42ba51de145ccb040, type: 2}
+    iconDeactive: {fileID: 21300000, guid: 2ad49015c1bf5bf4faaf6aa1ec19c886, type: 2}
+    description: Shimmering glass shoes that make every step feel light and precise.
+    rarity: 3
+    levelStar: 1
+    piecesRequiredPerLevel: 0a0000000f00000019000000280000003c0000003c0000003c0000003c0000003c0000003c000000
+    pieceForLevelUp: 10
+    goldRequiredPerStarUp: 5000000078000000b40000000e0100009501000060020000900300005705000003080000
+    statType: 9
+    activatedStatValue: 10
+    value: 20
+    increasePerLevel: 20
+    specialEffects:
+    - specialEffect: 5
+      requiredStarLevel: 1
+      value: 5
+      description: Increase knockback distance by 5%
+    - specialEffect: 1
+      requiredStarLevel: 5
+      value: 2.5
+      description: Increase base punch range by 2.5%
+  - collectibleId: 16
+    collectibleName: Fried Egg
+    icon: {fileID: 21300000, guid: 6f180f888904cf549bbdb07584fbe56c, type: 2}
+    iconDeactive: {fileID: 21300000, guid: d692d58f218e17d469249761b09f0b2a, type: 2}
+    description: A sunny fried egg that somehow gives fighters fresh energy.
+    rarity: 4
+    levelStar: 1
+    piecesRequiredPerLevel: 0a0000000f00000019000000280000003c0000003c0000003c0000003c0000003c0000003c000000
+    pieceForLevelUp: 10
+    goldRequiredPerStarUp: 6400000096000000e100000052010000fb010000f802000074040000ad060000030a0000
+    statType: 5
+    activatedStatValue: 90
+    value: 180
+    increasePerLevel: 180
+    specialEffects:
+    - specialEffect: 25
+      requiredStarLevel: 1
+      value: 5
+      description: Gold gained from enemies increased by 5%
+    - specialEffect: 1
+      requiredStarLevel: 5
+      value: 5
+      description: Increase base punch range by 5%
+    - specialEffect: 37
+      requiredStarLevel: 10
+      value: 2.5
+      description: Punches have 2.5% chance to instant kill non-elite enemies
+  - collectibleId: 20
+    collectibleName: Golden Medal
+    icon: {fileID: 21300000, guid: cce16a4ed626b254a8e69da62832a6a0, type: 2}
+    iconDeactive: {fileID: 21300000, guid: 3150f5dea3afb1945aff51b61796b59e, type: 2}
+    description: A shining medal awarded to fighters who prove their worth in the arena.
+    rarity: 4
+    levelStar: 1
+    piecesRequiredPerLevel: 0a0000000f00000019000000280000003c0000003c0000003c0000003c0000003c0000003c000000
+    pieceForLevelUp: 10
+    goldRequiredPerStarUp: 6400000096000000e100000052010000fb010000f802000074040000ad060000030a0000
+    statType: 0
+    activatedStatValue: 45
+    value: 90
+    increasePerLevel: 90
+    specialEffects:
+    - specialEffect: 11
+      requiredStarLevel: 1
+      value: 10
+      description: Increase burn duration by 10%
+    - specialEffect: 10
+      requiredStarLevel: 5
+      value: 10
+      description: Increase burn damage by 10%
+    - specialEffect: 35
+      requiredStarLevel: 10
+      value: 2
+      description: Level up restores 2% HP
+  - collectibleId: 21
+    collectibleName: Golden Mic
+    icon: {fileID: 21300000, guid: 0088ee19db499404a9ab0a7cca8463b5, type: 2}
+    iconDeactive: {fileID: 21300000, guid: 7b866f11b1065e64f83e89e092171ef7, type: 2}
+    description: A golden microphone that amplifies cheers, confidence, and battle spirit.
+    rarity: 3
+    levelStar: 1
+    piecesRequiredPerLevel: 0a0000000f00000019000000280000003c0000003c0000003c0000003c0000003c0000003c000000
+    pieceForLevelUp: 10
+    goldRequiredPerStarUp: 5000000078000000b40000000e0100009501000060020000900300005705000003080000
+    statType: 5
+    activatedStatValue: 65
+    value: 130
+    increasePerLevel: 130
+    specialEffects:
+    - specialEffect: 25
+      requiredStarLevel: 1
+      value: 5
+      description: Gold gained from enemies increased by 5%
+    - specialEffect: 35
+      requiredStarLevel: 5
+      value: 1
+      description: Level up restores 1% HP
+  - collectibleId: 22
+    collectibleName: Golden Mirror
+    icon: {fileID: 21300000, guid: bdcbd2ea644f5c746a3e222c8d70226e, type: 2}
+    iconDeactive: {fileID: 21300000, guid: 2ae5236e1b0fbe04ea0ba98e0f03b2b0, type: 2}
+    description: A decorated golden mirror that reflects hidden strength back to its owner.
+    rarity: 3
+    levelStar: 1
+    piecesRequiredPerLevel: 0a0000000f00000019000000280000003c0000003c0000003c0000003c0000003c0000003c000000
+    pieceForLevelUp: 10
+    goldRequiredPerStarUp: 5000000078000000b40000000e0100009501000060020000900300005705000003080000
+    statType: 9
+    activatedStatValue: 10
+    value: 20
+    increasePerLevel: 20
+    specialEffects:
+    - specialEffect: 38
+      requiredStarLevel: 1
+      value: 10
+      description: Return back 10% of the received damage to the attacker
+    - specialEffect: 34
+      requiredStarLevel: 5
+      value: 1
+      description: Received damage reduced by 1%
+  - collectibleId: 23
+    collectibleName: Griffin Seal
+    icon: {fileID: 21300000, guid: 0268f31c48cf0e64da46ba5ab2c942ab, type: 2}
+    iconDeactive: {fileID: 21300000, guid: 4b63f9cc11e660e4f9b4bc99423eff3c, type: 2}
+    description: A noble seal carrying the fierce pride of a legendary griffin.
+    rarity: 1
+    levelStar: 1
+    piecesRequiredPerLevel: 0a0000000f00000019000000280000003c0000003c0000003c0000003c0000003c0000003c000000
+    pieceForLevelUp: 10
+    goldRequiredPerStarUp: 280000003c0000005a00000087000000cb00000030010000c8010000ac02000002040000
+    statType: 0
+    activatedStatValue: 10
+    value: 20
+    increasePerLevel: 20
+    specialEffects:
+    - specialEffect: 5
+      requiredStarLevel: 1
+      value: 2.5
+      description: Knockback distance increased by 2.5%
+    - specialEffect: 9
+      requiredStarLevel: 5
+      value: 5
+      description: Attack damage increased 5% below 50% HP
+  - collectibleId: 24
+    collectibleName: Honey Dipper
+    icon: {fileID: 21300000, guid: 4e070293b389a904cae8833262e2f821, type: 2}
+    iconDeactive: {fileID: 21300000, guid: cc5962bff1f7ec245bbe4c4a1d3e851e, type: 2}
+    description: A sweet honey dipper that restores energy with every golden drop.
+    rarity: 0
+    levelStar: 1
+    piecesRequiredPerLevel: 0a0000000f00000019000000280000003c0000003c0000003c0000003c0000003c0000003c000000
+    pieceForLevelUp: 10
+    goldRequiredPerStarUp: 140000001e0000002d000000440000006600000098000000e40000005601000001020000
+    statType: 0
+    activatedStatValue: 5
+    value: 10
+    increasePerLevel: 10
+    specialEffects:
+    - specialEffect: 2
+      requiredStarLevel: 5
+      value: 5
+      description: Increase all skill damages by 5%
+  - collectibleId: 25
+    collectibleName: Leaf Cloak
+    icon: {fileID: 21300000, guid: e1f22a3f74dab004598ffacce37aed02, type: 2}
+    iconDeactive: {fileID: 21300000, guid: 7e91ebb3c55d8ba49936138bc9ee4f40, type: 2}
+    description: A soft green cloak woven with the calm protection of nature.
+    rarity: 3
+    levelStar: 1
+    piecesRequiredPerLevel: 0a0000000f00000019000000280000003c0000003c0000003c0000003c0000003c0000003c000000
+    pieceForLevelUp: 10
+    goldRequiredPerStarUp: 5000000078000000b40000000e0100009501000060020000900300005705000003080000
+    statType: 5
+    activatedStatValue: 65
+    value: 130
+    increasePerLevel: 130
+    specialEffects:
+    - specialEffect: 34
+      requiredStarLevel: 1
+      value: 2.5
+      description: Received damage reduced by 2.5%
+    - specialEffect: 8
+      requiredStarLevel: 5
+      value: 1
+      description: Gain a massive shield when your health drops below 50%, effective only once in a match
+  - collectibleId: 26
+    collectibleName: Lost Sword
+    icon: {fileID: 21300000, guid: 7ed51398988c5a24395d77807366058b, type: 2}
+    iconDeactive: {fileID: 21300000, guid: bb7acaf307fa35e448c37bd07571bb6d, type: 2}
+    description: A forgotten sword filled with old magic and unfinished battles.
+    rarity: 1
+    levelStar: 1
+    piecesRequiredPerLevel: 0a0000000f00000019000000280000003c0000003c0000003c0000003c0000003c0000003c000000
+    pieceForLevelUp: 10
+    goldRequiredPerStarUp: 280000003c0000005a00000087000000cb00000030010000c8010000ac02000002040000
+    statType: 9
+    activatedStatValue: 5
+    value: 10
+    increasePerLevel: 10
+    specialEffects:
+    - specialEffect: 13
+      requiredStarLevel: 1
+      value: 2
+      description: Increase freeze damage by 2%
+    - specialEffect: 14
+      requiredStarLevel: 5
+      value: 5
+      description: Increase freeze duration by 5%
+  - collectibleId: 27
+    collectibleName: Love Grimoire
+    icon: {fileID: 21300000, guid: bd23d1780c8e2ef4a8193dd0808c9990, type: 2}
+    iconDeactive: {fileID: 21300000, guid: 03b1a1eabbf25f04db492286e2e405ba, type: 2}
+    description: A magical book filled with warm spells, courage, and affection.
+    rarity: 3
+    levelStar: 1
+    piecesRequiredPerLevel: 0a0000000f00000019000000280000003c0000003c0000003c0000003c0000003c0000003c000000
+    pieceForLevelUp: 10
+    goldRequiredPerStarUp: 5000000078000000b40000000e0100009501000060020000900300005705000003080000
+    statType: 5
+    activatedStatValue: 65
+    value: 130
+    increasePerLevel: 130
+    specialEffects:
+    - specialEffect: 35
+      requiredStarLevel: 1
+      value: 2.5
+      description: Level up restores 2.5% HP
+    - specialEffect: 33
+      requiredStarLevel: 5
+      value: 5
+      description: Revive with 5% HP after death, effective only once in a match
+  - collectibleId: 28
+    collectibleName: Lucky Clover
+    icon: {fileID: 21300000, guid: b0bc54ede236dda4b9f135a65d9038ae, type: 2}
+    iconDeactive: {fileID: 21300000, guid: 27bd93249e751694b9f38fa71d431295, type: 2}
+    description: A bright four-leaf clover believed to attract rare fortune.
+    rarity: 4
+    levelStar: 1
+    piecesRequiredPerLevel: 0a0000000f00000019000000280000003c0000003c0000003c0000003c0000003c0000003c000000
+    pieceForLevelUp: 10
+    goldRequiredPerStarUp: 6400000096000000e100000052010000fb010000f802000074040000ad060000030a0000
+    statType: 0
+    activatedStatValue: 45
+    value: 90
+    increasePerLevel: 90
+    specialEffects:
+    - specialEffect: 25
+      requiredStarLevel: 1
+      value: 5
+      description: Gold gained from enemies increased by 5%
+    - specialEffect: 37
+      requiredStarLevel: 5
+      value: 1.5
+      description: Punches have 1.5% chance to instant kill non-elite enemies
+    - specialEffect: 33
+      requiredStarLevel: 10
+      value: 15
+      description: Revive with 15% HP after death, effective only once in a match
+  - collectibleId: 29
+    collectibleName: Magic Bracelet
+    icon: {fileID: 21300000, guid: 810e24f6dfb5c284fb584647b1b64a34, type: 2}
+    iconDeactive: {fileID: 21300000, guid: 3130508a7f283134e8ad47ec950b1e7e, type: 2}
+    description: A pearl bracelet that stores gentle but powerful magical energy.
+    rarity: 4
+    levelStar: 1
+    piecesRequiredPerLevel: 0a0000000f00000019000000280000003c0000003c0000003c0000003c0000003c0000003c000000
+    pieceForLevelUp: 10
+    goldRequiredPerStarUp: 6400000096000000e100000052010000fb010000f802000074040000ad060000030a0000
+    statType: 9
+    activatedStatValue: 12.5
+    value: 25
+    increasePerLevel: 25
+    specialEffects:
+    - specialEffect: 34
+      requiredStarLevel: 1
+      value: 5
+      description: Received damage reduced by 5%
+    - specialEffect: 7
+      requiredStarLevel: 5
+      value: 50
+      description: Gain +50 defense for 5 seconds after killing 50 enemies
+    - specialEffect: 25
+      requiredStarLevel: 10
+      value: 25
+      description: Gold gained from enemies increased by 25%
+  - collectibleId: 30
+    collectibleName: Magic Broom
+    icon: {fileID: 21300000, guid: 67d7fb162aae69b4288a3773eb3e935e, type: 2}
+    iconDeactive: {fileID: 21300000, guid: 0606d5f9b524eaf4881ff2c2c60915ab, type: 2}
+    description: An enchanted broom that sweeps away danger with quick magical motion.
+    rarity: 0
+    levelStar: 1
+    piecesRequiredPerLevel: 0a0000000f00000019000000280000003c0000003c0000003c0000003c0000003c0000003c000000
+    pieceForLevelUp: 10
+    goldRequiredPerStarUp: 140000001e0000002d000000440000006600000098000000e40000005601000001020000
+    statType: 0
+    activatedStatValue: 5
+    value: 10
+    increasePerLevel: 10
+    specialEffects:
+    - specialEffect: 21
+      requiredStarLevel: 5
+      value: 5
+      description: Each extra arm increases punch damage by 5%
+  - collectibleId: 31
+    collectibleName: Magic Carpet
+    icon: {fileID: 21300000, guid: a5d46ca78fb55274ca0c6679f9322714, type: 2}
+    iconDeactive: {fileID: 21300000, guid: 74f5cfd728779ee41b41689220941362, type: 2}
+    description: A flying carpet woven with bright patterns and adventurous magic.
+    rarity: 1
+    levelStar: 1
+    piecesRequiredPerLevel: 0a0000000f00000019000000280000003c0000003c0000003c0000003c0000003c0000003c000000
+    pieceForLevelUp: 10
+    goldRequiredPerStarUp: 280000003c0000005a00000087000000cb00000030010000c8010000ac02000002040000
+    statType: 5
+    activatedStatValue: 30
+    value: 60
+    increasePerLevel: 60
+    specialEffects:
+    - specialEffect: 25
+      requiredStarLevel: 1
+      value: 2.5
+      description: Gold gained from enemies increased by 2.5%
+    - specialEffect: 35
+      requiredStarLevel: 5
+      value: 0.5
+      description: Level up restores 0.5% HP
+  - collectibleId: 32
+    collectibleName: Moon Belt
+    icon: {fileID: 21300000, guid: 3d1b7dcaa8317f747b470ab8e1bd8cab, type: 2}
+    iconDeactive: {fileID: 21300000, guid: 7e551987454e17e4ca02aef75cbb3bd8, type: 2}
+    description: A golden belt blessed with the calm power of the moon.
+    rarity: 3
+    levelStar: 1
+    piecesRequiredPerLevel: 0a0000000f00000019000000280000003c0000003c0000003c0000003c0000003c0000003c000000
+    pieceForLevelUp: 10
+    goldRequiredPerStarUp: 5000000078000000b40000000e0100009501000060020000900300005705000003080000
+    statType: 0
+    activatedStatValue: 30
+    value: 60
+    increasePerLevel: 60
+    specialEffects:
+    - specialEffect: 3
+      requiredStarLevel: 1
+      value: 12.5
+      description: Critical damage increased by 2.5%
+    - specialEffect: 9
+      requiredStarLevel: 5
+      value: 10
+      description: Attack damage increased 10% below 50% HP
+  - collectibleId: 33
+    collectibleName: Piano Toy
+    icon: {fileID: 21300000, guid: c0d668830766af442801df6a9e0128e5, type: 2}
+    iconDeactive: {fileID: 21300000, guid: 84480ba9cd7d1944b8feeb78c183689d, type: 2}
+    description: A tiny keyboard toy that plays mysterious battle melodies.
+    rarity: 4
+    levelStar: 1
+    piecesRequiredPerLevel: 0a0000000f00000019000000280000003c0000003c0000003c0000003c0000003c0000003c000000
+    pieceForLevelUp: 10
+    goldRequiredPerStarUp: 6400000096000000e100000052010000fb010000f802000074040000ad060000030a0000
+    statType: 0
+    activatedStatValue: 45
+    value: 90
+    increasePerLevel: 90
+    specialEffects:
+    - specialEffect: 2
+      requiredStarLevel: 1
+      value: 5
+      description: Skill damages increased by 5%
+    - specialEffect: 35
+      requiredStarLevel: 5
+      value: 0.5
+      description: Level up restores 0.5% HP
+    - specialEffect: 3
+      requiredStarLevel: 10
+      value: 30
+      description: Critical damage increased by 30%
+  - collectibleId: 34
+    collectibleName: Pink Flower
+    icon: {fileID: 21300000, guid: 7f300bd9e45a8a240ac9c1537501e7b0, type: 2}
+    iconDeactive: {fileID: 21300000, guid: ee29810eb7659544b88e18166a10893a, type: 2}
+    description: A cheerful pink flower that carries soft healing energy.
+    rarity: 1
+    levelStar: 1
+    piecesRequiredPerLevel: 0a0000000f00000019000000280000003c0000003c0000003c0000003c0000003c0000003c000000
+    pieceForLevelUp: 10
+    goldRequiredPerStarUp: 280000003c0000005a00000087000000cb00000030010000c8010000ac02000002040000
+    statType: 5
+    activatedStatValue: 30
+    value: 60
+    increasePerLevel: 60
+    specialEffects:
+    - specialEffect: 25
+      requiredStarLevel: 1
+      value: 5
+      description: Gold gained from enemies increased by 5%
+    - specialEffect: 35
+      requiredStarLevel: 5
+      value: 0.5
+      description: Level up restores 0.5% HP
+  - collectibleId: 35
+    collectibleName: Purrsion Cushion
+    icon: {fileID: 21300000, guid: 2b9eefd317d486948abd8e30469469a3, type: 2}
+    iconDeactive: {fileID: 21300000, guid: d3ac44db9cb932e42935db82ff4b13c8, type: 2}
+    description: A cozy paw-shaped cushion filled with playful feline magic.
+    rarity: 3
+    levelStar: 1
+    piecesRequiredPerLevel: 0a0000000f00000019000000280000003c0000003c0000003c0000003c0000003c0000003c000000
+    pieceForLevelUp: 10
+    goldRequiredPerStarUp: 5000000078000000b40000000e0100009501000060020000900300005705000003080000
+    statType: 9
+    activatedStatValue: 10
+    value: 20
+    increasePerLevel: 20
+    specialEffects:
+    - specialEffect: 38
+      requiredStarLevel: 1
+      value: 10
+      description: Return back 10% of the received damage to the attacker
+    - specialEffect: 34
+      requiredStarLevel: 5
+      value: 2.5
+      description: Received damage reduced by 2.5%
+  - collectibleId: 36
+    collectibleName: Royal Crown
+    icon: {fileID: 21300000, guid: a1b004a2c4785884dad86fee785d066a, type: 2}
+    iconDeactive: {fileID: 21300000, guid: 94746044bb9a63c4ea68522580e23947, type: 2}
+    description: A glorious crown made for the true ruler of the arena.
+    rarity: 5
+    levelStar: 1
+    piecesRequiredPerLevel: 0a0000000f00000019000000280000003c0000003c0000003c0000003c0000003c0000003c000000
+    pieceForLevelUp: 10
+    goldRequiredPerStarUp: 78000000b40000000e0100009501000060020000900300005705000003080000040c0000
+    statType: 9
+    activatedStatValue: 15
+    value: 30
+    increasePerLevel: 30
+    specialEffects:
+    - specialEffect: 19
+      requiredStarLevel: 1
+      value: 20
+      description: Increase damage to bosses 20%
+    - specialEffect: 3
+      requiredStarLevel: 5
+      value: 10
+      description: Critical damage increased by 10%
+    - specialEffect: 37
+      requiredStarLevel: 10
+      value: 1.5
+      description: Punches have 1.5% chance to instant kill non-elite enemies
+  - collectibleId: 37
+    collectibleName: Royal Potion
+    icon: {fileID: 21300000, guid: 9f603bec4c06ae34aaf470e482d9336e, type: 2}
+    iconDeactive: {fileID: 21300000, guid: 97fd07f1059d2f8418d0ae0adc3aa0ab, type: 2}
+    description: A precious royal potion brewed to awaken hidden strength.
+    rarity: 4
+    levelStar: 1
+    piecesRequiredPerLevel: 0a0000000f00000019000000280000003c0000003c0000003c0000003c0000003c0000003c000000
+    pieceForLevelUp: 10
+    goldRequiredPerStarUp: 6400000096000000e100000052010000fb010000f802000074040000ad060000030a0000
+    statType: 0
+    activatedStatValue: 45
+    value: 90
+    increasePerLevel: 90
+    specialEffects:
+    - specialEffect: 2
+      requiredStarLevel: 1
+      value: 5
+      description: Increase all skill damages by 5%
+    - specialEffect: 9
+      requiredStarLevel: 5
+      value: 10
+      description: Attack damage increased 10% below 30% HP
+    - specialEffect: 4
+      requiredStarLevel: 10
+      value: 20
+      description: Crit Chance increased by 20%
+  - collectibleId: 38
+    collectibleName: Ruby Amulet
+    icon: {fileID: 21300000, guid: 9bb0a4ecef8c36f44bbb5ef17e840e78, type: 2}
+    iconDeactive: {fileID: 21300000, guid: afa979f3d94eb3d49ab05dd08c1bed10, type: 2}
+    description: A shining ruby amulet that protects its bearer with noble magic.
+    rarity: 3
+    levelStar: 1
+    piecesRequiredPerLevel: 0a0000000f00000019000000280000003c0000003c0000003c0000003c0000003c0000003c000000
+    pieceForLevelUp: 10
+    goldRequiredPerStarUp: 5000000078000000b40000000e0100009501000060020000900300005705000003080000
+    statType: 0
+    activatedStatValue: 30
+    value: 60
+    increasePerLevel: 60
+    specialEffects:
+    - specialEffect: 4
+      requiredStarLevel: 1
+      value: 2.5
+      description: Crit Chance increased by 2.5%
+    - specialEffect: 3
+      requiredStarLevel: 5
+      value: 5
+      description: Critical damage increased by 5%
+  - collectibleId: 39
+    collectibleName: Rusty Copper
+    icon: {fileID: 21300000, guid: b7111cd36d2657e43a96f3073e45280e, type: 2}
+    iconDeactive: {fileID: 21300000, guid: 0ef45761c5ecd404bbba68d1c05f0f78, type: 2}
+    description: An old copper token carrying the worn luck of countless adventures.
+    rarity: 0
+    levelStar: 1
+    piecesRequiredPerLevel: 0a0000000f00000019000000280000003c0000003c0000003c0000003c0000003c0000003c000000
+    pieceForLevelUp: 10
+    goldRequiredPerStarUp: 140000001e0000002d000000440000006600000098000000e40000005601000001020000
+    statType: 0
+    activatedStatValue: 5
+    value: 10
+    increasePerLevel: 10
+    specialEffects:
+    - specialEffect: 25
+      requiredStarLevel: 5
+      value: 25
+      description: Gold gained from enemies increased by 25%
+  - collectibleId: 40
+    collectibleName: Spell Tome
+    icon: {fileID: 21300000, guid: de68cd028134333419f9f9c16e5ef4a2, type: 2}
+    iconDeactive: {fileID: 21300000, guid: 4e628dc1c6afbd541a2bcca29e0568b5, type: 2}
+    description: A heavy magical tome filled with ancient spells and hidden battle knowledge.
+    rarity: 4
+    levelStar: 1
+    piecesRequiredPerLevel: 0a0000000f00000019000000280000003c0000003c0000003c0000003c0000003c0000003c000000
+    pieceForLevelUp: 10
+    goldRequiredPerStarUp: 6400000096000000e100000052010000fb010000f802000074040000ad060000030a0000
+    statType: 5
+    activatedStatValue: 90
+    value: 180
+    increasePerLevel: 180
+    specialEffects:
+    - specialEffect: 2
+      requiredStarLevel: 1
+      value: 5
+      description: Skill damages increased by 5%
+    - specialEffect: 24
+      requiredStarLevel: 5
+      value: 2.5
+      description: Each extra arm increases the skill damages by 2.5%
+    - specialEffect: 18
+      requiredStarLevel: 10
+      value: 1
+      description: Lightning stuns enemies for 1 second when applied for the first time
+  - collectibleId: 41
+    collectibleName: Teddy Glove
+    icon: {fileID: 21300000, guid: 998ff361a36c6a44db9f264eea285873, type: 2}
+    iconDeactive: {fileID: 21300000, guid: 8a00efb3ce849a34ebc929d4b60d5a41, type: 2}
+    description: A soft teddy-shaped glove that hides surprising strength behind its cute look.
+    rarity: 4
+    levelStar: 1
+    piecesRequiredPerLevel: 0a0000000f00000019000000280000003c0000003c0000003c0000003c0000003c0000003c000000
+    pieceForLevelUp: 10
+    goldRequiredPerStarUp: 6400000096000000e100000052010000fb010000f802000074040000ad060000030a0000
+    statType: 5
+    activatedStatValue: 90
+    value: 180
+    increasePerLevel: 180
+    specialEffects:
+    - specialEffect: 9
+      requiredStarLevel: 1
+      value: 10
+      description: Attack damage increased 10% below 50% HP
+    - specialEffect: 33
+      requiredStarLevel: 1
+      value: 5
+      description: Revive with 5% HP after death, effective only once in a match
+    - specialEffect: 16
+      requiredStarLevel: 10
+      value: 150
+      description: Lightning duration increased 150%
+  - collectibleId: 42
+    collectibleName: Tobacco Pipe
+    icon: {fileID: 21300000, guid: 03d3d9d9c211fdd43815fb0f48e2c9ad, type: 2}
+    iconDeactive: {fileID: 21300000, guid: 1c915b7b18e48b341b4071221766b43a, type: 2}
+    description: An old wooden pipe carrying the calm focus of a seasoned fighter.
+    rarity: 1
+    levelStar: 1
+    piecesRequiredPerLevel: 0a0000000f00000019000000280000003c0000003c0000003c0000003c0000003c0000003c000000
+    pieceForLevelUp: 10
+    goldRequiredPerStarUp: 280000003c0000005a00000087000000cb00000030010000c8010000ac02000002040000
+    statType: 0
+    activatedStatValue: 10
+    value: 20
+    increasePerLevel: 20
+    specialEffects:
+    - specialEffect: 9
+      requiredStarLevel: 1
+      value: 10
+      description: Attack damage increased 10% below 50% HP
+    - specialEffect: 5
+      requiredStarLevel: 5
+      value: 5
+      description: Knockback distance increased by 5%
+  - collectibleId: 43
+    collectibleName: Turtle Shell
+    icon: {fileID: 21300000, guid: 167b9adcb04b7e64f8ba7a61f2b6f224, type: 2}
+    iconDeactive: {fileID: 21300000, guid: 7ba6c0181c4a1e84d859ebfa67318023, type: 2}
+    description: A sturdy turtle shell that offers steady protection against heavy blows.
+    rarity: 5
+    levelStar: 1
+    piecesRequiredPerLevel: 0a0000000f00000019000000280000003c0000003c0000003c0000003c0000003c0000003c000000
+    pieceForLevelUp: 10
+    goldRequiredPerStarUp: 78000000b40000000e0100009501000060020000900300005705000003080000040c0000
+    statType: 9
+    activatedStatValue: 15
+    value: 30
+    increasePerLevel: 30
+    specialEffects:
+    - specialEffect: 34
+      requiredStarLevel: 1
+      value: 3
+      description: Received damage reduced by 3%
+    - specialEffect: 7
+      requiredStarLevel: 5
+      value: 20
+      description: Gain +20 defense for 5 seconds after killing 50 enemies
+    - specialEffect: 38
+      requiredStarLevel: 10
+      value: 10
+      description: Return back 10% of the received damage to the attacker
+  - collectibleId: 44
+    collectibleName: Unicorn Mask
+    icon: {fileID: 21300000, guid: 96ddb5d012736aa409b9436afd293824, type: 2}
+    iconDeactive: {fileID: 21300000, guid: f4737263469c8ca45ad53f7a9277cc78, type: 2}
+    description: A colorful unicorn mask filled with playful magic and fearless charm.
+    rarity: 4
+    levelStar: 1
+    piecesRequiredPerLevel: 0a0000000f00000019000000280000003c0000003c0000003c0000003c0000003c0000003c000000
+    pieceForLevelUp: 10
+    goldRequiredPerStarUp: 6400000096000000e100000052010000fb010000f802000074040000ad060000030a0000
+    statType: 0
+    activatedStatValue: 45
+    value: 90
+    increasePerLevel: 90
+    specialEffects:
+    - specialEffect: 4
+      requiredStarLevel: 1
+      value: 2.5
+      description: Crit Chance increased by 2.5%
+    - specialEffect: 3
+      requiredStarLevel: 5
+      value: 12.5
+      description: Critical damage increased by 12.5%
+    - specialEffect: 15
+      requiredStarLevel: 10
+      value: 150
+      description: Increase lightning damage by 150%
+  - collectibleId: 45
+    collectibleName: Viking Helmet
+    icon: {fileID: 21300000, guid: 201fec08457f436479f4b239c16c5924, type: 2}
+    iconDeactive: {fileID: 21300000, guid: 101e395588c76aa4d8d69513a1e807c9, type: 2}
+    description: A horned helmet made for warriors who charge straight into danger.
+    rarity: 5
+    levelStar: 1
+    piecesRequiredPerLevel: 0a0000000f00000019000000280000003c0000003c0000003c0000003c0000003c0000003c000000
+    pieceForLevelUp: 10
+    goldRequiredPerStarUp: 78000000b40000000e0100009501000060020000900300005705000003080000040c0000
+    statType: 5
+    activatedStatValue: 110
+    value: 220
+    increasePerLevel: 220
+    specialEffects:
+    - specialEffect: 33
+      requiredStarLevel: 1
+      value: 5
+      description: Revive with 5% HP after death, effective only once in a match
+    - specialEffect: 34
+      requiredStarLevel: 5
+      value: 2.5
+      description: Received damage reduced by 2.5%
+    - specialEffect: 9
+      requiredStarLevel: 10
+      value: 10
+      description: Attack damage increased 10% below 30% HP
+  - collectibleId: 46
+    collectibleName: Warrior Boots
+    icon: {fileID: 21300000, guid: 6963c9a84132f9749ab728b2b36c6988, type: 2}
+    iconDeactive: {fileID: 21300000, guid: 19e4eeed6e109e949a61054bd4f2d441, type: 2}
+    description: Reinforced boots built to keep fighters steady through brutal battles.
+    rarity: 0
+    levelStar: 1
+    piecesRequiredPerLevel: 0a0000000f00000019000000280000003c0000003c0000003c0000003c0000003c0000003c000000
+    pieceForLevelUp: 10
+    goldRequiredPerStarUp: 140000001e0000002d000000440000006600000098000000e40000005601000001020000
+    statType: 9
+    activatedStatValue: 2.5
+    value: 5
+    increasePerLevel: 5
+    specialEffects:
+    - specialEffect: 34
+      requiredStarLevel: 5
+      value: 7.5
+      description: Received damage reduced by 7.5%
+  - collectibleId: 47
+    collectibleName: Warrior Helmet
+    icon: {fileID: 21300000, guid: 4409d86f125241b459f5a823b0d43ac3, type: 2}
+    iconDeactive: {fileID: 21300000, guid: 3fcf4f8586c99ab49945f320d37ed2ee, type: 2}
+    description: A battle-worn helmet that carries the courage of countless arena clashes.
+    rarity: 5
+    levelStar: 1
+    piecesRequiredPerLevel: 0a0000000f00000019000000280000003c0000003c0000003c0000003c0000003c0000003c000000
+    pieceForLevelUp: 10
+    goldRequiredPerStarUp: 78000000b40000000e0100009501000060020000900300005705000003080000040c0000
+    statType: 0
+    activatedStatValue: 60
+    value: 120
+    increasePerLevel: 120
+    specialEffects:
+    - specialEffect: 21
+      requiredStarLevel: 1
+      value: 10
+      description: Each extra arm increases punch damage by 10%
+    - specialEffect: 19
+      requiredStarLevel: 5
+      value: 100
+      description: Increase damage to bosses 100%
+    - specialEffect: 37
+      requiredStarLevel: 10
+      value: 1.5
+      description: Punches have 1.5% chance to instant kill non-elite enemies
+  - collectibleId: 48
+    collectibleName: Wolf Mask
+    icon: {fileID: 21300000, guid: 065a775f8bea9234fae0a64542cf14c0, type: 2}
+    iconDeactive: {fileID: 21300000, guid: 7cc347c9342c3774fa138d5faddc2949, type: 2}
+    description: A fierce wolf mask that sharpens instinct and awakens the hunter within.
+    rarity: 5
+    levelStar: 1
+    piecesRequiredPerLevel: 0a0000000f00000019000000280000003c0000003c0000003c0000003c0000003c0000003c000000
+    pieceForLevelUp: 10
+    goldRequiredPerStarUp: 78000000b40000000e0100009501000060020000900300005705000003080000040c0000
+    statType: 0
+    activatedStatValue: 60
+    value: 120
+    increasePerLevel: 120
+    specialEffects:
+    - specialEffect: 15
+      requiredStarLevel: 1
+      value: 50
+      description: Increase lightning damage by 50%
+    - specialEffect: 16
+      requiredStarLevel: 5
+      value: 50
+      description: Lightning duration increased 50%
+    - specialEffect: 18
+      requiredStarLevel: 10
+      value: 1
+      description: Lightning stuns enemies for 1 second when applied for the first time
+  - collectibleId: 49
+    collectibleName: Wooden Clog
+    icon: {fileID: 21300000, guid: accd1bc3117d17d42bc39c212fa2d779, type: 2}
+    iconDeactive: {fileID: 21300000, guid: a17b4b48fe2a3bd43b5d803de4deb5aa, type: 2}
+    description: A simple wooden clog polished by long journeys and stubborn survival.
+    rarity: 0
+    levelStar: 1
+    piecesRequiredPerLevel: 0a0000000f00000019000000280000003c0000003c0000003c0000003c0000003c0000003c000000
+    pieceForLevelUp: 10
+    goldRequiredPerStarUp: 140000001e0000002d000000440000006600000098000000e40000005601000001020000
+    statType: 5
+    activatedStatValue: 20
+    value: 40
+    increasePerLevel: 40
+    specialEffects:
+    - specialEffect: 25
+      requiredStarLevel: 5
+      value: 2.5
+      description: Gold gained from enemies increased by 2.5%
+  collectibleSets:
+  - setId: 0
+    setName: Rookie Champion Set
+    description:
+    collectibleIds:
+    - 0
+    - 1
+    - 12
+    - 24
+    basicEffects:
+    - requirement: 0
+      statType: 0
+      value: 3
+      isPercentage: 1
+      description: '[Set]: ATK +3%'
+    - requirement: 1
+      statType: 0
+      value: 5
+      isPercentage: 1
+      description: '[3-Star]: ATK +5%'
+    - requirement: 2
+      statType: 0
+      value: 7
+      isPercentage: 1
+      description: '[6-Star]: ATK +7%'
+    - requirement: 3
+      statType: 0
+      value: 10
+      isPercentage: 1
+      description: '[10-Star]: ATK +10%'
+  - setId: 1
+    setName: Traveler’s Fortune Set
+    description:
+    collectibleIds:
+    - 4
+    - 16
+    - 28
+    - 39
+    basicEffects:
+    - requirement: 0
+      statType: 5
+      value: 3
+      isPercentage: 1
+      description: '[Set]: HP +3%'
+    - requirement: 1
+      statType: 5
+      value: 5
+      isPercentage: 1
+      description: '[3-Star]: HP +5%'
+    - requirement: 2
+      statType: 5
+      value: 7
+      isPercentage: 1
+      description: '[6-Star]: HP +7%'
+    - requirement: 3
+      statType: 5
+      value: 10
+      isPercentage: 1
+      description: '[10-Star]: HP +10%'
+  - setId: 2
+    setName: Frozen Guard Set
+    description:
+    collectibleIds:
+    - 7
+    - 19
+    - 26
+    - 46
+    basicEffects:
+    - requirement: 0
+      statType: 9
+      value: 3
+      isPercentage: 1
+      description: '[Set]: DEF +3%'
+    - requirement: 1
+      statType: 9
+      value: 5
+      isPercentage: 1
+      description: '[3-Star]: DEF +5%'
+    - requirement: 2
+      statType: 9
+      value: 7
+      isPercentage: 1
+      description: '[6-Star]: DEF +7%'
+    - requirement: 3
+      statType: 9
+      value: 10
+      isPercentage: 1
+      description: '[10-Star]: DEF +10%'
+  - setId: 3
+    setName: Royal Hunter Set
+    description:
+    collectibleIds:
+    - 36
+    - 38
+    - 47
+    - 48
+    basicEffects:
+    - requirement: 0
+      statType: 0
+      value: 5
+      isPercentage: 1
+      description: '[Set]: ATK +5%'
+    - requirement: 1
+      statType: 0
+      value: 8
+      isPercentage: 1
+      description: '[3-Star]: ATK +8%'
+    - requirement: 2
+      statType: 0
+      value: 12
+      isPercentage: 1
+      description: '[6-Star]: ATK +12%'
+    - requirement: 3
+      statType: 0
+      value: 18
+      isPercentage: 1
+      description: '[10-Star]: ATK +18%'
+  - setId: 4
+    setName: Ocean Relic Set
+    description:
+    collectibleIds:
+    - 3
+    - 29
+    - 30
+    - 31
+    basicEffects:
+    - requirement: 0
+      statType: 9
+      value: 4
+      isPercentage: 1
+      description: '[Set]: DEF +4%'
+    - requirement: 1
+      statType: 9
+      value: 7
+      isPercentage: 1
+      description: '[3-Star]: DEF +7%'
+    - requirement: 2
+      statType: 9
+      value: 10
+      isPercentage: 1
+      description: '[6-Star]: DEF +10%'
+    - requirement: 3
+      statType: 9
+      value: 15
+      isPercentage: 1
+      description: '[10-Star]: DEF +15%'
+  - setId: 5
+    setName: Wild Beast Set
+    description:
+    collectibleIds:
+    - 8
+    - 17
+    - 18
+    - 23
+    basicEffects:
+    - requirement: 0
+      statType: 0
+      value: 3
+      isPercentage: 1
+      description: '[Set]: ATK +3%'
+    - requirement: 1
+      statType: 0
+      value: 5
+      isPercentage: 1
+      description: '[3-Star]: ATK +5%'
+    - requirement: 2
+      statType: 0
+      value: 7
+      isPercentage: 1
+      description: '[6-Star]: ATK +7%'
+    - requirement: 3
+      statType: 0
+      value: 10
+      isPercentage: 1
+      description: '[10-Star]: ATK +10%'
+  - setId: 6
+    setName: Arcane Battle Set
+    description:
+    collectibleIds:
+    - 9
+    - 22
+    - 33
+    - 37
+    basicEffects:
+    - requirement: 0
+      statType: 0
+      value: 4
+      isPercentage: 1
+      description: '[Set]: ATK +4%'
+    - requirement: 1
+      statType: 0
+      value: 7
+      isPercentage: 1
+      description: '[3-Star]: ATK +7%'
+    - requirement: 2
+      statType: 0
+      value: 10
+      isPercentage: 1
+      description: '[6-Star]: ATK +10%'
+    - requirement: 3
+      statType: 0
+      value: 15
+      isPercentage: 1
+      description: '[10-Star]: ATK +15%'
+  - setId: 7
+    setName: Guardian Heart Set
+    description:
+    collectibleIds:
+    - 11
+    - 25
+    - 41
+    - 43
+    basicEffects:
+    - requirement: 0
+      statType: 5
+      value: 5
+      isPercentage: 1
+      description: '[Set]: HP +5%'
+    - requirement: 1
+      statType: 5
+      value: 8
+      isPercentage: 1
+      description: '[3-Star]: HP +8%'
+    - requirement: 2
+      statType: 5
+      value: 12
+      isPercentage: 1
+      description: '[6-Star]: HP +12%'
+    - requirement: 3
+      statType: 5
+      value: 18
+      isPercentage: 1
+      description: '[10-Star]: HP +18%'
+  - setId: 8
+    setName: Festival Luck Set
+    description:
+    collectibleIds:
+    - 2
+    - 14
+    - 21
+    - 34
+    basicEffects:
+    - requirement: 0
+      statType: 5
+      value: 3
+      isPercentage: 1
+      description: '[Set]: HP +3%'
+    - requirement: 1
+      statType: 5
+      value: 5
+      isPercentage: 1
+      description: '[3-Star]: HP +5%'
+    - requirement: 2
+      statType: 5
+      value: 7
+      isPercentage: 1
+      description: '[6-Star]: HP +7%'
+    - requirement: 3
+      statType: 5
+      value: 10
+      isPercentage: 1
+      description: '[10-Star]: HP +10%'
+  - setId: 9
+    setName: Swift Strike Set
+    description:
+    collectibleIds:
+    - 6
+    - 20
+    - 42
+    - 44
+    basicEffects:
+    - requirement: 0
+      statType: 0
+      value: 4
+      isPercentage: 1
+      description: '[Set]: ATK +4%'
+    - requirement: 1
+      statType: 0
+      value: 7
+      isPercentage: 1
+      description: '[3-Star]: ATK +7%'
+    - requirement: 2
+      statType: 0
+      value: 10
+      isPercentage: 1
+      description: '[6-Star]: ATK +10%'
+    - requirement: 3
+      statType: 0
+      value: 15
+      isPercentage: 1
+      description: '[10-Star]: ATK +15%'
+  - setId: 10
+    setName: Sacred Survival Set
+    description:
+    collectibleIds:
+    - 5
+    - 13
+    - 27
+    - 49
+    basicEffects:
+    - requirement: 0
+      statType: 5
+      value: 4
+      isPercentage: 1
+      description: '[Set]: HP +4%'
+    - requirement: 1
+      statType: 5
+      value: 7
+      isPercentage: 1
+      description: '[3-Star]: HP +7%'
+    - requirement: 2
+      statType: 5
+      value: 10
+      isPercentage: 1
+      description: '[6-Star]: HP +10%'
+    - requirement: 3
+      statType: 5
+      value: 15
+      isPercentage: 1
+      description: '[10-Star]: HP +15%'
+  - setId: 11
+    setName: Dark Relic Set
+    description:
+    collectibleIds:
+    - 15
+    - 32
+    - 35
+    - 41
+    basicEffects:
+    - requirement: 0
+      statType: 9
+      value: 4
+      isPercentage: 1
+      description: '[Set]: DEF +4%'
+    - requirement: 1
+      statType: 9
+      value: 7
+      isPercentage: 1
+      description: '[3-Star]: DEF +7%'
+    - requirement: 2
+      statType: 9
+      value: 10
+      isPercentage: 1
+      description: '[6-Star]: DEF +10%'
+    - requirement: 3
+      statType: 9
+      value: 15
+      isPercentage: 1
+      description: '[10-Star]: DEF +15%'

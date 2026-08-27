@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ade32ecfc165f434c74c64bce49cdad, type: 3}
+  m_Name: DungeonCarDB
+  m_EditorClassIdentifier:
+  baseHp: 250
+  hpIncreasePerStep: 125
+  carSequence:
+  - prefab: {fileID: 1709254077376921, guid: 03dc2b0bedec4fe469ab16d7f5411f7c, type: 2}

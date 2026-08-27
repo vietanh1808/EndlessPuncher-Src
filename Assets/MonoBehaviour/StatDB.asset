@@ -1,0 +1,1372 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56a938bf723765d417cabd1cc8eb1777, type: 3}
+  m_Name: StatDB
+  m_EditorClassIdentifier:
+  allCharacterStats:
+  - typeStat: 0
+    statValueByRarity:
+    - rarity: 0
+      valueStat: 5
+    - rarity: 1
+      valueStat: 10
+    - rarity: 2
+      valueStat: 15
+    - rarity: 3
+      valueStat: 20
+    - rarity: 4
+      valueStat: 25
+    lvl: 0
+    isIncludedInLevelUp: 1
+  - typeStat: 11
+    statValueByRarity:
+    - rarity: 0
+      valueStat: 5
+    - rarity: 1
+      valueStat: 10
+    - rarity: 2
+      valueStat: 15
+    - rarity: 3
+      valueStat: 20
+    - rarity: 4
+      valueStat: 25
+    lvl: 0
+    isIncludedInLevelUp: 1
+  - typeStat: 6
+    statValueByRarity:
+    - rarity: 0
+      valueStat: 2.5
+    - rarity: 1
+      valueStat: 5
+    - rarity: 2
+      valueStat: 7.5
+    - rarity: 3
+      valueStat: 10
+    - rarity: 4
+      valueStat: 12.5
+    lvl: 0
+    isIncludedInLevelUp: 0
+  - typeStat: 9
+    statValueByRarity:
+    - rarity: 0
+      valueStat: 10
+    - rarity: 1
+      valueStat: 20
+    - rarity: 2
+      valueStat: 30
+    - rarity: 3
+      valueStat: 40
+    - rarity: 4
+      valueStat: 50
+    lvl: 0
+    isIncludedInLevelUp: 0
+  - typeStat: 7
+    statValueByRarity:
+    - rarity: 0
+      valueStat: 1
+    - rarity: 1
+      valueStat: 3
+    - rarity: 2
+      valueStat: 5
+    - rarity: 3
+      valueStat: 7
+    - rarity: 4
+      valueStat: 10
+    lvl: 0
+    isIncludedInLevelUp: 0
+  - typeStat: 1
+    statValueByRarity:
+    - rarity: 0
+      valueStat: 2
+    - rarity: 1
+      valueStat: 4
+    - rarity: 2
+      valueStat: 6
+    - rarity: 3
+      valueStat: 8
+    - rarity: 4
+      valueStat: 10
+    lvl: 0
+    isIncludedInLevelUp: 1
+  - typeStat: 2
+    statValueByRarity:
+    - rarity: 0
+      valueStat: 2.5
+    - rarity: 1
+      valueStat: 5
+    - rarity: 2
+      valueStat: 7.5
+    - rarity: 3
+      valueStat: 10
+    - rarity: 4
+      valueStat: 15
+    lvl: 0
+    isIncludedInLevelUp: 1
+  - typeStat: 3
+    statValueByRarity:
+    - rarity: 0
+      valueStat: 1
+    - rarity: 1
+      valueStat: 2.5
+    - rarity: 2
+      valueStat: 5
+    - rarity: 3
+      valueStat: 7.5
+    - rarity: 4
+      valueStat: 10
+    lvl: 0
+    isIncludedInLevelUp: 1
+  - typeStat: 4
+    statValueByRarity:
+    - rarity: 0
+      valueStat: 0.1
+    - rarity: 1
+      valueStat: 0.2
+    - rarity: 2
+      valueStat: 0.3
+    - rarity: 3
+      valueStat: 0.4
+    - rarity: 4
+      valueStat: 0.5
+    lvl: 0
+    isIncludedInLevelUp: 1
+  - typeStat: 8
+    statValueByRarity:
+    - rarity: 0
+      valueStat: 0.2
+    - rarity: 1
+      valueStat: 0.4
+    - rarity: 2
+      valueStat: 0.6
+    - rarity: 3
+      valueStat: 0.8
+    - rarity: 4
+      valueStat: 1
+    lvl: 0
+    isIncludedInLevelUp: 1
+  - typeStat: 10
+    statValueByRarity:
+    - rarity: 0
+      valueStat: 5
+    - rarity: 1
+      valueStat: 10
+    - rarity: 2
+      valueStat: 15
+    - rarity: 3
+      valueStat: 20
+    - rarity: 4
+      valueStat: 25
+    lvl: 0
+    isIncludedInLevelUp: 0
+  allStatInfos:
+  - statName: Damage
+    statDescription: Increases the damage of all attacks.
+    statIcon: {fileID: 0}
+    typeStat: 0
+  - statName: Range
+    statDescription: Increases the maximum distance your punches can reach.
+    statIcon: {fileID: 21300000, guid: 3e23744bb1924ca48a12ee10d3a2af1b, type: 2}
+    typeStat: 1
+  - statName: Punch Rate
+    statDescription: Increases your attacks per second.
+    statIcon: {fileID: 21300000, guid: 884309c17dccbbd4cb85f3bd8add4fbe, type: 2}
+    typeStat: 2
+  - statName: Critical Chance
+    statDescription: Increases your chance to land a critical hit.
+    statIcon: {fileID: 21300000, guid: 0767a8f0700f58b4bb5ec89501ca0881, type: 2}
+    typeStat: 3
+  - statName: Critical Damage
+    statDescription: Increases the bonus damage dealt by critical hits.
+    statIcon: {fileID: 21300000, guid: 4f797a6606ce5bb4a873e9933d9bcb7b, type: 2}
+    typeStat: 4
+  - statName: Max HP
+    statDescription: Increases your maximum health.
+    statIcon: {fileID: 21300000, guid: 22cc087cfcdd1cd4c96f18b85de1d27b, type: 2}
+    typeStat: 5
+  - statName: Hp Recovery
+    statDescription: Instantly recovers a portion of lost Health.
+    statIcon: {fileID: 21300000, guid: 3b9b5ebda99c2b8458e8cc584815c550, type: 2}
+    typeStat: 6
+  - statName: Lifesteal
+    statDescription: You heal for a percentage of the damage dealt by fist attacks only.
+    statIcon: {fileID: 21300000, guid: 569b4c1937f97864d95c155e1f2668aa, type: 2}
+    typeStat: 7
+  - statName: Knockback
+    statDescription: Hits pushes enemies back further.
+    statIcon: {fileID: 21300000, guid: dfec3766839e4e141b149d57db75a251, type: 2}
+    typeStat: 8
+  - statName: Defence
+    statDescription: Defence reduces the damage received from enemy attacks.
+    statIcon: {fileID: 21300000, guid: 88070c45d61b1144dae1a4ede4c99a9b, type: 2}
+    typeStat: 9
+  - statName: Exp Gain
+    statDescription: Increases the exp gain by $x%$
+    statIcon: {fileID: 21300000, guid: 9d1e38f335cc9cf43a07cc1e45cf2026, type: 2}
+    typeStat: 10
+  - statName: Skill Damage
+    statDescription: Increases the damage of all skills by $x%$
+    statIcon: {fileID: 21300000, guid: 88070c45d61b1144dae1a4ede4c99a9b, type: 2}
+    typeStat: 11
+  allSkills:
+  - nameSkill: Fire Punch
+    descriptionSkill: Your punches ignite enemies for 5 seconds, dealing 100% bonus damage over 3 seconds.
+    typeSkill: 7
+    typeEffect: 1
+    rarity: 0
+    upgradeRarity: 3
+    iconSkill: {fileID: 21300000, guid: 7a64ac3b61a4e3a408c9f1ce305ace29, type: 2}
+    iconMiniSkill: {fileID: 21300000, guid: 7a64ac3b61a4e3a408c9f1ce305ace29, type: 2}
+    skillDuration: 4
+    skillEffectDuration: 4
+    maxSkillCount: 0
+    skillStats:
+    - typeStat: 0
+      valueStart: 25
+    - typeStat: 1
+      valueStart: 1.6
+    - typeStat: 2
+      valueStart: 3
+    allSkillsUpgrades:
+    - typeStat: 0
+      upgradeAmounts:
+      - rarity: 1
+        valueStat: 1
+      - rarity: 2
+        valueStat: 2
+      - rarity: 3
+        valueStat: 3
+      - rarity: 4
+        valueStat: 4
+    - typeStat: 1
+      upgradeAmounts:
+      - rarity: 0
+        valueStat: 10
+      - rarity: 1
+        valueStat: 20
+      - rarity: 2
+        valueStat: 30
+      - rarity: 3
+        valueStat: 40
+      - rarity: 4
+        valueStat: 50
+    ownedSkillUpgradeStats: []
+    selectedUpgradeStat:
+      typeStat: 0
+      upgradeAmounts:
+        rarity: 3
+        valueStat: 3
+  - nameSkill: Ice Punch
+    descriptionSkill: For 3 seconds, your punches are infused with ice, briefly freezing enemies on hit.
+    typeSkill: 8
+    typeEffect: 2
+    rarity: 0
+    upgradeRarity: 4
+    iconSkill: {fileID: 21300000, guid: a19695afac4ba2446b4a709ebc784bc1, type: 2}
+    iconMiniSkill: {fileID: 21300000, guid: a19695afac4ba2446b4a709ebc784bc1, type: 2}
+    skillDuration: 5
+    skillEffectDuration: 3
+    maxSkillCount: 0
+    skillStats:
+    - typeStat: 0
+      valueStart: 24
+    - typeStat: 1
+      valueStart: 1.4
+    - typeStat: 2
+      valueStart: 3
+    allSkillsUpgrades:
+    - typeStat: 0
+      upgradeAmounts:
+      - rarity: 1
+        valueStat: 1
+      - rarity: 2
+        valueStat: 2
+      - rarity: 3
+        valueStat: 3
+      - rarity: 4
+        valueStat: 4
+    - typeStat: 1
+      upgradeAmounts:
+      - rarity: 0
+        valueStat: 10
+      - rarity: 1
+        valueStat: 20
+      - rarity: 2
+        valueStat: 30
+      - rarity: 3
+        valueStat: 40
+      - rarity: 4
+        valueStat: 50
+    ownedSkillUpgradeStats: []
+    selectedUpgradeStat:
+      typeStat: 0
+      upgradeAmounts:
+        rarity: 4
+        valueStat: 4
+  - nameSkill: Lightning Punch
+    descriptionSkill: Your punches shock enemies for 5 seconds, dealing 100% bonus damage over 3 seconds.
+    typeSkill: 9
+    typeEffect: 3
+    rarity: 0
+    upgradeRarity: 0
+    iconSkill: {fileID: 21300000, guid: b01b4ca6b888e5a488e99b0e495a3897, type: 2}
+    iconMiniSkill: {fileID: 21300000, guid: b01b4ca6b888e5a488e99b0e495a3897, type: 2}
+    skillDuration: 4
+    skillEffectDuration: 3
+    maxSkillCount: 0
+    skillStats:
+    - typeStat: 0
+      valueStart: 21
+    - typeStat: 1
+      valueStart: 1.5
+    - typeStat: 2
+      valueStart: 3
+    allSkillsUpgrades:
+    - typeStat: 0
+      upgradeAmounts:
+      - rarity: 1
+        valueStat: 1
+      - rarity: 2
+        valueStat: 2
+      - rarity: 3
+        valueStat: 3
+      - rarity: 4
+        valueStat: 4
+    - typeStat: 1
+      upgradeAmounts:
+      - rarity: 0
+        valueStat: 10
+      - rarity: 1
+        valueStat: 20
+      - rarity: 2
+        valueStat: 30
+      - rarity: 3
+        valueStat: 40
+      - rarity: 4
+        valueStat: 50
+    ownedSkillUpgradeStats: []
+    selectedUpgradeStat:
+      typeStat: 1
+      upgradeAmounts:
+        rarity: 0
+        valueStat: 10
+  - nameSkill: Punch Meteor
+    descriptionSkill: Small punches rain from above, exploding on impact and burning enemies.
+    typeSkill: 0
+    typeEffect: 1
+    rarity: 0
+    upgradeRarity: 0
+    iconSkill: {fileID: 21300000, guid: c224659a6e4cbd14b9ca3f2e7e9598ac, type: 2}
+    iconMiniSkill: {fileID: 21300000, guid: c224659a6e4cbd14b9ca3f2e7e9598ac, type: 2}
+    skillDuration: 0
+    skillEffectDuration: 2
+    maxSkillCount: 0
+    skillStats:
+    - typeStat: 0
+      valueStart: 28
+    - typeStat: 1
+      valueStart: 1.25
+    - typeStat: 2
+      valueStart: 3
+    allSkillsUpgrades:
+    - typeStat: 0
+      upgradeAmounts:
+      - rarity: 1
+        valueStat: 1
+      - rarity: 2
+        valueStat: 2
+      - rarity: 3
+        valueStat: 3
+      - rarity: 4
+        valueStat: 4
+    - typeStat: 1
+      upgradeAmounts:
+      - rarity: 0
+        valueStat: 10
+      - rarity: 1
+        valueStat: 20
+      - rarity: 2
+        valueStat: 30
+      - rarity: 3
+        valueStat: 40
+      - rarity: 4
+        valueStat: 50
+    - typeStat: 2
+      upgradeAmounts:
+      - rarity: 2
+        valueStat: 1
+      - rarity: 3
+        valueStat: 2
+      - rarity: 4
+        valueStat: 3
+    ownedSkillUpgradeStats: []
+    selectedUpgradeStat:
+      typeStat: 1
+      upgradeAmounts:
+        rarity: 0
+        valueStat: 10
+  - nameSkill: Rocket Punch
+    descriptionSkill: A rocket punch flies through, damaging and burning enemies in its path.
+    typeSkill: 1
+    typeEffect: 1
+    rarity: 0
+    upgradeRarity: 2
+    iconSkill: {fileID: 21300000, guid: bc007cd1c78d3054fb6f84959c298e45, type: 2}
+    iconMiniSkill: {fileID: 21300000, guid: bc007cd1c78d3054fb6f84959c298e45, type: 2}
+    skillDuration: 0
+    skillEffectDuration: 2
+    maxSkillCount: 0
+    skillStats:
+    - typeStat: 0
+      valueStart: 27
+    - typeStat: 1
+      valueStart: 1.5
+    - typeStat: 2
+      valueStart: 1
+    allSkillsUpgrades:
+    - typeStat: 0
+      upgradeAmounts:
+      - rarity: 1
+        valueStat: 1
+      - rarity: 2
+        valueStat: 2
+      - rarity: 3
+        valueStat: 3
+      - rarity: 4
+        valueStat: 4
+    - typeStat: 1
+      upgradeAmounts:
+      - rarity: 0
+        valueStat: 10
+      - rarity: 1
+        valueStat: 20
+      - rarity: 2
+        valueStat: 30
+      - rarity: 3
+        valueStat: 40
+      - rarity: 4
+        valueStat: 50
+    - typeStat: 2
+      upgradeAmounts:
+      - rarity: 2
+        valueStat: 1
+      - rarity: 3
+        valueStat: 2
+      - rarity: 4
+        valueStat: 3
+    ownedSkillUpgradeStats: []
+    selectedUpgradeStat:
+      typeStat: 2
+      upgradeAmounts:
+        rarity: 2
+        valueStat: 1
+  - nameSkill: Missile Punches
+    descriptionSkill: Launch 5 homing mini missiles that explode on impact and freeze the targets.
+    typeSkill: 2
+    typeEffect: 2
+    rarity: 0
+    upgradeRarity: 0
+    iconSkill: {fileID: 21300000, guid: e7926fe9efbee66499f2c95a9c0468f8, type: 2}
+    iconMiniSkill: {fileID: 21300000, guid: e7926fe9efbee66499f2c95a9c0468f8, type: 2}
+    skillDuration: 0
+    skillEffectDuration: 2
+    maxSkillCount: 0
+    skillStats:
+    - typeStat: 0
+      valueStart: 37
+    - typeStat: 1
+      valueStart: 1.3
+    - typeStat: 2
+      valueStart: 3
+    allSkillsUpgrades:
+    - typeStat: 0
+      upgradeAmounts:
+      - rarity: 1
+        valueStat: 1
+      - rarity: 2
+        valueStat: 2
+      - rarity: 3
+        valueStat: 3
+      - rarity: 4
+        valueStat: 4
+    - typeStat: 1
+      upgradeAmounts:
+      - rarity: 0
+        valueStat: 10
+      - rarity: 1
+        valueStat: 20
+      - rarity: 2
+        valueStat: 30
+      - rarity: 3
+        valueStat: 40
+      - rarity: 4
+        valueStat: 50
+    - typeStat: 2
+      upgradeAmounts:
+      - rarity: 2
+        valueStat: 1
+      - rarity: 3
+        valueStat: 2
+      - rarity: 4
+        valueStat: 3
+    ownedSkillUpgradeStats: []
+    selectedUpgradeStat:
+      typeStat: 1
+      upgradeAmounts:
+        rarity: 0
+        valueStat: 10
+  - nameSkill: Grenade Punch
+    descriptionSkill: Throw a grenade punch that explodes upon landing for a massive AoE damage and burn.
+    typeSkill: 3
+    typeEffect: 1
+    rarity: 0
+    upgradeRarity: 1
+    iconSkill: {fileID: 21300000, guid: 237a9842b02107647beba37550d1ab85, type: 2}
+    iconMiniSkill: {fileID: 21300000, guid: 237a9842b02107647beba37550d1ab85, type: 2}
+    skillDuration: 0
+    skillEffectDuration: 2
+    maxSkillCount: 0
+    skillStats:
+    - typeStat: 0
+      valueStart: 19
+    - typeStat: 1
+      valueStart: 1.3
+    - typeStat: 2
+      valueStart: 1
+    allSkillsUpgrades:
+    - typeStat: 0
+      upgradeAmounts:
+      - rarity: 1
+        valueStat: 1
+      - rarity: 2
+        valueStat: 2
+      - rarity: 3
+        valueStat: 3
+      - rarity: 4
+        valueStat: 4
+    - typeStat: 1
+      upgradeAmounts:
+      - rarity: 0
+        valueStat: 10
+      - rarity: 1
+        valueStat: 20
+      - rarity: 2
+        valueStat: 30
+      - rarity: 3
+        valueStat: 40
+      - rarity: 4
+        valueStat: 50
+    - typeStat: 2
+      upgradeAmounts:
+      - rarity: 2
+        valueStat: 1
+      - rarity: 3
+        valueStat: 2
+      - rarity: 4
+        valueStat: 3
+    ownedSkillUpgradeStats: []
+    selectedUpgradeStat:
+      typeStat: 1
+      upgradeAmounts:
+        rarity: 1
+        valueStat: 20
+  - nameSkill: Bouncing Punches
+    descriptionSkill: An electrified punch bounce on multiple enemies, dealing damage and inflicting lightning.
+    typeSkill: 10
+    typeEffect: 3
+    rarity: 0
+    upgradeRarity: 1
+    iconSkill: {fileID: 21300000, guid: 3dfe3bd80222c684a92541e68f1dcc5c, type: 2}
+    iconMiniSkill: {fileID: 21300000, guid: 3dfe3bd80222c684a92541e68f1dcc5c, type: 2}
+    skillDuration: 0
+    skillEffectDuration: 2
+    maxSkillCount: 0
+    skillStats:
+    - typeStat: 0
+      valueStart: 18
+    - typeStat: 1
+      valueStart: 1.15
+    - typeStat: 2
+      valueStart: 4
+    allSkillsUpgrades:
+    - typeStat: 0
+      upgradeAmounts:
+      - rarity: 1
+        valueStat: 1
+      - rarity: 2
+        valueStat: 2
+      - rarity: 3
+        valueStat: 3
+      - rarity: 4
+        valueStat: 4
+    - typeStat: 1
+      upgradeAmounts:
+      - rarity: 0
+        valueStat: 10
+      - rarity: 1
+        valueStat: 20
+      - rarity: 2
+        valueStat: 30
+      - rarity: 3
+        valueStat: 40
+      - rarity: 4
+        valueStat: 50
+    - typeStat: 2
+      upgradeAmounts:
+      - rarity: 2
+        valueStat: 1
+      - rarity: 3
+        valueStat: 2
+      - rarity: 4
+        valueStat: 3
+    ownedSkillUpgradeStats: []
+    selectedUpgradeStat:
+      typeStat: 1
+      upgradeAmounts:
+        rarity: 1
+        valueStat: 20
+  - nameSkill: Deathbomb Punch
+    descriptionSkill: A frozen punch slams down at a target point, dealing massive damage and freezing enemies in range.
+    typeSkill: 4
+    typeEffect: 2
+    rarity: 0
+    upgradeRarity: 0
+    iconSkill: {fileID: 21300000, guid: 2e7429054cd264d4095a08f958294bfb, type: 2}
+    iconMiniSkill: {fileID: 21300000, guid: 2e7429054cd264d4095a08f958294bfb, type: 2}
+    skillDuration: 0
+    skillEffectDuration: 2
+    maxSkillCount: 0
+    skillStats:
+    - typeStat: 0
+      valueStart: 25
+    - typeStat: 1
+      valueStart: 1.4
+    - typeStat: 2
+      valueStart: 1
+    allSkillsUpgrades:
+    - typeStat: 0
+      upgradeAmounts:
+      - rarity: 1
+        valueStat: 1
+      - rarity: 2
+        valueStat: 2
+      - rarity: 3
+        valueStat: 3
+      - rarity: 4
+        valueStat: 4
+    - typeStat: 1
+      upgradeAmounts:
+      - rarity: 0
+        valueStat: 10
+      - rarity: 1
+        valueStat: 20
+      - rarity: 2
+        valueStat: 30
+      - rarity: 3
+        valueStat: 40
+      - rarity: 4
+        valueStat: 50
+    - typeStat: 2
+      upgradeAmounts:
+      - rarity: 2
+        valueStat: 1
+      - rarity: 3
+        valueStat: 2
+      - rarity: 4
+        valueStat: 3
+    ownedSkillUpgradeStats: []
+    selectedUpgradeStat:
+      typeStat: 1
+      upgradeAmounts:
+        rarity: 0
+        valueStat: 10
+  - nameSkill: Void Punch
+    descriptionSkill: A crackling black hole appears at random locations, pulling enemies in, dealing damage and inflicting lightning.
+    typeSkill: 5
+    typeEffect: 3
+    rarity: 0
+    upgradeRarity: 3
+    iconSkill: {fileID: 21300000, guid: 80fe4348db4e02c43bfa15ee2a9b7873, type: 2}
+    iconMiniSkill: {fileID: 21300000, guid: 80fe4348db4e02c43bfa15ee2a9b7873, type: 2}
+    skillDuration: 0
+    skillEffectDuration: 2
+    maxSkillCount: 0
+    skillStats:
+    - typeStat: 0
+      valueStart: 31
+    - typeStat: 1
+      valueStart: 1.35
+    - typeStat: 2
+      valueStart: 1
+    allSkillsUpgrades:
+    - typeStat: 0
+      upgradeAmounts:
+      - rarity: 1
+        valueStat: 1
+      - rarity: 2
+        valueStat: 2
+      - rarity: 3
+        valueStat: 3
+      - rarity: 4
+        valueStat: 4
+    - typeStat: 1
+      upgradeAmounts:
+      - rarity: 0
+        valueStat: 10
+      - rarity: 1
+        valueStat: 20
+      - rarity: 2
+        valueStat: 30
+      - rarity: 3
+        valueStat: 40
+      - rarity: 4
+        valueStat: 50
+    - typeStat: 2
+      upgradeAmounts:
+      - rarity: 3
+        valueStat: 1
+      - rarity: 4
+        valueStat: 2
+    ownedSkillUpgradeStats: []
+    selectedUpgradeStat:
+      typeStat: 0
+      upgradeAmounts:
+        rarity: 3
+        valueStat: 3
+  - nameSkill: Knife Volley
+    descriptionSkill: Throw ice cold knives in a V shaped pattern, dealing damage and freezing enemies hit.
+    typeSkill: 6
+    typeEffect: 2
+    rarity: 0
+    upgradeRarity: 1
+    iconSkill: {fileID: 21300000, guid: f4686d005a7616f40b33b82caaca8947, type: 2}
+    iconMiniSkill: {fileID: 21300000, guid: f4686d005a7616f40b33b82caaca8947, type: 2}
+    skillDuration: 0
+    skillEffectDuration: 2
+    maxSkillCount: 0
+    skillStats:
+    - typeStat: 0
+      valueStart: 21
+    - typeStat: 1
+      valueStart: 1.3
+    - typeStat: 2
+      valueStart: 3
+    allSkillsUpgrades:
+    - typeStat: 0
+      upgradeAmounts:
+      - rarity: 1
+        valueStat: 1
+      - rarity: 2
+        valueStat: 2
+      - rarity: 3
+        valueStat: 3
+      - rarity: 4
+        valueStat: 4
+    - typeStat: 1
+      upgradeAmounts:
+      - rarity: 0
+        valueStat: 10
+      - rarity: 1
+        valueStat: 20
+      - rarity: 2
+        valueStat: 30
+      - rarity: 3
+        valueStat: 40
+      - rarity: 4
+        valueStat: 50
+    - typeStat: 2
+      upgradeAmounts:
+      - rarity: 2
+        valueStat: 1
+      - rarity: 3
+        valueStat: 2
+      - rarity: 4
+        valueStat: 3
+    ownedSkillUpgradeStats: []
+    selectedUpgradeStat:
+      typeStat: 1
+      upgradeAmounts:
+        rarity: 1
+        valueStat: 20
+  - nameSkill: 'Punch Gun '
+    descriptionSkill: Fire a shotgun blast that spreads lightning pellets and deals close-range damage.
+    typeSkill: 11
+    typeEffect: 3
+    rarity: 0
+    upgradeRarity: 0
+    iconSkill: {fileID: 21300000, guid: 8bd53518bd4735f4f94122da1f8a99f5, type: 2}
+    iconMiniSkill: {fileID: 21300000, guid: 8bd53518bd4735f4f94122da1f8a99f5, type: 2}
+    skillDuration: 0
+    skillEffectDuration: 2
+    maxSkillCount: 0
+    skillStats:
+    - typeStat: 0
+      valueStart: 26
+    - typeStat: 1
+      valueStart: 1.7
+    - typeStat: 2
+      valueStart: 3
+    allSkillsUpgrades:
+    - typeStat: 0
+      upgradeAmounts:
+      - rarity: 1
+        valueStat: 1
+      - rarity: 2
+        valueStat: 2
+      - rarity: 3
+        valueStat: 3
+      - rarity: 4
+        valueStat: 4
+    - typeStat: 1
+      upgradeAmounts:
+      - rarity: 0
+        valueStat: 10
+      - rarity: 1
+        valueStat: 20
+      - rarity: 2
+        valueStat: 30
+      - rarity: 3
+        valueStat: 40
+      - rarity: 4
+        valueStat: 50
+    - typeStat: 2
+      upgradeAmounts:
+      - rarity: 2
+        valueStat: 1
+      - rarity: 3
+        valueStat: 2
+      - rarity: 4
+        valueStat: 3
+    ownedSkillUpgradeStats: []
+    selectedUpgradeStat:
+      typeStat: 1
+      upgradeAmounts:
+        rarity: 0
+        valueStat: 10
+  - nameSkill: Ricochet Punch
+    descriptionSkill: Regular punches ricochets between nearby enemies, dealing damage to each target hit.
+    typeSkill: 12
+    typeEffect: 0
+    rarity: 0
+    upgradeRarity: 2
+    iconSkill: {fileID: 21300000, guid: 36c6008ac65982c43b39b29e5101304d, type: 2}
+    iconMiniSkill: {fileID: 21300000, guid: 36c6008ac65982c43b39b29e5101304d, type: 2}
+    skillDuration: 6
+    skillEffectDuration: 3
+    maxSkillCount: 0
+    skillStats:
+    - typeStat: 0
+      valueStart: 22
+    - typeStat: 1
+      valueStart: 1.05
+    - typeStat: 2
+      valueStart: 2
+    allSkillsUpgrades:
+    - typeStat: 0
+      upgradeAmounts:
+      - rarity: 1
+        valueStat: 1
+      - rarity: 2
+        valueStat: 2
+      - rarity: 3
+        valueStat: 3
+      - rarity: 4
+        valueStat: 4
+    - typeStat: 1
+      upgradeAmounts:
+      - rarity: 0
+        valueStat: 10
+      - rarity: 1
+        valueStat: 20
+      - rarity: 2
+        valueStat: 30
+      - rarity: 3
+        valueStat: 40
+      - rarity: 4
+        valueStat: 50
+    - typeStat: 2
+      upgradeAmounts:
+      - rarity: 2
+        valueStat: 1
+      - rarity: 3
+        valueStat: 2
+      - rarity: 4
+        valueStat: 3
+    ownedSkillUpgradeStats: []
+    selectedUpgradeStat:
+      typeStat: 0
+      upgradeAmounts:
+        rarity: 2
+        valueStat: 2
+  - nameSkill: Fire Zone
+    descriptionSkill: Create a burning zone inside the punch range for a duration, burning enemies inside.
+    typeSkill: 13
+    typeEffect: 1
+    rarity: 0
+    upgradeRarity: 0
+    iconSkill: {fileID: 21300000, guid: 513a52e2fc232524fbccd0c07c20de67, type: 2}
+    iconMiniSkill: {fileID: 21300000, guid: 513a52e2fc232524fbccd0c07c20de67, type: 2}
+    skillDuration: 5
+    skillEffectDuration: 2
+    maxSkillCount: 0
+    skillStats:
+    - typeStat: 0
+      valueStart: 37
+    - typeStat: 1
+      valueStart: 1.25
+    - typeStat: 2
+      valueStart: 1
+    allSkillsUpgrades:
+    - typeStat: 0
+      upgradeAmounts:
+      - rarity: 1
+        valueStat: 1
+      - rarity: 2
+        valueStat: 2
+      - rarity: 3
+        valueStat: 3
+      - rarity: 4
+        valueStat: 4
+    - typeStat: 1
+      upgradeAmounts:
+      - rarity: 0
+        valueStat: 10
+      - rarity: 1
+        valueStat: 20
+      - rarity: 2
+        valueStat: 30
+      - rarity: 3
+        valueStat: 40
+      - rarity: 4
+        valueStat: 50
+    ownedSkillUpgradeStats: []
+    selectedUpgradeStat:
+      typeStat: 1
+      upgradeAmounts:
+        rarity: 0
+        valueStat: 10
+  - nameSkill: Ice Zone
+    descriptionSkill: Create a freezing zone inside the punch range for a duration, freezing enemies inside.
+    typeSkill: 14
+    typeEffect: 2
+    rarity: 0
+    upgradeRarity: 1
+    iconSkill: {fileID: 21300000, guid: 50a1fd6e564e3814baafcb7a02f520cd, type: 2}
+    iconMiniSkill: {fileID: 21300000, guid: 50a1fd6e564e3814baafcb7a02f520cd, type: 2}
+    skillDuration: 4
+    skillEffectDuration: 2
+    maxSkillCount: 0
+    skillStats:
+    - typeStat: 0
+      valueStart: 38
+    - typeStat: 1
+      valueStart: 1.15
+    - typeStat: 2
+      valueStart: 1
+    allSkillsUpgrades:
+    - typeStat: 0
+      upgradeAmounts:
+      - rarity: 1
+        valueStat: 1
+      - rarity: 2
+        valueStat: 2
+      - rarity: 3
+        valueStat: 3
+      - rarity: 4
+        valueStat: 4
+    - typeStat: 1
+      upgradeAmounts:
+      - rarity: 0
+        valueStat: 10
+      - rarity: 1
+        valueStat: 20
+      - rarity: 2
+        valueStat: 30
+      - rarity: 3
+        valueStat: 40
+      - rarity: 4
+        valueStat: 50
+    ownedSkillUpgradeStats: []
+    selectedUpgradeStat:
+      typeStat: 1
+      upgradeAmounts:
+        rarity: 1
+        valueStat: 20
+  - nameSkill: Lightning Zone
+    descriptionSkill: Create a shocking zone inside the punch range for a duration, inflicting lightning to the enemies inside.
+    typeSkill: 15
+    typeEffect: 3
+    rarity: 0
+    upgradeRarity: 0
+    iconSkill: {fileID: 21300000, guid: 87076593d9d697a4a89143807befa960, type: 2}
+    iconMiniSkill: {fileID: 21300000, guid: 87076593d9d697a4a89143807befa960, type: 2}
+    skillDuration: 5
+    skillEffectDuration: 2
+    maxSkillCount: 0
+    skillStats:
+    - typeStat: 0
+      valueStart: 30
+    - typeStat: 1
+      valueStart: 1.35
+    - typeStat: 2
+      valueStart: 1
+    allSkillsUpgrades:
+    - typeStat: 0
+      upgradeAmounts:
+      - rarity: 1
+        valueStat: 1
+      - rarity: 2
+        valueStat: 2
+      - rarity: 3
+        valueStat: 3
+      - rarity: 4
+        valueStat: 4
+    - typeStat: 1
+      upgradeAmounts:
+      - rarity: 0
+        valueStat: 10
+      - rarity: 1
+        valueStat: 20
+      - rarity: 2
+        valueStat: 30
+      - rarity: 3
+        valueStat: 40
+      - rarity: 4
+        valueStat: 50
+    ownedSkillUpgradeStats: []
+    selectedUpgradeStat:
+      typeStat: 1
+      upgradeAmounts:
+        rarity: 0
+        valueStat: 10
+  ownedSkills: []
+  tierChanceSkillsStatSelect:
+  - skillUpgradeType: 0
+    ratio: 35
+  - skillUpgradeType: 1
+    ratio: 50
+  - skillUpgradeType: 2
+    ratio: 15
+  allActiveUpgrades:
+  - name: Lingering Flames
+    description: Increase Burn duration by $X%$
+    icon: {fileID: 21300000, guid: 29b8b295499f2714784da7e2a3c31c1c, type: 2}
+    typeUpgrade: 0
+    effectType: 1
+    canStack: 1
+    upgradeAmounts:
+    - rarity: 0
+      valueStat: 25
+    - rarity: 1
+      valueStat: 50
+    - rarity: 2
+      valueStat: 75
+    - rarity: 3
+      valueStat: 150
+    - rarity: 4
+      valueStat: 200
+    currentUpgrade:
+      rarity: 4
+      valueStat: 200
+  - name: Static Residue
+    description: Increase Lightning duration by $X%$
+    icon: {fileID: 21300000, guid: c8bb24a7f82e76e46abdaad2b4d9ee3d, type: 2}
+    typeUpgrade: 1
+    effectType: 3
+    canStack: 1
+    upgradeAmounts:
+    - rarity: 0
+      valueStat: 25
+    - rarity: 1
+      valueStat: 50
+    - rarity: 2
+      valueStat: 75
+    - rarity: 3
+      valueStat: 150
+    - rarity: 4
+      valueStat: 200
+    currentUpgrade:
+      rarity: 0
+      valueStat: 25
+  - name: Deep Freeze
+    description: Increase Freeze duration by $X%$
+    icon: {fileID: 21300000, guid: 8405b2da6f0f9f041911e9b349955fa7, type: 2}
+    typeUpgrade: 2
+    effectType: 2
+    canStack: 1
+    upgradeAmounts:
+    - rarity: 0
+      valueStat: 25
+    - rarity: 1
+      valueStat: 50
+    - rarity: 2
+      valueStat: 75
+    - rarity: 3
+      valueStat: 150
+    - rarity: 4
+      valueStat: 200
+    currentUpgrade:
+      rarity: 2
+      valueStat: 75
+  - name: Flame Burst
+    description: Burning enemies explode when punched, dealing damage to nearby enemies within $2$ range
+    icon: {fileID: 21300000, guid: e11def6899e389440a4ae90e35bc2f51, type: 2}
+    typeUpgrade: 3
+    effectType: 1
+    canStack: 1
+    upgradeAmounts:
+    - rarity: 0
+      valueStat: 1
+    - rarity: 1
+      valueStat: 1.5
+    - rarity: 2
+      valueStat: 2
+    - rarity: 3
+      valueStat: 2.5
+    - rarity: 4
+      valueStat: 3
+    currentUpgrade:
+      rarity: 1
+      valueStat: 1.5
+  - name: Ice Shrapnel
+    description: Punching a frozen enemy sends small ice shards flying towards nearby enemies.
+    icon: {fileID: 21300000, guid: 7e3884947f200764b81d686ce7f6ecc3, type: 2}
+    typeUpgrade: 4
+    effectType: 2
+    canStack: 0
+    upgradeAmounts:
+    - rarity: 0
+      valueStat: 1
+    - rarity: 1
+      valueStat: 1.5
+    - rarity: 2
+      valueStat: 2
+    - rarity: 3
+      valueStat: 2.5
+    - rarity: 4
+      valueStat: 3
+    currentUpgrade:
+      rarity: 2
+      valueStat: 2
+  - name: Chain Spark
+    description: Lightning jumps to nearby enemies when electrocuted enemies are punched.
+    icon: {fileID: 21300000, guid: 7ead5d7aefb6938479b3a5ed93ec4787, type: 2}
+    typeUpgrade: 5
+    effectType: 3
+    canStack: 0
+    upgradeAmounts:
+    - rarity: 2
+      valueStat: 0
+    currentUpgrade:
+      rarity: 2
+      valueStat: 0
+  - name: Overcharge
+    description: Increase all Lightning damage by $X%$
+    icon: {fileID: 21300000, guid: 2a92c4a432269c54fab28e64665a97c5, type: 2}
+    typeUpgrade: 6
+    effectType: 3
+    canStack: 1
+    upgradeAmounts:
+    - rarity: 0
+      valueStat: 25
+    - rarity: 1
+      valueStat: 50
+    - rarity: 2
+      valueStat: 75
+    - rarity: 3
+      valueStat: 150
+    - rarity: 4
+      valueStat: 300
+    currentUpgrade:
+      rarity: 1
+      valueStat: 50
+  - name: Hotter Flames
+    description: Increase all Burn damage by $X%$
+    icon: {fileID: 21300000, guid: abff73015bb537940a02b50c4d53c608, type: 2}
+    typeUpgrade: 7
+    effectType: 1
+    canStack: 1
+    upgradeAmounts:
+    - rarity: 0
+      valueStat: 25
+    - rarity: 1
+      valueStat: 50
+    - rarity: 2
+      valueStat: 75
+    - rarity: 3
+      valueStat: 150
+    - rarity: 4
+      valueStat: 300
+    currentUpgrade:
+      rarity: 0
+      valueStat: 25
+  - name: Bitter Cold
+    description: Increase all Freeze damage by $X%$
+    icon: {fileID: 21300000, guid: 7069e73529d71254d81ca8c5e1b30652, type: 2}
+    typeUpgrade: 8
+    effectType: 2
+    canStack: 1
+    upgradeAmounts:
+    - rarity: 0
+      valueStat: 25
+    - rarity: 1
+      valueStat: 50
+    - rarity: 2
+      valueStat: 75
+    - rarity: 3
+      valueStat: 150
+    - rarity: 4
+      valueStat: 300
+    currentUpgrade:
+      rarity: 1
+      valueStat: 50
+  - name: Spark Ignition
+    description: Lightning can also Burn enemies with a $X%$ chance.
+    icon: {fileID: 21300000, guid: 1f56d229d295d764fbc99abeff3f283d, type: 2}
+    typeUpgrade: 9
+    effectType: 3
+    canStack: 1
+    upgradeAmounts:
+    - rarity: 0
+      valueStat: 5
+    - rarity: 1
+      valueStat: 10
+    - rarity: 2
+      valueStat: 15
+    - rarity: 3
+      valueStat: 25
+    - rarity: 4
+      valueStat: 40
+    currentUpgrade:
+      rarity: 0
+      valueStat: 5
+  - name: Thermal Shock
+    description: Freeze can also Burn enemies with a $X%$ chance.
+    icon: {fileID: 21300000, guid: 0c7bd077c4609734993244bbb97b75be, type: 2}
+    typeUpgrade: 10
+    effectType: 2
+    canStack: 1
+    upgradeAmounts:
+    - rarity: 0
+      valueStat: 5
+    - rarity: 1
+      valueStat: 10
+    - rarity: 2
+      valueStat: 15
+    - rarity: 3
+      valueStat: 25
+    - rarity: 4
+      valueStat: 40
+    currentUpgrade:
+      rarity: 0
+      valueStat: 5
+  - name: Charged Focus
+    description: Applying lightning to 5 enemies increases critical chance by $X%$ for 3 seconds.
+    icon: {fileID: 21300000, guid: b6eb8f5b2fc222b47b578d579d36ce7b, type: 2}
+    typeUpgrade: 11
+    effectType: 3
+    canStack: 1
+    upgradeAmounts:
+    - rarity: 0
+      valueStat: 5
+    - rarity: 1
+      valueStat: 10
+    - rarity: 2
+      valueStat: 20
+    - rarity: 3
+      valueStat: 35
+    - rarity: 4
+      valueStat: 50
+    currentUpgrade:
+      rarity: 0
+      valueStat: 5
+  - name: Cold Rush
+    description: Freezing 10 enemies increases punch rate by $X%$ for 3 seconds.
+    icon: {fileID: 21300000, guid: 4f457b55219ab1743b85efada73b0c8c, type: 2}
+    typeUpgrade: 13
+    effectType: 2
+    canStack: 1
+    upgradeAmounts:
+    - rarity: 0
+      valueStat: 10
+    - rarity: 1
+      valueStat: 20
+    - rarity: 2
+      valueStat: 30
+    - rarity: 3
+      valueStat: 40
+    - rarity: 4
+      valueStat: 50
+    currentUpgrade:
+      rarity: 2
+      valueStat: 30
+  - name: Stacking Scorch
+    description: Burn can stack up to $X$ times.
+    icon: {fileID: 21300000, guid: 119930b4e2ed52d47994c718376be4d7, type: 2}
+    typeUpgrade: 14
+    effectType: 1
+    canStack: 1
+    upgradeAmounts:
+    - rarity: 0
+      valueStat: 1
+    - rarity: 1
+      valueStat: 2
+    - rarity: 2
+      valueStat: 3
+    - rarity: 3
+      valueStat: 4
+    - rarity: 4
+      valueStat: 5
+    currentUpgrade:
+      rarity: 0
+      valueStat: 1
+  ownedActiveUpgrades: []
+  tierChanceStats:
+  - rarityRatio: 20
+    rarity: 0
+  - rarityRatio: 35
+    rarity: 1
+  - rarityRatio: 25
+    rarity: 2
+  - rarityRatio: 13
+    rarity: 3
+  - rarityRatio: 7
+    rarity: 4
+  tierChanceSkills:
+  - rarityRatio: 35
+    rarity: 0
+  - rarityRatio: 30
+    rarity: 1
+  - rarityRatio: 20
+    rarity: 2
+  - rarityRatio: 10
+    rarity: 3
+  - rarityRatio: 5
+    rarity: 4
+  tierChanceActiveUpgrade:
+  - rarityRatio: 35
+    rarity: 0
+  - rarityRatio: 30
+    rarity: 1
+  - rarityRatio: 20
+    rarity: 2
+  - rarityRatio: 10
+    rarity: 3
+  - rarityRatio: 5
+    rarity: 4
+  allStatRatios:
+  - typesSelections: 0
+    ratio: 40
+  - typesSelections: 1
+    ratio: 25
+  - typesSelections: 3
+    ratio: 35
+  returnValues: []

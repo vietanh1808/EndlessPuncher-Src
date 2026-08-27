@@ -1,0 +1,188 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c68effada9f837286756deba28281948, type: 3}
+  m_Name: EventPassSO
+  m_EditorClassIdentifier:
+  targetCurrencyType: 9
+  rewardPassMultiplier: 5
+  battlePassNames:
+  - Punch Box Rush
+  - Champion’s Crate
+  - Knockout Cache
+  - Victory Vault
+  - Mega Loot Drop
+  - Treasure Blitz
+  - Lucky Crates
+  - Box Frenzy
+  - Chest Storm
+  - Jackpot Boxes
+  rewards:
+  - targetCurrencyValue: 200
+    reward:
+      item: {fileID: 11400000, guid: 50c700d29e9b16649b9a4e73971c27d4, type: 2}
+      amount: 50
+  - targetCurrencyValue: 400
+    reward:
+      item: {fileID: 11400000, guid: 75dfa1bdca40a2e4c8fa76cf46870571, type: 2}
+      amount: 50
+  - targetCurrencyValue: 600
+    reward:
+      item: {fileID: 11400000, guid: cd447d832c19568418fd99316d7d14b5, type: 2}
+      amount: 250
+  - targetCurrencyValue: 800
+    reward:
+      item: {fileID: 11400000, guid: e85fb9e1969ec6c49a4b846b75cea138, type: 2}
+      amount: 150
+  - targetCurrencyValue: 1000
+    reward:
+      item: {fileID: 11400000, guid: 121cb1353322b6440aaf2a4f368a2609, type: 2}
+      amount: 10
+  - targetCurrencyValue: 1200
+    reward:
+      item: {fileID: 11400000, guid: 56082f18b5d611346b131eda30d53a8d, type: 2}
+      amount: 2
+  - targetCurrencyValue: 1400
+    reward:
+      item: {fileID: 11400000, guid: ac74d996ecb4d1b478afaedfa57a2095, type: 2}
+      amount: 2
+  - targetCurrencyValue: 1600
+    reward:
+      item: {fileID: 11400000, guid: 44fc4fc6e8f90a64f84e3dbf615c8fa9, type: 2}
+      amount: 2
+  - targetCurrencyValue: 1800
+    reward:
+      item: {fileID: 11400000, guid: ae86b07cec97673429b8b4b59c1644ae, type: 2}
+      amount: 150
+  - targetCurrencyValue: 2000
+    reward:
+      item: {fileID: 11400000, guid: 50c700d29e9b16649b9a4e73971c27d4, type: 2}
+      amount: 75
+  - targetCurrencyValue: 2200
+    reward:
+      item: {fileID: 11400000, guid: 75dfa1bdca40a2e4c8fa76cf46870571, type: 2}
+      amount: 70
+  - targetCurrencyValue: 2400
+    reward:
+      item: {fileID: 11400000, guid: cd447d832c19568418fd99316d7d14b5, type: 2}
+      amount: 300
+  - targetCurrencyValue: 2600
+    reward:
+      item: {fileID: 11400000, guid: e85fb9e1969ec6c49a4b846b75cea138, type: 2}
+      amount: 180
+  - targetCurrencyValue: 2800
+    reward:
+      item: {fileID: 11400000, guid: 121cb1353322b6440aaf2a4f368a2609, type: 2}
+      amount: 10
+  - targetCurrencyValue: 3000
+    reward:
+      item: {fileID: 11400000, guid: 56082f18b5d611346b131eda30d53a8d, type: 2}
+      amount: 2
+  - targetCurrencyValue: 3200
+    reward:
+      item: {fileID: 11400000, guid: ac74d996ecb4d1b478afaedfa57a2095, type: 2}
+      amount: 2
+  - targetCurrencyValue: 3400
+    reward:
+      item: {fileID: 11400000, guid: 44fc4fc6e8f90a64f84e3dbf615c8fa9, type: 2}
+      amount: 2
+  - targetCurrencyValue: 3600
+    reward:
+      item: {fileID: 11400000, guid: ae86b07cec97673429b8b4b59c1644ae, type: 2}
+      amount: 180
+  - targetCurrencyValue: 3800
+    reward:
+      item: {fileID: 11400000, guid: 50c700d29e9b16649b9a4e73971c27d4, type: 2}
+      amount: 100
+  - targetCurrencyValue: 4000
+    reward:
+      item: {fileID: 11400000, guid: 75dfa1bdca40a2e4c8fa76cf46870571, type: 2}
+      amount: 100
+  - targetCurrencyValue: 4200
+    reward:
+      item: {fileID: 11400000, guid: cd447d832c19568418fd99316d7d14b5, type: 2}
+      amount: 350
+  - targetCurrencyValue: 4400
+    reward:
+      item: {fileID: 11400000, guid: e85fb9e1969ec6c49a4b846b75cea138, type: 2}
+      amount: 210
+  - targetCurrencyValue: 4600
+    reward:
+      item: {fileID: 11400000, guid: 121cb1353322b6440aaf2a4f368a2609, type: 2}
+      amount: 15
+  - targetCurrencyValue: 4800
+    reward:
+      item: {fileID: 11400000, guid: 56082f18b5d611346b131eda30d53a8d, type: 2}
+      amount: 3
+  - targetCurrencyValue: 5000
+    reward:
+      item: {fileID: 11400000, guid: ac74d996ecb4d1b478afaedfa57a2095, type: 2}
+      amount: 3
+  - targetCurrencyValue: 5200
+    reward:
+      item: {fileID: 11400000, guid: 44fc4fc6e8f90a64f84e3dbf615c8fa9, type: 2}
+      amount: 3
+  - targetCurrencyValue: 5400
+    reward:
+      item: {fileID: 11400000, guid: ae86b07cec97673429b8b4b59c1644ae, type: 2}
+      amount: 210
+  - targetCurrencyValue: 5600
+    reward:
+      item: {fileID: 11400000, guid: 50c700d29e9b16649b9a4e73971c27d4, type: 2}
+      amount: 125
+  - targetCurrencyValue: 5800
+    reward:
+      item: {fileID: 11400000, guid: 75dfa1bdca40a2e4c8fa76cf46870571, type: 2}
+      amount: 100
+  - targetCurrencyValue: 6000
+    reward:
+      item: {fileID: 11400000, guid: cd447d832c19568418fd99316d7d14b5, type: 2}
+      amount: 400
+  - targetCurrencyValue: 6200
+    reward:
+      item: {fileID: 11400000, guid: e85fb9e1969ec6c49a4b846b75cea138, type: 2}
+      amount: 240
+  - targetCurrencyValue: 6400
+    reward:
+      item: {fileID: 11400000, guid: 121cb1353322b6440aaf2a4f368a2609, type: 2}
+      amount: 15
+  - targetCurrencyValue: 6600
+    reward:
+      item: {fileID: 11400000, guid: 56082f18b5d611346b131eda30d53a8d, type: 2}
+      amount: 3
+  - targetCurrencyValue: 6800
+    reward:
+      item: {fileID: 11400000, guid: ac74d996ecb4d1b478afaedfa57a2095, type: 2}
+      amount: 3
+  - targetCurrencyValue: 7000
+    reward:
+      item: {fileID: 11400000, guid: 44fc4fc6e8f90a64f84e3dbf615c8fa9, type: 2}
+      amount: 3
+  - targetCurrencyValue: 7200
+    reward:
+      item: {fileID: 11400000, guid: ae86b07cec97673429b8b4b59c1644ae, type: 2}
+      amount: 240
+  - targetCurrencyValue: 7400
+    reward:
+      item: {fileID: 11400000, guid: 50c700d29e9b16649b9a4e73971c27d4, type: 2}
+      amount: 150
+  - targetCurrencyValue: 7600
+    reward:
+      item: {fileID: 11400000, guid: 75dfa1bdca40a2e4c8fa76cf46870571, type: 2}
+      amount: 100
+  - targetCurrencyValue: 7800
+    reward:
+      item: {fileID: 11400000, guid: cd447d832c19568418fd99316d7d14b5, type: 2}
+      amount: 450
+  - targetCurrencyValue: 8000
+    reward:
+      item: {fileID: 11400000, guid: e85fb9e1969ec6c49a4b846b75cea138, type: 2}
+      amount: 270

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64349b2253e99d6506e99e5d91706759, type: 3}
+  m_Name: PunchRate
+  m_EditorClassIdentifier:
+  statName: Punch Rate
+  statDescription: 'Increase player attack rate '
+  icon: {fileID: 0}
+  bonusType: 3
+  rarityValues:
+  - 5
+  - 10
+  - 15
+  - 20
+  - 25
+  - 30
+  - 35
+  - 40
+  - 45
+  - 50
+  valuePrefix: +
+  valueSuffix: '%'

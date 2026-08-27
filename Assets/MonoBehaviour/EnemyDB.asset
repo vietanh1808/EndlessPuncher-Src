@@ -1,0 +1,120 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0c17774a006216441d05e292f0b4394, type: 3}
+  m_Name: EnemyDB
+  m_EditorClassIdentifier:
+  allEnemy:
+  - type: 0
+    prefab: {fileID: 1709254077376921, guid: 814707face2a1404fb98a35ca9ed0a8e, type: 2}
+    allStats:
+    - valueStatMultiplier: 1
+      typeStat: 5
+    - valueStatMultiplier: 1
+      typeStat: 0
+  - type: 1
+    prefab: {fileID: 1709254077376921, guid: 2a48a0967e4963f4c9fd6895a1d7e59e, type: 2}
+    allStats:
+    - valueStatMultiplier: 1.3
+      typeStat: 5
+    - valueStatMultiplier: 0.7
+      typeStat: 0
+  - type: 2
+    prefab: {fileID: 1709254077376921, guid: 35be5711f1434be48b2841771e78e46f, type: 2}
+    allStats:
+    - valueStatMultiplier: 0.7
+      typeStat: 5
+    - valueStatMultiplier: 1
+      typeStat: 0
+  - type: 3
+    prefab: {fileID: 1709254077376921, guid: ab9ae76058512974f96f4da73bd10e8e, type: 2}
+    allStats:
+    - valueStatMultiplier: 0.5
+      typeStat: 5
+    - valueStatMultiplier: 2
+      typeStat: 0
+  - type: 4
+    prefab: {fileID: 1709254077376921, guid: d58ce88b2e2b67946a14dcf720df6ac7, type: 2}
+    allStats:
+    - valueStatMultiplier: 1
+      typeStat: 5
+    - valueStatMultiplier: 1
+      typeStat: 0
+  - type: 5
+    prefab: {fileID: 1709254077376921, guid: cb89aa8bc0ee1474d952b636d66b0a4f, type: 2}
+    allStats:
+    - valueStatMultiplier: 0.8
+      typeStat: 5
+    - valueStatMultiplier: 1.2
+      typeStat: 0
+  - type: 6
+    prefab: {fileID: 1709254077376921, guid: eef48710c38735c4c829037540da6581, type: 2}
+    allStats:
+    - valueStatMultiplier: 1.1
+      typeStat: 5
+    - valueStatMultiplier: 1.9
+      typeStat: 0
+  - type: 7
+    prefab: {fileID: 1709254077376921, guid: c3c59de4fd7f5624c8e4aa782c02b0b4, type: 2}
+    allStats:
+    - valueStatMultiplier: 1
+      typeStat: 5
+    - valueStatMultiplier: 1
+      typeStat: 0
+  - type: 8
+    prefab: {fileID: 1709254077376921, guid: 0280800903f9cd14caac76749e374e6b, type: 2}
+    allStats:
+    - valueStatMultiplier: 10
+      typeStat: 5
+    - valueStatMultiplier: 1
+      typeStat: 0
+  - type: 9
+    prefab: {fileID: 1709254077376921, guid: 2efab7e74bc9792479676596d55b3a94, type: 2}
+    allStats:
+    - valueStatMultiplier: 1
+      typeStat: 5
+    - valueStatMultiplier: 1
+      typeStat: 0
+  - type: 12
+    prefab: {fileID: 1709254077376921, guid: f518e006639f46544a1f82027063c2cf, type: 2}
+    allStats:
+    - valueStatMultiplier: 1
+      typeStat: 5
+    - valueStatMultiplier: 1
+      typeStat: 0
+  - type: 13
+    prefab: {fileID: 1709254077376921, guid: f518e006639f46544a1f82027063c2cf, type: 2}
+    allStats:
+    - valueStatMultiplier: 1
+      typeStat: 5
+    - valueStatMultiplier: 1
+      typeStat: 0
+  - type: 14
+    prefab: {fileID: 1709254077376921, guid: f518e006639f46544a1f82027063c2cf, type: 2}
+    allStats:
+    - valueStatMultiplier: 1
+      typeStat: 5
+    - valueStatMultiplier: 1
+      typeStat: 0
+  - type: 15
+    prefab: {fileID: 1709254077376921, guid: f518e006639f46544a1f82027063c2cf, type: 2}
+    allStats:
+    - valueStatMultiplier: 1
+      typeStat: 5
+    - valueStatMultiplier: 1
+      typeStat: 0
+  - type: 16
+    prefab: {fileID: 1709254077376921, guid: f518e006639f46544a1f82027063c2cf, type: 2}
+    allStats:
+    - valueStatMultiplier: 1
+      typeStat: 5
+    - valueStatMultiplier: 1
+      typeStat: 0

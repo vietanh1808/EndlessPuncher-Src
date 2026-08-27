@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e694b893716c862a0e80c2ec83ce2c3, type: 3}
+  m_Name: Worm 2
+  m_EditorClassIdentifier:
+  skillName: Munchy
+  skillDescription: A hungry little worm that chomps at enemies with surprising courage.
+  skillIcon: {fileID: 21300000, guid: 65809d3f8a4ef4640afa4596ceb4a62f, type: 2}
+  rarity: {fileID: 11400000, guid: b8dc4a50294fa984bba4a5e461f96641, type: 2}
+  prefab: {fileID: 1709254077376921, guid: a3ec87a0e4b6bfb479b1618db9729186, type: 2}
+  prefabProjectile: {fileID: 1709254077376921, guid: 6dbca7b42edc5be4f9c8a1d923a40d6b, type: 2}
+  stats:
+  - stat: {fileID: 11400000, guid: 857b81d11c99a5c46b45adf017aba420, type: 2}
+    baseValue: 2
+    increseValuePerLevelInJumpLevel:
+    - -0.025
+    - -0.025
+    - -0.025
+    - -0.025
+    - -0.025
+  - stat: {fileID: 11400000, guid: a98be06e05081bf459f699de97e0bb9c, type: 2}
+    baseValue: 150
+    increseValuePerLevelInJumpLevel:
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+  statsForPlayerBonus:
+  - {fileID: 11400000, guid: 7b4a549c87adb4042bf694c2216fd172, type: 2}
+  - {fileID: 11400000, guid: 37f582cf0f1ff7a42bad43895dd1fcf8, type: 2}
+  - {fileID: 11400000, guid: 5653a914a8c3f004e93035652b55af17, type: 2}
+  - {fileID: 11400000, guid: 58363777a00581b4d8e79b10e254e8c2, type: 2}
+  - {fileID: 11400000, guid: b81829b253c8d154eb314c7793edf822, type: 2}

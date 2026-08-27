@@ -1,0 +1,1025 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a5700cedef04406370bdac83bbc3cfb, type: 3}
+  m_Name: TestForgeDB
+  m_EditorClassIdentifier:
+  items:
+  - uIName: Ember Rifle
+    description:
+    itemRarity: 0
+    slot: 0
+    stats:
+    - statType: 0
+      statValues:
+      - 2
+      - 4
+      - 6
+      - 8
+      - 10
+    - statType: 3
+      statValues:
+      - 0.05
+      - 0.1
+      - 0.15
+      - 0.2
+      - 0.25
+    icon: {fileID: 0}
+    id: 0
+    level: 0
+    isUsing: 0
+  - uIName: Ruststorm
+    description:
+    itemRarity: 0
+    slot: 0
+    stats:
+    - statType: 0
+      statValues:
+      - 4
+      - 6
+      - 8
+      - 10
+      - 12
+    - statType: 3
+      statValues:
+      - 0.1
+      - 0.15
+      - 0.2
+      - 0.25
+      - 0.3
+    icon: {fileID: 0}
+    id: 0
+    level: 0
+    isUsing: 0
+  - uIName: Scorch Cannon
+    description:
+    itemRarity: 0
+    slot: 0
+    stats:
+    - statType: 0
+      statValues:
+      - 6
+      - 8
+      - 10
+      - 12
+      - 14
+    - statType: 3
+      statValues:
+      - 0.15
+      - 0.2
+      - 0.25
+      - 0.3
+      - 0.35
+    icon: {fileID: 0}
+    id: 0
+    level: 0
+    isUsing: 0
+  - uIName: Scrap Shotgun
+    description:
+    itemRarity: 0
+    slot: 0
+    stats:
+    - statType: 0
+      statValues:
+      - 8
+      - 10
+      - 12
+      - 14
+      - 16
+    - statType: 3
+      statValues:
+      - 0.2
+      - 0.25
+      - 0.3
+      - 0.35
+      - 0.4
+    icon: {fileID: 0}
+    id: 0
+    level: 0
+    isUsing: 0
+  - uIName: 'Inferno Pistol '
+    description:
+    itemRarity: 0
+    slot: 0
+    stats:
+    - statType: 0
+      statValues:
+      - 10
+      - 12
+      - 14
+      - 16
+      - 18
+    - statType: 3
+      statValues:
+      - 0.25
+      - 0.3
+      - 0.35
+      - 0.4
+      - 0.45
+    icon: {fileID: 0}
+    id: 0
+    level: 0
+    isUsing: 0
+  - uIName: Ashguard
+    description:
+    itemRarity: 0
+    slot: 1
+    stats:
+    - statType: 1
+      statValues:
+      - 5
+      - 7.5
+      - 10
+      - 12.5
+      - 15
+    - statType: 3
+      statValues:
+      - 0.025
+      - 0.05
+      - 0.075
+      - 0.1
+      - 0.125
+    icon: {fileID: 0}
+    id: 0
+    level: 0
+    isUsing: 0
+  - uIName: Ruin Plate
+    description:
+    itemRarity: 0
+    slot: 1
+    stats:
+    - statType: 1
+      statValues:
+      - 7.5
+      - 10
+      - 12.5
+      - 15
+      - 17.5
+    - statType: 3
+      statValues:
+      - 0.05
+      - 0.075
+      - 0.1
+      - 0.125
+      - 0.15
+    icon: {fileID: 0}
+    id: 0
+    level: 0
+    isUsing: 0
+  - uIName: 'Rusted Husk '
+    description:
+    itemRarity: 0
+    slot: 1
+    stats:
+    - statType: 1
+      statValues:
+      - 10
+      - 12.5
+      - 15
+      - 17.5
+      - 20
+    - statType: 3
+      statValues:
+      - 0.075
+      - 0.1
+      - 0.125
+      - 0.15
+      - 0.175
+    icon: {fileID: 0}
+    id: 0
+    level: 0
+    isUsing: 0
+  - uIName: 'Wasteland Wrap '
+    description:
+    itemRarity: 0
+    slot: 1
+    stats:
+    - statType: 1
+      statValues:
+      - 12.5
+      - 15
+      - 17.5
+      - 20
+      - 22.5
+    - statType: 3
+      statValues:
+      - 0.1
+      - 0.125
+      - 0.15
+      - 0.175
+      - 0.2
+    icon: {fileID: 0}
+    id: 0
+    level: 0
+    isUsing: 0
+  - uIName: 'Scorch Mail '
+    description:
+    itemRarity: 0
+    slot: 1
+    stats:
+    - statType: 1
+      statValues:
+      - 15
+      - 17.5
+      - 20
+      - 22.5
+      - 25
+    - statType: 3
+      statValues:
+      - 0.125
+      - 0.15
+      - 0.175
+      - 0.2
+      - 0.225
+    icon: {fileID: 0}
+    id: 0
+    level: 0
+    isUsing: 0
+  - uIName: 'Inferno Core '
+    description:
+    itemRarity: 0
+    slot: 0
+    stats:
+    - statType: 0
+      statValues:
+      - 0.25
+      - 0.5
+      - 0.75
+      - 1
+      - 1.25
+    icon: {fileID: 0}
+    id: 0
+    level: 0
+    isUsing: 0
+  - uIName: Rustheart
+    description:
+    itemRarity: 0
+    slot: 0
+    stats:
+    - statType: 0
+      statValues:
+      - 0.5
+      - 0.75
+      - 1
+      - 1.25
+      - 1.5
+    icon: {fileID: 0}
+    id: 0
+    level: 0
+    isUsing: 0
+  - uIName: 'Smoke Titan '
+    description:
+    itemRarity: 0
+    slot: 0
+    stats:
+    - statType: 0
+      statValues:
+      - 0.75
+      - 1
+      - 1.25
+      - 1.5
+      - 1.75
+    icon: {fileID: 0}
+    id: 0
+    level: 0
+    isUsing: 0
+  - uIName: 'Iron Maw '
+    description:
+    itemRarity: 0
+    slot: 0
+    stats:
+    - statType: 0
+      statValues:
+      - 1
+      - 1.25
+      - 1.5
+      - 1.75
+      - 2
+    icon: {fileID: 0}
+    id: 0
+    level: 0
+    isUsing: 0
+  - uIName: 'Doom Drive '
+    description:
+    itemRarity: 0
+    slot: 0
+    stats:
+    - statType: 0
+      statValues:
+      - 1.25
+      - 1.5
+      - 1.75
+      - 2
+      - 2.25
+    icon: {fileID: 0}
+    id: 0
+    level: 0
+    isUsing: 0
+  - uIName: 'Scrap Roller '
+    description:
+    itemRarity: 0
+    slot: 5
+    stats:
+    - statType: 1
+      statValues:
+      - 1
+      - 1.25
+      - 1.5
+      - 1.75
+      - 2
+    - statType: 0
+      statValues:
+      - 0.5
+      - 0.75
+      - 1
+      - 1.25
+      - 1.5
+    icon: {fileID: 0}
+    id: 0
+    level: 0
+    isUsing: 0
+  - uIName: 'Iron Grip '
+    description:
+    itemRarity: 0
+    slot: 5
+    stats:
+    - statType: 1
+      statValues:
+      - 1.25
+      - 1.5
+      - 1.75
+      - 2
+      - 2.25
+    - statType: 0
+      statValues:
+      - 0.75
+      - 1
+      - 1.25
+      - 1.5
+      - 1.75
+    icon: {fileID: 0}
+    id: 0
+    level: 0
+    isUsing: 0
+  - uIName: 'Ash Tread '
+    description:
+    itemRarity: 0
+    slot: 5
+    stats:
+    - statType: 1
+      statValues:
+      - 1.5
+      - 1.75
+      - 2
+      - 2.25
+      - 2.5
+    - statType: 0
+      statValues:
+      - 1
+      - 1.25
+      - 1.5
+      - 1.75
+      - 2
+    icon: {fileID: 0}
+    id: 0
+    level: 0
+    isUsing: 0
+  - uIName: 'Ruin Spoke '
+    description:
+    itemRarity: 0
+    slot: 5
+    stats:
+    - statType: 1
+      statValues:
+      - 1.75
+      - 2
+      - 2.25
+      - 2.5
+      - 2.75
+    - statType: 0
+      statValues:
+      - 1.25
+      - 1.5
+      - 1.75
+      - 2
+      - 2.25
+    icon: {fileID: 0}
+    id: 0
+    level: 0
+    isUsing: 0
+  - uIName: 'Blaze Runner '
+    description:
+    itemRarity: 0
+    slot: 5
+    stats:
+    - statType: 1
+      statValues:
+      - 2
+      - 2.25
+      - 2.5
+      - 2.75
+      - 3
+    - statType: 0
+      statValues:
+      - 1.5
+      - 1.75
+      - 2
+      - 2.25
+      - 2.5
+    icon: {fileID: 0}
+    id: 0
+    level: 0
+    isUsing: 0
+  - uIName: Inferno Core
+    description:
+    itemRarity: 0
+    slot: 4
+    stats:
+    - statType: 3
+      statValues:
+      - 0.025
+      - 0.05
+      - 0.075
+      - 0.1
+      - 0.125
+    icon: {fileID: 0}
+    id: 0
+    level: 0
+    isUsing: 0
+  - uIName: Ember Flask
+    description:
+    itemRarity: 0
+    slot: 4
+    stats:
+    - statType: 3
+      statValues:
+      - 0.05
+      - 0.075
+      - 0.1
+      - 0.125
+      - 0.15
+    icon: {fileID: 0}
+    id: 0
+    level: 0
+    isUsing: 0
+  - uIName: Scorch Essence
+    description:
+    itemRarity: 0
+    slot: 4
+    stats:
+    - statType: 3
+      statValues:
+      - 0.075
+      - 0.1
+      - 0.125
+      - 0.15
+      - 0.175
+    icon: {fileID: 0}
+    id: 0
+    level: 0
+    isUsing: 0
+  - uIName: Wasteland Petrol
+    description:
+    itemRarity: 0
+    slot: 4
+    stats:
+    - statType: 3
+      statValues:
+      - 0.1
+      - 0.125
+      - 0.15
+      - 0.175
+      - 0.2
+    icon: {fileID: 0}
+    id: 0
+    level: 0
+    isUsing: 0
+  - uIName: Ruin Oil
+    description:
+    itemRarity: 0
+    slot: 4
+    stats:
+    - statType: 3
+      statValues:
+      - 0.125
+      - 0.15
+      - 0.175
+      - 0.2
+      - 0.225
+    icon: {fileID: 0}
+    id: 0
+    level: 0
+    isUsing: 0
+  - uIName: Ember Aegis
+    description:
+    itemRarity: 0
+    slot: 5
+    stats:
+    - statType: 1
+      statValues:
+      - 5
+      - 7.5
+      - 10
+      - 12.5
+      - 15
+    icon: {fileID: 0}
+    id: 0
+    level: 0
+    isUsing: 0
+  - uIName: Rust Barricade
+    description:
+    itemRarity: 0
+    slot: 5
+    stats:
+    - statType: 1
+      statValues:
+      - 7.5
+      - 10
+      - 12.5
+      - 15
+      - 17.5
+    icon: {fileID: 0}
+    id: 0
+    level: 0
+    isUsing: 0
+  - uIName: 'Ash Wall '
+    description:
+    itemRarity: 0
+    slot: 5
+    stats:
+    - statType: 1
+      statValues:
+      - 10
+      - 12.5
+      - 15
+      - 17.5
+      - 20
+    icon: {fileID: 0}
+    id: 0
+    level: 0
+    isUsing: 0
+  - uIName: 'Scorch Guard '
+    description:
+    itemRarity: 0
+    slot: 5
+    stats:
+    - statType: 1
+      statValues:
+      - 12.5
+      - 15
+      - 17.5
+      - 20
+      - 22.5
+    icon: {fileID: 0}
+    id: 0
+    level: 0
+    isUsing: 0
+  - uIName: 'Iron Bulwark '
+    description:
+    itemRarity: 0
+    slot: 5
+    stats:
+    - statType: 1
+      statValues:
+      - 15
+      - 17.5
+      - 20
+      - 22.5
+      - 25
+    icon: {fileID: 0}
+    id: 0
+    level: 0
+    isUsing: 0
+  - uIName: Rust Patch
+    description:
+    itemRarity: 0
+    slot: 6
+    stats:
+    - statType: 0
+      statValues:
+      - 0.5
+      - 0.75
+      - 1
+      - 1.25
+      - 1.5
+    - statType: 1
+      statValues:
+      - 2.5
+      - 3
+      - 3.5
+      - 4
+      - 4.5
+    - statType: 3
+      statValues:
+      - 0.025
+      - 0.05
+      - 0.075
+      - 0.1
+      - 0.125
+    icon: {fileID: 0}
+    id: 0
+    level: 0
+    isUsing: 0
+  - uIName: 'Scavenged Fix '
+    description:
+    itemRarity: 0
+    slot: 6
+    stats:
+    - statType: 0
+      statValues:
+      - 0.75
+      - 1
+      - 1.25
+      - 1.5
+      - 1.75
+    - statType: 1
+      statValues:
+      - 3
+      - 3.5
+      - 4
+      - 4.5
+      - 5
+    - statType: 3
+      statValues:
+      - 0.05
+      - 0.075
+      - 0.1
+      - 0.125
+      - 0.15
+    icon: {fileID: 0}
+    id: 0
+    level: 0
+    isUsing: 0
+  - uIName: 'Wasteland Weld '
+    description:
+    itemRarity: 0
+    slot: 6
+    stats:
+    - statType: 0
+      statValues:
+      - 1
+      - 1.25
+      - 1.5
+      - 1.75
+      - 2
+    - statType: 1
+      statValues:
+      - 3.5
+      - 4
+      - 4.5
+      - 5
+      - 5.5
+    - statType: 3
+      statValues:
+      - 0.075
+      - 0.1
+      - 0.125
+      - 0.15
+      - 0.175
+    icon: {fileID: 0}
+    id: 0
+    level: 0
+    isUsing: 0
+  - uIName: 'Ash Bond '
+    description:
+    itemRarity: 0
+    slot: 6
+    stats:
+    - statType: 0
+      statValues:
+      - 1.25
+      - 1.5
+      - 1.75
+      - 2
+      - 2.25
+    - statType: 1
+      statValues:
+      - 4
+      - 4.5
+      - 5
+      - 5.5
+      - 6
+    - statType: 3
+      statValues:
+      - 0.1
+      - 0.125
+      - 0.15
+      - 0.175
+      - 0.2
+    icon: {fileID: 0}
+    id: 0
+    level: 0
+    isUsing: 0
+  - uIName: Scrap Mender
+    description:
+    itemRarity: 0
+    slot: 6
+    stats:
+    - statType: 0
+      statValues:
+      - 1.5
+      - 1.75
+      - 2
+      - 2.25
+      - 2.5
+    - statType: 1
+      statValues:
+      - 4.5
+      - 5
+      - 5.5
+      - 6
+      - 6.5
+    - statType: 3
+      statValues:
+      - 0.125
+      - 0.15
+      - 0.175
+      - 0.2
+      - 0.225
+    icon: {fileID: 0}
+    id: 0
+    level: 0
+    isUsing: 0
+  - uIName: 'Rust Cog '
+    description:
+    itemRarity: 0
+    slot: 7
+    stats:
+    - statType: 3
+      statValues:
+      - 0.025
+      - 0.05
+      - 0.075
+      - 0.1
+      - 0.125
+    icon: {fileID: 0}
+    id: 0
+    level: 0
+    isUsing: 0
+  - uIName: Iron Fang
+    description:
+    itemRarity: 0
+    slot: 7
+    stats:
+    - statType: 3
+      statValues:
+      - 0.05
+      - 0.075
+      - 0.1
+      - 0.125
+      - 0.15
+    icon: {fileID: 0}
+    id: 0
+    level: 0
+    isUsing: 0
+  - uIName: Ashwheel
+    description:
+    itemRarity: 0
+    slot: 7
+    stats:
+    - statType: 3
+      statValues:
+      - 0.075
+      - 0.1
+      - 0.125
+      - 0.15
+      - 0.175
+    icon: {fileID: 0}
+    id: 0
+    level: 0
+    isUsing: 0
+  - uIName: 'Scrap Gear '
+    description:
+    itemRarity: 0
+    slot: 7
+    stats:
+    - statType: 3
+      statValues:
+      - 0.1
+      - 0.125
+      - 0.15
+      - 0.175
+      - 0.2
+    icon: {fileID: 0}
+    id: 0
+    level: 0
+    isUsing: 0
+  - uIName: 'Wasteland Cog '
+    description:
+    itemRarity: 0
+    slot: 7
+    stats:
+    - statType: 3
+      statValues:
+      - 0.125
+      - 0.15
+      - 0.175
+      - 0.2
+      - 0.225
+    icon: {fileID: 0}
+    id: 0
+    level: 0
+    isUsing: 0
+  - uIName: Doom Rod
+    description:
+    itemRarity: 0
+    slot: 8
+    stats:
+    - statType: 1
+      statValues:
+      - 5
+      - 7.5
+      - 10
+      - 12.5
+      - 15
+    - statType: 3
+      statValues:
+      - 0.025
+      - 0.05
+      - 0.075
+      - 0.1
+      - 0.125
+    icon: {fileID: 0}
+    id: 0
+    level: 0
+    isUsing: 0
+  - uIName: 'Iron Spine '
+    description:
+    itemRarity: 0
+    slot: 8
+    stats:
+    - statType: 1
+      statValues:
+      - 7.5
+      - 10
+      - 12.5
+      - 15
+      - 17.5
+    - statType: 3
+      statValues:
+      - 0.05
+      - 0.075
+      - 0.1
+      - 0.125
+      - 0.15
+    icon: {fileID: 0}
+    id: 0
+    level: 0
+    isUsing: 0
+  - uIName: Scorch Axle
+    description:
+    itemRarity: 0
+    slot: 8
+    stats:
+    - statType: 1
+      statValues:
+      - 10
+      - 12.5
+      - 15
+      - 17.5
+      - 20
+    - statType: 3
+      statValues:
+      - 0.075
+      - 0.1
+      - 0.125
+      - 0.15
+      - 0.175
+    icon: {fileID: 0}
+    id: 0
+    level: 0
+    isUsing: 0
+  - uIName: Rustshaft
+    description:
+    itemRarity: 0
+    slot: 8
+    stats:
+    - statType: 1
+      statValues:
+      - 12.5
+      - 15
+      - 17.5
+      - 20
+      - 22.5
+    - statType: 3
+      statValues:
+      - 0.1
+      - 0.125
+      - 0.15
+      - 0.175
+      - 0.2
+    icon: {fileID: 0}
+    id: 0
+    level: 0
+    isUsing: 0
+  - uIName: 'Wreck Link '
+    description:
+    itemRarity: 0
+    slot: 8
+    stats:
+    - statType: 1
+      statValues:
+      - 15
+      - 17.5
+      - 20
+      - 22.5
+      - 25
+    - statType: 3
+      statValues:
+      - 0.125
+      - 0.15
+      - 0.175
+      - 0.2
+      - 0.225
+    icon: {fileID: 0}
+    id: 0
+    level: 0
+    isUsing: 0
+  - uIName: Ruin Hauler
+    description:
+    itemRarity: 0
+    slot: 9
+    stats:
+    - statType: 0
+      statValues:
+      - 0.25
+      - 0.5
+      - 0.75
+      - 1
+      - 1.25
+    icon: {fileID: 0}
+    id: 0
+    level: 0
+    isUsing: 0
+  - uIName: Ashwagon
+    description:
+    itemRarity: 0
+    slot: 9
+    stats:
+    - statType: 0
+      statValues:
+      - 0.5
+      - 0.75
+      - 1
+      - 1.25
+      - 1.5
+    icon: {fileID: 0}
+    id: 0
+    level: 0
+    isUsing: 0
+  - uIName: 'Scrap Cart '
+    description:
+    itemRarity: 0
+    slot: 9
+    stats:
+    - statType: 0
+      statValues:
+      - 0.75
+      - 1
+      - 1.25
+      - 1.5
+      - 1.75
+    icon: {fileID: 0}
+    id: 0
+    level: 0
+    isUsing: 0
+  - uIName: 'Wasteland Carrier '
+    description:
+    itemRarity: 0
+    slot: 9
+    stats:
+    - statType: 0
+      statValues:
+      - 1
+      - 1.25
+      - 1.5
+      - 1.75
+      - 2
+    icon: {fileID: 0}
+    id: 0
+    level: 0
+    isUsing: 0
+  - uIName: 'Inferno Load '
+    description:
+    itemRarity: 0
+    slot: 9
+    stats:
+    - statType: 0
+      statValues:
+      - 1.25
+      - 1.5
+      - 1.75
+      - 2
+      - 2.25
+    icon: {fileID: 0}
+    id: 0
+    level: 0
+    isUsing: 0

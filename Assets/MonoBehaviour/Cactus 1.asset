@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e694b893716c862a0e80c2ec83ce2c3, type: 3}
+  m_Name: Cactus 1
+  m_EditorClassIdentifier:
+  skillName: Pricko
+  skillDescription: A prickly green pet that pokes enemies before they can get too close.
+  skillIcon: {fileID: 21300000, guid: f665530ea77e2f24eb207fbe4dd76327, type: 2}
+  rarity: {fileID: 11400000, guid: 36ec9eb24a9b87c448c67194634fc522, type: 2}
+  prefab: {fileID: 1709254077376921, guid: af542e32a1b51d64695301d54070e8b9, type: 2}
+  prefabProjectile: {fileID: 1709254077376921, guid: 37e5a133ae8375248af7a0a96b93c674, type: 2}
+  stats:
+  - stat: {fileID: 11400000, guid: 857b81d11c99a5c46b45adf017aba420, type: 2}
+    baseValue: 1.5
+    increseValuePerLevelInJumpLevel:
+    - -0.02
+    - -0.02
+    - -0.02
+    - -0.02
+    - -0.02
+  - stat: {fileID: 11400000, guid: a98be06e05081bf459f699de97e0bb9c, type: 2}
+    baseValue: 67.5
+    increseValuePerLevelInJumpLevel:
+    - 0.3
+    - 0.3
+    - 0.3
+    - 0.3
+    - 0.3
+  statsForPlayerBonus:
+  - {fileID: 11400000, guid: b81829b253c8d154eb314c7793edf822, type: 2}
+  - {fileID: 11400000, guid: 5653a914a8c3f004e93035652b55af17, type: 2}
+  - {fileID: 11400000, guid: 03a5e2b57bc9f504682edfaff4098aa5, type: 2}
+  - {fileID: 11400000, guid: 37f582cf0f1ff7a42bad43895dd1fcf8, type: 2}
+  - {fileID: 11400000, guid: 7b4a549c87adb4042bf694c2216fd172, type: 2}

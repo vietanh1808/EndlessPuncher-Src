@@ -1,0 +1,2477 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9dbe3e38c480e219bdef94bc9ba0a01e, type: 3}
+  m_Name: HeroDatabaseSO
+  m_EditorClassIdentifier:
+  heroLevelUpConfig:
+    levelUpCurrencyName: Hero Exp Tokens
+    maxLevel: 100
+    baseUpgradeCost: 100
+    costIncreaseInterval: 20
+    costMultiplier: 2
+    levelGroups:
+    - minLevel: 1
+      maxLevel: 10
+      requiredRingTier: 0
+      damageMultiplier: 0.03
+      healthMultiplier: 0.04
+      defenseMultiplier: 0.03
+    - minLevel: 11
+      maxLevel: 20
+      requiredRingTier: 2
+      damageMultiplier: 0.03
+      healthMultiplier: 0.04
+      defenseMultiplier: 0.03
+    - minLevel: 21
+      maxLevel: 30
+      requiredRingTier: 3
+      damageMultiplier: 0.025
+      healthMultiplier: 0.035
+      defenseMultiplier: 0.025
+    - minLevel: 31
+      maxLevel: 40
+      requiredRingTier: 4
+      damageMultiplier: 0.025
+      healthMultiplier: 0.035
+      defenseMultiplier: 0.025
+    - minLevel: 41
+      maxLevel: 50
+      requiredRingTier: 5
+      damageMultiplier: 0.02
+      healthMultiplier: 0.03
+      defenseMultiplier: 0.02
+    - minLevel: 51
+      maxLevel: 60
+      requiredRingTier: 6
+      damageMultiplier: 0.02
+      healthMultiplier: 0.03
+      defenseMultiplier: 0.02
+    - minLevel: 61
+      maxLevel: 70
+      requiredRingTier: 7
+      damageMultiplier: 0.0175
+      healthMultiplier: 0.025
+      defenseMultiplier: 0.0175
+    - minLevel: 71
+      maxLevel: 80
+      requiredRingTier: 8
+      damageMultiplier: 0.0175
+      healthMultiplier: 0.025
+      defenseMultiplier: 0.0175
+    - minLevel: 81
+      maxLevel: 90
+      requiredRingTier: 9
+      damageMultiplier: 0.015
+      healthMultiplier: 0.02
+      defenseMultiplier: 0.015
+    - minLevel: 91
+      maxLevel: 100
+      requiredRingTier: 10
+      damageMultiplier: 0.015
+      healthMultiplier: 0.02
+      defenseMultiplier: 0.015
+    - minLevel: 1
+      maxLevel: 10
+      requiredRingTier: 0
+      damageMultiplier: 0.03
+      healthMultiplier: 0.04
+      defenseMultiplier: 0.03
+    - minLevel: 11
+      maxLevel: 20
+      requiredRingTier: 2
+      damageMultiplier: 0.03
+      healthMultiplier: 0.04
+      defenseMultiplier: 0.03
+    - minLevel: 21
+      maxLevel: 30
+      requiredRingTier: 3
+      damageMultiplier: 0.025
+      healthMultiplier: 0.035
+      defenseMultiplier: 0.025
+    - minLevel: 31
+      maxLevel: 40
+      requiredRingTier: 4
+      damageMultiplier: 0.025
+      healthMultiplier: 0.035
+      defenseMultiplier: 0.025
+    - minLevel: 41
+      maxLevel: 50
+      requiredRingTier: 5
+      damageMultiplier: 0.02
+      healthMultiplier: 0.03
+      defenseMultiplier: 0.02
+    - minLevel: 51
+      maxLevel: 60
+      requiredRingTier: 6
+      damageMultiplier: 0.02
+      healthMultiplier: 0.03
+      defenseMultiplier: 0.02
+    - minLevel: 61
+      maxLevel: 70
+      requiredRingTier: 7
+      damageMultiplier: 0.0175
+      healthMultiplier: 0.025
+      defenseMultiplier: 0.0175
+    - minLevel: 71
+      maxLevel: 80
+      requiredRingTier: 8
+      damageMultiplier: 0.0175
+      healthMultiplier: 0.025
+      defenseMultiplier: 0.0175
+    - minLevel: 81
+      maxLevel: 90
+      requiredRingTier: 9
+      damageMultiplier: 0.015
+      healthMultiplier: 0.02
+      defenseMultiplier: 0.015
+    - minLevel: 91
+      maxLevel: 100
+      requiredRingTier: 10
+      damageMultiplier: 0.015
+      healthMultiplier: 0.02
+      defenseMultiplier: 0.015
+  heroAscendConfig:
+    tiersPerStar: 6
+    maxStar: 5
+    starProgression:
+    - star: 0
+      shardCost: 5
+      tiers:
+      - tier: 1
+        statMultiplier: 1
+      - tier: 2
+        statMultiplier: 0.5
+      - tier: 3
+        statMultiplier: 0.33
+      - tier: 4
+        statMultiplier: 0.25
+      - tier: 5
+        statMultiplier: 0.25
+      - tier: 6
+        statMultiplier: 0.225
+    - star: 1
+      shardCost: 10
+      tiers:
+      - tier: 1
+        statMultiplier: 0.25
+      - tier: 2
+        statMultiplier: 0.2
+      - tier: 3
+        statMultiplier: 0.175
+      - tier: 4
+        statMultiplier: 0.15
+      - tier: 5
+        statMultiplier: 0.125
+      - tier: 6
+        statMultiplier: 0.1
+    - star: 2
+      shardCost: 20
+      tiers:
+      - tier: 1
+        statMultiplier: 0.13
+      - tier: 2
+        statMultiplier: 0.12
+      - tier: 3
+        statMultiplier: 0.11
+      - tier: 4
+        statMultiplier: 0.1
+      - tier: 5
+        statMultiplier: 0.09
+      - tier: 6
+        statMultiplier: 0.08
+    - star: 3
+      shardCost: 40
+      tiers:
+      - tier: 1
+        statMultiplier: 0.11
+      - tier: 2
+        statMultiplier: 0.1
+      - tier: 3
+        statMultiplier: 0.09
+      - tier: 4
+        statMultiplier: 0.08
+      - tier: 5
+        statMultiplier: 0.07
+      - tier: 6
+        statMultiplier: 0.06
+    - star: 4
+      shardCost: 80
+      tiers:
+      - tier: 1
+        statMultiplier: 0.09
+      - tier: 2
+        statMultiplier: 0.08
+      - tier: 3
+        statMultiplier: 0.075
+      - tier: 4
+        statMultiplier: 0.07
+      - tier: 5
+        statMultiplier: 0.065
+      - tier: 6
+        statMultiplier: 0.06
+    - star: 5
+      shardCost: 150
+      tiers:
+      - tier: 1
+        statMultiplier: 0.075
+      - tier: 2
+        statMultiplier: 0.07
+      - tier: 3
+        statMultiplier: 0.065
+      - tier: 4
+        statMultiplier: 0.06
+      - tier: 5
+        statMultiplier: 0.055
+      - tier: 6
+        statMultiplier: 0.05
+    - star: 0
+      shardCost: 5
+      tiers:
+      - tier: 1
+        statMultiplier: 1
+      - tier: 2
+        statMultiplier: 0.5
+      - tier: 3
+        statMultiplier: 0.33
+      - tier: 4
+        statMultiplier: 0.25
+      - tier: 5
+        statMultiplier: 0.25
+      - tier: 6
+        statMultiplier: 0.225
+    - star: 1
+      shardCost: 10
+      tiers:
+      - tier: 1
+        statMultiplier: 0.25
+      - tier: 2
+        statMultiplier: 0.2
+      - tier: 3
+        statMultiplier: 0.175
+      - tier: 4
+        statMultiplier: 0.15
+      - tier: 5
+        statMultiplier: 0.125
+      - tier: 6
+        statMultiplier: 0.1
+    - star: 2
+      shardCost: 20
+      tiers:
+      - tier: 1
+        statMultiplier: 0.13
+      - tier: 2
+        statMultiplier: 0.12
+      - tier: 3
+        statMultiplier: 0.11
+      - tier: 4
+        statMultiplier: 0.1
+      - tier: 5
+        statMultiplier: 0.09
+      - tier: 6
+        statMultiplier: 0.08
+    - star: 3
+      shardCost: 40
+      tiers:
+      - tier: 1
+        statMultiplier: 0.11
+      - tier: 2
+        statMultiplier: 0.1
+      - tier: 3
+        statMultiplier: 0.09
+      - tier: 4
+        statMultiplier: 0.08
+      - tier: 5
+        statMultiplier: 0.07
+      - tier: 6
+        statMultiplier: 0.06
+    - star: 4
+      shardCost: 80
+      tiers:
+      - tier: 1
+        statMultiplier: 0.09
+      - tier: 2
+        statMultiplier: 0.08
+      - tier: 3
+        statMultiplier: 0.075
+      - tier: 4
+        statMultiplier: 0.07
+      - tier: 5
+        statMultiplier: 0.065
+      - tier: 6
+        statMultiplier: 0.06
+    - star: 5
+      shardCost: 150
+      tiers:
+      - tier: 1
+        statMultiplier: 0.075
+      - tier: 2
+        statMultiplier: 0.07
+      - tier: 3
+        statMultiplier: 0.065
+      - tier: 4
+        statMultiplier: 0.06
+      - tier: 5
+        statMultiplier: 0.055
+      - tier: 6
+        statMultiplier: 0.05
+  heroGlobalTraitConfig:
+    traitValues:
+    - traitType: 0
+      uncommonValue: 0.02
+      rareValue: 0.03
+      epicValue: 0.04
+      legendaryValue: 0.05
+    - traitType: 1
+      uncommonValue: 0.05
+      rareValue: 0.075
+      epicValue: 0.1
+      legendaryValue: 0.125
+    - traitType: 2
+      uncommonValue: 0.05
+      rareValue: 0.075
+      epicValue: 0.1
+      legendaryValue: 0.125
+    - traitType: 3
+      uncommonValue: 0.4
+      rareValue: 0.6
+      epicValue: 0.8
+      legendaryValue: 1
+    - traitType: 4
+      uncommonValue: 0.3
+      rareValue: 0.45
+      epicValue: 0.6
+      legendaryValue: 0.75
+    - traitType: 5
+      uncommonValue: 0.2
+      rareValue: 0.3
+      epicValue: 0.4
+      legendaryValue: 0.5
+    - traitType: 6
+      uncommonValue: 0.1
+      rareValue: 0.15
+      epicValue: 0.2
+      legendaryValue: 0.25
+    - traitType: 0
+      uncommonValue: 0.02
+      rareValue: 0.03
+      epicValue: 0.04
+      legendaryValue: 0.05
+    - traitType: 1
+      uncommonValue: 0.05
+      rareValue: 0.075
+      epicValue: 0.1
+      legendaryValue: 0.125
+    - traitType: 2
+      uncommonValue: 0.05
+      rareValue: 0.075
+      epicValue: 0.1
+      legendaryValue: 0.125
+    - traitType: 3
+      uncommonValue: 0.4
+      rareValue: 0.6
+      epicValue: 0.8
+      legendaryValue: 1
+    - traitType: 4
+      uncommonValue: 0.3
+      rareValue: 0.45
+      epicValue: 0.6
+      legendaryValue: 0.75
+    - traitType: 5
+      uncommonValue: 0.2
+      rareValue: 0.3
+      epicValue: 0.4
+      legendaryValue: 0.5
+    - traitType: 6
+      uncommonValue: 0.1
+      rareValue: 0.15
+      epicValue: 0.2
+      legendaryValue: 0.25
+  heroes:
+  - basicInfo:
+      heroID: orc_raider
+      heroName: Orc Raider
+      heroIcon: {fileID: 21300000, guid: 44aca85507250f94a9aac0b9c4a739f7, type: 2}
+      shortDescription: A fearless orc warrior who rallies his allies and crushes enemies with brutal weapons.
+      heroRarity: {fileID: 11400000, guid: 7ebdab8e6c233bf4c96a15d918797bcf, type: 2}
+      attackType: 1
+    baseStats:
+      stats:
+      - statID: damage
+        statName: Damage
+        baseValue: 0
+      - statID: health
+        statName: Health
+        baseValue: 0
+      - statID: defense
+        statName: Defense
+        baseValue: 0
+      - statID: crit_chance
+        statName: Crit Chance
+        baseValue: 0
+      - statID: crit_damage
+        statName: Crit Damage
+        baseValue: 0
+      - statID: damage
+        statName: Damage
+        baseValue: 50
+      - statID: health
+        statName: Health
+        baseValue: 70
+      - statID: defense
+        statName: Defense
+        baseValue: 50
+      - statID: crit_chance
+        statName: Crit Chance
+        baseValue: 1
+      - statID: crit_damage
+        statName: Crit Damage
+        baseValue: 1.5
+    combatPositioning:
+      preferredDistance: 1.5
+      attackRange: 2
+    unlockConfiguration:
+      unlockShardRequirement: 5
+    autoAttack:
+      skillName: Bat Smash
+      icon: {fileID: 0}
+      description: Throws his bat to the closest enemy unit.
+      hasCooldown: 1
+      cooldown: 1
+      hasBaseDamageOrEffectValue: 0
+      baseDamageOrEffectValue: 0
+      usesHeroDamageMultiplier: 1
+      heroDamageMultiplier: 1
+      starUpgrades:
+      - requiredStar: 1
+        upgradeType: 0
+        value: 25
+        description: Deals 25% Extra Damage.
+      - requiredStar: 2
+        upgradeType: 0
+        value: 50
+        description: Extra damage increased to 50%.
+      - requiredStar: 3
+        upgradeType: 0
+        value: 75
+        description: Extra damage increased to 75%.
+      - requiredStar: 4
+        upgradeType: 0
+        value: 100
+        description: Extra damage increased to 100%.
+      - requiredStar: 5
+        upgradeType: 0
+        value: 150
+        description: Extra damage increased to 150%.
+    activeSkill:
+      skillName: Swing Axe
+      icon: {fileID: 0}
+      description: Throws his battle axe towards enemies, axe flies in a swirling fashion and returns back again, damaging enemy units on its path.
+      hasCooldown: 1
+      cooldown: 7
+      hasBaseDamageOrEffectValue: 0
+      baseDamageOrEffectValue: 0
+      usesHeroDamageMultiplier: 1
+      heroDamageMultiplier: 3.5
+      starUpgrades:
+      - requiredStar: 1
+        upgradeType: 0
+        value: 25
+        description: Deals 25% Extra Damage.
+      - requiredStar: 2
+        upgradeType: 0
+        value: 50
+        description: Extra damage increased to 50%.
+      - requiredStar: 3
+        upgradeType: 0
+        value: 75
+        description: Extra damage increased to 75%.
+      - requiredStar: 4
+        upgradeType: 0
+        value: 100
+        description: Extra damage increased to 100%.
+      - requiredStar: 5
+        upgradeType: 0
+        value: 150
+        description: Extra damage increased to 150%.
+    passiveSkill:
+      skillName: War Drum
+      icon: {fileID: 0}
+      description: Boosts all ally heroes' damage by 10% for 3 seconds.
+      hasCooldown: 1
+      cooldown: 13
+      hasBaseDamageOrEffectValue: 1
+      baseDamageOrEffectValue: 10
+      usesHeroDamageMultiplier: 0
+      heroDamageMultiplier: 1
+      starUpgrades:
+      - requiredStar: 1
+        upgradeType: 2
+        value: 5
+        description: Boost the effect by an additional 5%.
+      - requiredStar: 2
+        upgradeType: 2
+        value: 5
+        description: Boost the effect by an additional 5%.
+      - requiredStar: 3
+        upgradeType: 2
+        value: 5
+        description: Boost the effect by an additional 5%.
+      - requiredStar: 4
+        upgradeType: 2
+        value: 5
+        description: Boost the effect by an additional 5%.
+      - requiredStar: 5
+        upgradeType: 2
+        value: 5
+        description: Boost the effect by an additional 5%.
+    starTraitRewards:
+    - requiredStar: 1
+      rarity: 1
+      traitType: 0
+    - requiredStar: 2
+      rarity: 1
+      traitType: 4
+    - requiredStar: 3
+      rarity: 2
+      traitType: 1
+    - requiredStar: 4
+      rarity: 3
+      traitType: 3
+  - basicInfo:
+      heroID: wolfman
+      heroName: Wolfman
+      heroIcon: {fileID: 21300000, guid: 21146cd13da497d4a98777ab3005dccb, type: 2}
+      shortDescription: A savage hunter who tears through enemies with deadly claws, fangs, and terrifying howls.
+      heroRarity: {fileID: 11400000, guid: 7ebdab8e6c233bf4c96a15d918797bcf, type: 2}
+      attackType: 0
+    baseStats:
+      stats:
+      - statID: damage
+        statName: Damage
+        baseValue: 65
+      - statID: health
+        statName: Health
+        baseValue: 100
+      - statID: defense
+        statName: Defense
+        baseValue: 40
+      - statID: crit_chance
+        statName: Crit Chance
+        baseValue: 3
+      - statID: crit_damage
+        statName: Crit Damage
+        baseValue: 1.8
+    combatPositioning:
+      preferredDistance: 1.5
+      attackRange: 2
+    unlockConfiguration:
+      unlockShardRequirement: 5
+    autoAttack:
+      skillName: Claw
+      icon: {fileID: 0}
+      description: Claws the closest enemy unit.
+      hasCooldown: 1
+      cooldown: 1.5
+      hasBaseDamageOrEffectValue: 0
+      baseDamageOrEffectValue: 0
+      usesHeroDamageMultiplier: 1
+      heroDamageMultiplier: 1
+      starUpgrades:
+      - requiredStar: 1
+        upgradeType: 0
+        value: 25
+        description: Deals 25% Extra Damage.
+      - requiredStar: 2
+        upgradeType: 0
+        value: 50
+        description: Extra damage increased to 50%.
+      - requiredStar: 3
+        upgradeType: 0
+        value: 75
+        description: Extra damage increased to 75%.
+      - requiredStar: 4
+        upgradeType: 0
+        value: 100
+        description: Extra damage increased to 100%.
+      - requiredStar: 5
+        upgradeType: 0
+        value: 150
+        description: Extra damage increased to 150%.
+    activeSkill:
+      skillName: Fierce Bite
+      icon: {fileID: 0}
+      description: Hurls and bites the target enemy for a huge damage.
+      hasCooldown: 1
+      cooldown: 6
+      hasBaseDamageOrEffectValue: 0
+      baseDamageOrEffectValue: 0
+      usesHeroDamageMultiplier: 1
+      heroDamageMultiplier: 5
+      starUpgrades:
+      - requiredStar: 1
+        upgradeType: 0
+        value: 25
+        description: Deals 25% Extra Damage.
+      - requiredStar: 2
+        upgradeType: 0
+        value: 50
+        description: Extra damage increased to 50%.
+      - requiredStar: 3
+        upgradeType: 0
+        value: 75
+        description: Extra damage increased to 75%.
+      - requiredStar: 4
+        upgradeType: 0
+        value: 100
+        description: Extra damage increased to 100%.
+      - requiredStar: 5
+        upgradeType: 0
+        value: 150
+        description: Extra damage increased to 150%.
+    passiveSkill:
+      skillName: Dreadful Howl
+      icon: {fileID: 0}
+      description: Howls and scares the enemy units, reducing their attack damage by 25% for 3 seconds.
+      hasCooldown: 1
+      cooldown: 10
+      hasBaseDamageOrEffectValue: 1
+      baseDamageOrEffectValue: 25
+      usesHeroDamageMultiplier: 0
+      heroDamageMultiplier: 1
+      starUpgrades:
+      - requiredStar: 1
+        upgradeType: 2
+        value: 5
+        description: Boost the effect by an additional 5%.
+      - requiredStar: 2
+        upgradeType: 2
+        value: 5
+        description: Boost the effect by an additional 5%.
+      - requiredStar: 3
+        upgradeType: 2
+        value: 5
+        description: Boost the effect by an additional 5%.
+      - requiredStar: 4
+        upgradeType: 2
+        value: 5
+        description: Boost the effect by an additional 5%.
+      - requiredStar: 5
+        upgradeType: 2
+        value: 5
+        description: Boost the effect by an additional 5%.
+    starTraitRewards:
+    - requiredStar: 1
+      rarity: 0
+      traitType: 1
+    - requiredStar: 2
+      rarity: 1
+      traitType: 0
+    - requiredStar: 3
+      rarity: 1
+      traitType: 6
+    - requiredStar: 4
+      rarity: 2
+      traitType: 2
+  - basicInfo:
+      heroID: sweet_teddy
+      heroName: Sweet Teddy
+      heroIcon: {fileID: 21300000, guid: 89baf8755a690a24eb009f0845a033af, type: 2}
+      shortDescription: A lovable-looking bruiser who smashes enemies with his guitar while keeping his allies in the fight.
+      heroRarity: {fileID: 11400000, guid: 7ebdab8e6c233bf4c96a15d918797bcf, type: 2}
+      attackType: 0
+    baseStats:
+      stats:
+      - statID: damage
+        statName: Damage
+        baseValue: 40
+      - statID: health
+        statName: Health
+        baseValue: 150
+      - statID: defense
+        statName: Defense
+        baseValue: 65
+      - statID: crit_chance
+        statName: Crit Chance
+        baseValue: 1
+      - statID: crit_damage
+        statName: Crit Damage
+        baseValue: 1.5
+    combatPositioning:
+      preferredDistance: 1.5
+      attackRange: 2
+    unlockConfiguration:
+      unlockShardRequirement: 5
+    autoAttack:
+      skillName: Guitar Smash
+      icon: {fileID: 0}
+      description: Swings and hits the enemy unit with his guitar.
+      hasCooldown: 1
+      cooldown: 2
+      hasBaseDamageOrEffectValue: 0
+      baseDamageOrEffectValue: 0
+      usesHeroDamageMultiplier: 1
+      heroDamageMultiplier: 1
+      starUpgrades:
+      - requiredStar: 1
+        upgradeType: 0
+        value: 25
+        description: Deals 25% Extra Damage.
+      - requiredStar: 2
+        upgradeType: 0
+        value: 50
+        description: Extra damage increased to 50%.
+      - requiredStar: 3
+        upgradeType: 0
+        value: 75
+        description: Extra damage increased to 75%.
+      - requiredStar: 4
+        upgradeType: 0
+        value: 100
+        description: Extra damage increased to 100%.
+      - requiredStar: 5
+        upgradeType: 0
+        value: 150
+        description: Extra damage increased to 150%.
+    activeSkill:
+      skillName: Cracking Smash
+      icon: {fileID: 0}
+      description: Jumps in the air and smashes the ground below, damaging the enemies in range.
+      hasCooldown: 1
+      cooldown: 8
+      hasBaseDamageOrEffectValue: 0
+      baseDamageOrEffectValue: 0
+      usesHeroDamageMultiplier: 1
+      heroDamageMultiplier: 3
+      starUpgrades:
+      - requiredStar: 1
+        upgradeType: 0
+        value: 25
+        description: Deals 25% Extra Damage.
+      - requiredStar: 2
+        upgradeType: 0
+        value: 50
+        description: Extra damage increased to 50%.
+      - requiredStar: 3
+        upgradeType: 0
+        value: 75
+        description: Extra damage increased to 75%.
+      - requiredStar: 4
+        upgradeType: 0
+        value: 100
+        description: Extra damage increased to 100%.
+      - requiredStar: 5
+        upgradeType: 0
+        value: 150
+        description: Extra damage increased to 150%.
+    passiveSkill:
+      skillName: Music Time
+      icon: {fileID: 0}
+      description: Plays his guitar and heals up ally units for 5% of their health.
+      hasCooldown: 1
+      cooldown: 16
+      hasBaseDamageOrEffectValue: 1
+      baseDamageOrEffectValue: 5
+      usesHeroDamageMultiplier: 0
+      heroDamageMultiplier: 1
+      starUpgrades:
+      - requiredStar: 1
+        upgradeType: 2
+        value: 5
+        description: Boost the effect by an additional 5%.
+      - requiredStar: 2
+        upgradeType: 2
+        value: 5
+        description: Boost the effect by an additional 5%.
+      - requiredStar: 3
+        upgradeType: 2
+        value: 5
+        description: Boost the effect by an additional 5%.
+      - requiredStar: 4
+        upgradeType: 2
+        value: 5
+        description: Boost the effect by an additional 5%.
+      - requiredStar: 5
+        upgradeType: 2
+        value: 5
+        description: Boost the effect by an additional 5%.
+    starTraitRewards:
+    - requiredStar: 1
+      rarity: 0
+      traitType: 1
+    - requiredStar: 2
+      rarity: 0
+      traitType: 4
+    - requiredStar: 3
+      rarity: 1
+      traitType: 1
+    - requiredStar: 4
+      rarity: 1
+      traitType: 4
+    - requiredStar: 5
+      rarity: 2
+      traitType: 0
+  - basicInfo:
+      heroID: fierce_commando
+      heroName: Fierce Commando
+      heroIcon: {fileID: 21300000, guid: 6f9e91a0dd3a0f54b905555bbb48be69, type: 2}
+      shortDescription: A battle-hardened soldier who overwhelms enemies with rapid gunfire, explosives, and deadly precision.
+      heroRarity: {fileID: 11400000, guid: 7ebdab8e6c233bf4c96a15d918797bcf, type: 2}
+      attackType: 1
+    baseStats:
+      stats:
+      - statID: damage
+        statName: Damage
+        baseValue: 75
+      - statID: health
+        statName: Health
+        baseValue: 50
+      - statID: defense
+        statName: Defense
+        baseValue: 10
+      - statID: crit_chance
+        statName: Crit Chance
+        baseValue: 2
+      - statID: crit_damage
+        statName: Crit Damage
+        baseValue: 2
+    combatPositioning:
+      preferredDistance: 1.5
+      attackRange: 2
+    unlockConfiguration:
+      unlockShardRequirement: 5
+    autoAttack:
+      skillName: Phew Phew
+      icon: {fileID: 0}
+      description: Shoots the closest enemy unit with his trusty rifle.
+      hasCooldown: 1
+      cooldown: 1
+      hasBaseDamageOrEffectValue: 0
+      baseDamageOrEffectValue: 0
+      usesHeroDamageMultiplier: 1
+      heroDamageMultiplier: 1
+      starUpgrades:
+      - requiredStar: 1
+        upgradeType: 0
+        value: 25
+        description: Deals 25% Extra Damage.
+      - requiredStar: 2
+        upgradeType: 0
+        value: 50
+        description: Extra damage increased to 50%.
+      - requiredStar: 3
+        upgradeType: 0
+        value: 75
+        description: Extra damage increased to 75%.
+      - requiredStar: 4
+        upgradeType: 0
+        value: 100
+        description: Extra damage increased to 100%.
+      - requiredStar: 5
+        upgradeType: 0
+        value: 150
+        description: Extra damage increased to 150%.
+    activeSkill:
+      skillName: Fire in the Hole
+      icon: {fileID: 0}
+      description: Throws a grenade in the enemy lines, damaging enemy units in the explosion range.
+      hasCooldown: 1
+      cooldown: 10
+      hasBaseDamageOrEffectValue: 0
+      baseDamageOrEffectValue: 0
+      usesHeroDamageMultiplier: 1
+      heroDamageMultiplier: 4.5
+      starUpgrades:
+      - requiredStar: 1
+        upgradeType: 0
+        value: 25
+        description: Deals 25% Extra Damage.
+      - requiredStar: 2
+        upgradeType: 0
+        value: 50
+        description: Extra damage increased to 50%.
+      - requiredStar: 3
+        upgradeType: 0
+        value: 75
+        description: Extra damage increased to 75%.
+      - requiredStar: 4
+        upgradeType: 0
+        value: 100
+        description: Extra damage increased to 100%.
+      - requiredStar: 5
+        upgradeType: 0
+        value: 150
+        description: Extra damage increased to 150%.
+    passiveSkill:
+      skillName: Furious Soldier
+      icon: {fileID: 0}
+      description: Enters a furious state, increasing the hero's critical chance by 25% for 5 seconds.
+      hasCooldown: 1
+      cooldown: 11
+      hasBaseDamageOrEffectValue: 1
+      baseDamageOrEffectValue: 25
+      usesHeroDamageMultiplier: 0
+      heroDamageMultiplier: 1
+      starUpgrades:
+      - requiredStar: 1
+        upgradeType: 2
+        value: 5
+        description: Boost the effect by an additional 5%.
+      - requiredStar: 2
+        upgradeType: 2
+        value: 5
+        description: Boost the effect by an additional 5%.
+      - requiredStar: 3
+        upgradeType: 2
+        value: 5
+        description: Boost the effect by an additional 5%.
+      - requiredStar: 4
+        upgradeType: 2
+        value: 5
+        description: Boost the effect by an additional 5%.
+      - requiredStar: 5
+        upgradeType: 2
+        value: 5
+        description: Boost the effect by an additional 5%.
+    starTraitRewards:
+    - requiredStar: 1
+      rarity: 0
+      traitType: 0
+    - requiredStar: 2
+      rarity: 0
+      traitType: 2
+    - requiredStar: 3
+      rarity: 1
+      traitType: 0
+    - requiredStar: 4
+      rarity: 1
+      traitType: 3
+    - requiredStar: 5
+      rarity: 2
+      traitType: 2
+  - basicInfo:
+      heroID: ninja_girl
+      heroName: Ninja Girl
+      heroIcon: {fileID: 21300000, guid: b206211b044960a40bafab7490e74fa0, type: 2}
+      shortDescription: A swift and deadly warrior who strikes from the shadows with her blade and piercing shurikens.
+      heroRarity: {fileID: 11400000, guid: 7ebdab8e6c233bf4c96a15d918797bcf, type: 2}
+      attackType: 0
+    baseStats:
+      stats:
+      - statID: damage
+        statName: Damage
+        baseValue: 75
+      - statID: health
+        statName: Health
+        baseValue: 90
+      - statID: defense
+        statName: Defense
+        baseValue: 40
+      - statID: crit_chance
+        statName: Crit Chance
+        baseValue: 3
+      - statID: crit_damage
+        statName: Crit Damage
+        baseValue: 1.5
+    combatPositioning:
+      preferredDistance: 1.5
+      attackRange: 2
+    unlockConfiguration:
+      unlockShardRequirement: 5
+    autoAttack:
+      skillName: Slice
+      icon: {fileID: 0}
+      description: Swings her sword and slices the enemy units.
+      hasCooldown: 1
+      cooldown: 0.7
+      hasBaseDamageOrEffectValue: 0
+      baseDamageOrEffectValue: 0
+      usesHeroDamageMultiplier: 1
+      heroDamageMultiplier: 1
+      starUpgrades:
+      - requiredStar: 1
+        upgradeType: 0
+        value: 25
+        description: Deals 25% Extra Damage.
+      - requiredStar: 2
+        upgradeType: 0
+        value: 50
+        description: Extra damage increased to 50%.
+      - requiredStar: 3
+        upgradeType: 0
+        value: 75
+        description: Extra damage increased to 75%.
+      - requiredStar: 4
+        upgradeType: 0
+        value: 100
+        description: Extra damage increased to 100%.
+      - requiredStar: 5
+        upgradeType: 0
+        value: 150
+        description: Extra damage increased to 150%.
+    activeSkill:
+      skillName: Shuriken Rain
+      icon: {fileID: 0}
+      description: Throws a flurry of shurikens towards enemy units, shurikens penetrate enemy units and deal damage.
+      hasCooldown: 1
+      cooldown: 9
+      hasBaseDamageOrEffectValue: 0
+      baseDamageOrEffectValue: 0
+      usesHeroDamageMultiplier: 1
+      heroDamageMultiplier: 3.5
+      starUpgrades:
+      - requiredStar: 1
+        upgradeType: 0
+        value: 25
+        description: Deals 25% Extra Damage.
+      - requiredStar: 2
+        upgradeType: 0
+        value: 50
+        description: Extra damage increased to 50%.
+      - requiredStar: 3
+        upgradeType: 0
+        value: 75
+        description: Extra damage increased to 75%.
+      - requiredStar: 4
+        upgradeType: 0
+        value: 100
+        description: Extra damage increased to 100%.
+      - requiredStar: 5
+        upgradeType: 0
+        value: 150
+        description: Extra damage increased to 150%.
+    passiveSkill:
+      skillName: Zen
+      icon: {fileID: 0}
+      description: Enters a focused state and gains a shield blocking 50% of incoming damage for 3 seconds.
+      hasCooldown: 1
+      cooldown: 14
+      hasBaseDamageOrEffectValue: 1
+      baseDamageOrEffectValue: 50
+      usesHeroDamageMultiplier: 0
+      heroDamageMultiplier: 1
+      starUpgrades:
+      - requiredStar: 1
+        upgradeType: 2
+        value: 5
+        description: Boost the effect by an additional 5%.
+      - requiredStar: 2
+        upgradeType: 2
+        value: 5
+        description: Boost the effect by an additional 5%.
+      - requiredStar: 3
+        upgradeType: 2
+        value: 5
+        description: Boost the effect by an additional 5%.
+      - requiredStar: 4
+        upgradeType: 2
+        value: 5
+        description: Boost the effect by an additional 5%.
+      - requiredStar: 5
+        upgradeType: 2
+        value: 5
+        description: Boost the effect by an additional 5%.
+    starTraitRewards:
+    - requiredStar: 1
+      rarity: 0
+      traitType: 6
+    - requiredStar: 2
+      rarity: 0
+      traitType: 2
+    - requiredStar: 3
+      rarity: 1
+      traitType: 0
+    - requiredStar: 4
+      rarity: 1
+      traitType: 5
+    - requiredStar: 5
+      rarity: 2
+      traitType: 3
+  - basicInfo:
+      heroID: space_ranger
+      heroName: Space Ranger
+      heroIcon: {fileID: 21300000, guid: 3e8238d73c856354abb96b5af6f46d0b, type: 2}
+      shortDescription: A futuristic warrior armed with a blazing saber, powerful lasers, and advanced combat technology.
+      heroRarity: {fileID: 11400000, guid: 6f058874f7308eb4bb4f9354a97158be, type: 2}
+      attackType: 0
+    baseStats:
+      stats:
+      - statID: damage
+        statName: Damage
+        baseValue: 100
+      - statID: health
+        statName: Health
+        baseValue: 200
+      - statID: defense
+        statName: Defense
+        baseValue: 75
+      - statID: crit_chance
+        statName: Crit Chance
+        baseValue: 3
+      - statID: crit_damage
+        statName: Crit Damage
+        baseValue: 2.1
+    combatPositioning:
+      preferredDistance: 1.5
+      attackRange: 2
+    unlockConfiguration:
+      unlockShardRequirement: 5
+    autoAttack:
+      skillName: Saber Slice
+      icon: {fileID: 0}
+      description: Swings his light saber sword to the closest enemy unit.
+      hasCooldown: 1
+      cooldown: 1.5
+      hasBaseDamageOrEffectValue: 0
+      baseDamageOrEffectValue: 0
+      usesHeroDamageMultiplier: 1
+      heroDamageMultiplier: 1.25
+      starUpgrades:
+      - requiredStar: 1
+        upgradeType: 0
+        value: 25
+        description: Deals 25% Extra Damage.
+      - requiredStar: 2
+        upgradeType: 0
+        value: 50
+        description: Extra damage increased to 50%.
+      - requiredStar: 3
+        upgradeType: 0
+        value: 75
+        description: Extra damage increased to 75%.
+      - requiredStar: 4
+        upgradeType: 0
+        value: 100
+        description: Extra damage increased to 100%.
+      - requiredStar: 5
+        upgradeType: 0
+        value: 150
+        description: Extra damage increased to 150%.
+    activeSkill:
+      skillName: Ray Blast
+      icon: {fileID: 0}
+      description: Shoots a huge beam of laser damaging all enemy units in the line of impact.
+      hasCooldown: 1
+      cooldown: 8
+      hasBaseDamageOrEffectValue: 0
+      baseDamageOrEffectValue: 0
+      usesHeroDamageMultiplier: 1
+      heroDamageMultiplier: 4.5
+      starUpgrades:
+      - requiredStar: 1
+        upgradeType: 0
+        value: 25
+        description: Deals 25% Extra Damage.
+      - requiredStar: 2
+        upgradeType: 0
+        value: 50
+        description: Extra damage increased to 50%.
+      - requiredStar: 3
+        upgradeType: 0
+        value: 75
+        description: Extra damage increased to 75%.
+      - requiredStar: 4
+        upgradeType: 0
+        value: 100
+        description: Extra damage increased to 100%.
+      - requiredStar: 5
+        upgradeType: 0
+        value: 150
+        description: Extra damage increased to 150%.
+    passiveSkill:
+      skillName: Hack
+      icon: {fileID: 0}
+      description: Hacks enemy units' minds, reducing their damage dealt by 25% for 4 seconds.
+      hasCooldown: 1
+      cooldown: 16
+      hasBaseDamageOrEffectValue: 1
+      baseDamageOrEffectValue: 25
+      usesHeroDamageMultiplier: 0
+      heroDamageMultiplier: 1
+      starUpgrades:
+      - requiredStar: 1
+        upgradeType: 2
+        value: 5
+        description: Boost the effect by an additional 5%.
+      - requiredStar: 2
+        upgradeType: 2
+        value: 5
+        description: Boost the effect by an additional 5%.
+      - requiredStar: 3
+        upgradeType: 2
+        value: 5
+        description: Boost the effect by an additional 5%.
+      - requiredStar: 4
+        upgradeType: 2
+        value: 5
+        description: Boost the effect by an additional 5%.
+      - requiredStar: 5
+        upgradeType: 2
+        value: 5
+        description: Boost the effect by an additional 5%.
+    starTraitRewards:
+    - requiredStar: 1
+      rarity: 1
+      traitType: 0
+    - requiredStar: 2
+      rarity: 1
+      traitType: 4
+    - requiredStar: 3
+      rarity: 2
+      traitType: 3
+    - requiredStar: 4
+      rarity: 2
+      traitType: 1
+    - requiredStar: 5
+      rarity: 3
+      traitType: 0
+  - basicInfo:
+      heroID: old_wolf
+      heroName: Old Wolf
+      heroIcon: {fileID: 21300000, guid: c9a1fffced64efb439fd15477d839424, type: 2}
+      shortDescription: A seasoned gunslinger who combines devastating firepower with years of battlefield experience.
+      heroRarity: {fileID: 11400000, guid: 6f058874f7308eb4bb4f9354a97158be, type: 2}
+      attackType: 1
+    baseStats:
+      stats:
+      - statID: damage
+        statName: Damage
+        baseValue: 150
+      - statID: health
+        statName: Health
+        baseValue: 150
+      - statID: defense
+        statName: Defense
+        baseValue: 60
+      - statID: crit_chance
+        statName: Crit Chance
+        baseValue: 3
+      - statID: crit_damage
+        statName: Crit Damage
+        baseValue: 1.8
+    combatPositioning:
+      preferredDistance: 1.5
+      attackRange: 2
+    unlockConfiguration:
+      unlockShardRequirement: 5
+    autoAttack:
+      skillName: Shotgun Blast
+      icon: {fileID: 0}
+      description: Fires his trusty shotgun towards enemy lines, sending multiple bullets in a scattering fashion.
+      hasCooldown: 1
+      cooldown: 2
+      hasBaseDamageOrEffectValue: 0
+      baseDamageOrEffectValue: 0
+      usesHeroDamageMultiplier: 1
+      heroDamageMultiplier: 1.25
+      starUpgrades:
+      - requiredStar: 1
+        upgradeType: 0
+        value: 25
+        description: Deals 25% Extra Damage.
+      - requiredStar: 2
+        upgradeType: 0
+        value: 50
+        description: Extra damage increased to 50%.
+      - requiredStar: 3
+        upgradeType: 0
+        value: 75
+        description: Extra damage increased to 75%.
+      - requiredStar: 4
+        upgradeType: 0
+        value: 100
+        description: Extra damage increased to 100%.
+      - requiredStar: 5
+        upgradeType: 0
+        value: 150
+        description: Extra damage increased to 150%.
+    activeSkill:
+      skillName: Detonating Bag
+      icon: {fileID: 0}
+      description: Throws a bag full of explosives toward enemy units. The bag bounces and explodes three times.
+      hasCooldown: 1
+      cooldown: 10
+      hasBaseDamageOrEffectValue: 0
+      baseDamageOrEffectValue: 0
+      usesHeroDamageMultiplier: 1
+      heroDamageMultiplier: 3
+      starUpgrades:
+      - requiredStar: 1
+        upgradeType: 0
+        value: 25
+        description: Deals 25% Extra Damage.
+      - requiredStar: 2
+        upgradeType: 0
+        value: 50
+        description: Extra damage increased to 50%.
+      - requiredStar: 3
+        upgradeType: 0
+        value: 75
+        description: Extra damage increased to 75%.
+      - requiredStar: 4
+        upgradeType: 0
+        value: 100
+        description: Extra damage increased to 100%.
+      - requiredStar: 5
+        upgradeType: 0
+        value: 150
+        description: Extra damage increased to 150%.
+    passiveSkill:
+      skillName: Shield Up
+      icon: {fileID: 0}
+      description: Holds his shield up and reduces incoming damage by 25% for allies near him for 3 seconds.
+      hasCooldown: 1
+      cooldown: 11
+      hasBaseDamageOrEffectValue: 1
+      baseDamageOrEffectValue: 25
+      usesHeroDamageMultiplier: 0
+      heroDamageMultiplier: 1
+      starUpgrades:
+      - requiredStar: 1
+        upgradeType: 2
+        value: 5
+        description: Boost the effect by an additional 5%.
+      - requiredStar: 2
+        upgradeType: 2
+        value: 5
+        description: Boost the effect by an additional 5%.
+      - requiredStar: 3
+        upgradeType: 2
+        value: 5
+        description: Boost the effect by an additional 5%.
+      - requiredStar: 4
+        upgradeType: 2
+        value: 5
+        description: Boost the effect by an additional 5%.
+      - requiredStar: 5
+        upgradeType: 2
+        value: 5
+        description: Boost the effect by an additional 5%.
+    starTraitRewards:
+    - requiredStar: 1
+      rarity: 1
+      traitType: 0
+    - requiredStar: 2
+      rarity: 1
+      traitType: 4
+    - requiredStar: 3
+      rarity: 2
+      traitType: 5
+    - requiredStar: 4
+      rarity: 2
+      traitType: 1
+    - requiredStar: 5
+      rarity: 3
+      traitType: 3
+  - basicInfo:
+      heroID: superdude
+      heroName: Superdude
+      heroIcon: {fileID: 21300000, guid: a1f305032a503bb4f93eabd175aaa275, type: 2}
+      shortDescription: A mighty hero who dominates the battlefield with laser vision, crushing landings, and inspiring leadership.
+      heroRarity: {fileID: 11400000, guid: 6f058874f7308eb4bb4f9354a97158be, type: 2}
+      attackType: 1
+    baseStats:
+      stats:
+      - statID: damage
+        statName: Damage
+        baseValue: 130
+      - statID: health
+        statName: Health
+        baseValue: 170
+      - statID: defense
+        statName: Defense
+        baseValue: 50
+      - statID: crit_chance
+        statName: Crit Chance
+        baseValue: 2
+      - statID: crit_damage
+        statName: Crit Damage
+        baseValue: 1.6
+    combatPositioning:
+      preferredDistance: 1.5
+      attackRange: 2
+    unlockConfiguration:
+      unlockShardRequirement: 5
+    autoAttack:
+      skillName: Laser Eyes
+      icon: {fileID: 0}
+      description: Shoots lasers from his eyes to the closest enemy unit.
+      hasCooldown: 1
+      cooldown: 1.5
+      hasBaseDamageOrEffectValue: 0
+      baseDamageOrEffectValue: 0
+      usesHeroDamageMultiplier: 1
+      heroDamageMultiplier: 1.25
+      starUpgrades:
+      - requiredStar: 1
+        upgradeType: 0
+        value: 25
+        description: Deals 25% Extra Damage.
+      - requiredStar: 2
+        upgradeType: 0
+        value: 50
+        description: Extra damage increased to 50%.
+      - requiredStar: 3
+        upgradeType: 0
+        value: 75
+        description: Extra damage increased to 75%.
+      - requiredStar: 4
+        upgradeType: 0
+        value: 100
+        description: Extra damage increased to 100%.
+      - requiredStar: 5
+        upgradeType: 0
+        value: 150
+        description: Extra damage increased to 150%.
+    activeSkill:
+      skillName: Hero Land
+      icon: {fileID: 0}
+      description: Flies up in the sky and comes down smashing hard, damaging enemy units in the blast area.
+      hasCooldown: 1
+      cooldown: 8
+      hasBaseDamageOrEffectValue: 0
+      baseDamageOrEffectValue: 0
+      usesHeroDamageMultiplier: 1
+      heroDamageMultiplier: 4
+      starUpgrades:
+      - requiredStar: 1
+        upgradeType: 0
+        value: 25
+        description: Deals 25% Extra Damage.
+      - requiredStar: 2
+        upgradeType: 0
+        value: 50
+        description: Extra damage increased to 50%.
+      - requiredStar: 3
+        upgradeType: 0
+        value: 75
+        description: Extra damage increased to 75%.
+      - requiredStar: 4
+        upgradeType: 0
+        value: 100
+        description: Extra damage increased to 100%.
+      - requiredStar: 5
+        upgradeType: 0
+        value: 150
+        description: Extra damage increased to 150%.
+    passiveSkill:
+      skillName: Leader
+      icon: {fileID: 0}
+      description: Rallies all ally units, increasing their critical chance by 10% for 4 seconds.
+      hasCooldown: 1
+      cooldown: 18
+      hasBaseDamageOrEffectValue: 1
+      baseDamageOrEffectValue: 10
+      usesHeroDamageMultiplier: 0
+      heroDamageMultiplier: 1
+      starUpgrades:
+      - requiredStar: 1
+        upgradeType: 2
+        value: 5
+        description: Boost the effect by an additional 5%.
+      - requiredStar: 2
+        upgradeType: 2
+        value: 5
+        description: Boost the effect by an additional 5%.
+      - requiredStar: 3
+        upgradeType: 2
+        value: 5
+        description: Boost the effect by an additional 5%.
+      - requiredStar: 4
+        upgradeType: 2
+        value: 5
+        description: Boost the effect by an additional 5%.
+      - requiredStar: 5
+        upgradeType: 2
+        value: 5
+        description: Boost the effect by an additional 5%.
+    starTraitRewards:
+    - requiredStar: 1
+      rarity: 1
+      traitType: 0
+    - requiredStar: 2
+      rarity: 1
+      traitType: 2
+    - requiredStar: 3
+      rarity: 2
+      traitType: 1
+    - requiredStar: 4
+      rarity: 2
+      traitType: 4
+    - requiredStar: 5
+      rarity: 3
+      traitType: 3
+  - basicInfo:
+      heroID: vampire_boy
+      heroName: Vampire Boy
+      heroIcon: {fileID: 21300000, guid: 04c4ace5baf1df54d9d45549593643ff, type: 2}
+      shortDescription: A cursed swordsman who feeds on battle, carving through enemies while restoring his own life.
+      heroRarity: {fileID: 11400000, guid: 6f058874f7308eb4bb4f9354a97158be, type: 2}
+      attackType: 0
+    baseStats:
+      stats:
+      - statID: damage
+        statName: Damage
+        baseValue: 120
+      - statID: health
+        statName: Health
+        baseValue: 190
+      - statID: defense
+        statName: Defense
+        baseValue: 75
+      - statID: crit_chance
+        statName: Crit Chance
+        baseValue: 4
+      - statID: crit_damage
+        statName: Crit Damage
+        baseValue: 1.5
+    combatPositioning:
+      preferredDistance: 1.5
+      attackRange: 2
+    unlockConfiguration:
+      unlockShardRequirement: 5
+    autoAttack:
+      skillName: Bloody Slash
+      icon: {fileID: 0}
+      description: Stabs and slashes the closest enemy unit with his bloody sword.
+      hasCooldown: 1
+      cooldown: 0.9
+      hasBaseDamageOrEffectValue: 0
+      baseDamageOrEffectValue: 0
+      usesHeroDamageMultiplier: 1
+      heroDamageMultiplier: 1.25
+      starUpgrades:
+      - requiredStar: 1
+        upgradeType: 0
+        value: 25
+        description: Deals 25% Extra Damage.
+      - requiredStar: 2
+        upgradeType: 0
+        value: 50
+        description: Extra damage increased to 50%.
+      - requiredStar: 3
+        upgradeType: 0
+        value: 75
+        description: Extra damage increased to 75%.
+      - requiredStar: 4
+        upgradeType: 0
+        value: 100
+        description: Extra damage increased to 100%.
+      - requiredStar: 5
+        upgradeType: 0
+        value: 150
+        description: Extra damage increased to 150%.
+    activeSkill:
+      skillName: Juicy Drink
+      icon: {fileID: 0}
+      description: Swings his sword wide and sends out a huge slash towards enemies, damaging everyone in its path.
+      hasCooldown: 1
+      cooldown: 12
+      hasBaseDamageOrEffectValue: 0
+      baseDamageOrEffectValue: 0
+      usesHeroDamageMultiplier: 1
+      heroDamageMultiplier: 4.5
+      starUpgrades:
+      - requiredStar: 1
+        upgradeType: 0
+        value: 25
+        description: Deals 25% Extra Damage.
+      - requiredStar: 2
+        upgradeType: 0
+        value: 50
+        description: Extra damage increased to 50%.
+      - requiredStar: 3
+        upgradeType: 0
+        value: 75
+        description: Extra damage increased to 75%.
+      - requiredStar: 4
+        upgradeType: 0
+        value: 100
+        description: Extra damage increased to 100%.
+      - requiredStar: 5
+        upgradeType: 0
+        value: 150
+        description: Extra damage increased to 150%.
+    passiveSkill:
+      skillName: Juicy Drink
+      icon: {fileID: 0}
+      description: Drinks from the cursed glass and heals 25% of his health.
+      hasCooldown: 1
+      cooldown: 11
+      hasBaseDamageOrEffectValue: 1
+      baseDamageOrEffectValue: 25
+      usesHeroDamageMultiplier: 0
+      heroDamageMultiplier: 1
+      starUpgrades:
+      - requiredStar: 1
+        upgradeType: 2
+        value: 5
+        description: Boost the effect by an additional 5%.
+      - requiredStar: 2
+        upgradeType: 2
+        value: 5
+        description: Boost the effect by an additional 5%.
+      - requiredStar: 3
+        upgradeType: 2
+        value: 5
+        description: Boost the effect by an additional 5%.
+      - requiredStar: 4
+        upgradeType: 2
+        value: 5
+        description: Boost the effect by an additional 5%.
+      - requiredStar: 5
+        upgradeType: 2
+        value: 5
+        description: Boost the effect by an additional 5%.
+    starTraitRewards:
+    - requiredStar: 1
+      rarity: 1
+      traitType: 1
+    - requiredStar: 2
+      rarity: 1
+      traitType: 2
+    - requiredStar: 3
+      rarity: 2
+      traitType: 0
+    - requiredStar: 4
+      rarity: 2
+      traitType: 4
+    - requiredStar: 5
+      rarity: 3
+      traitType: 3
+  - basicInfo:
+      heroID: caveman
+      heroName: Caveman
+      heroIcon: {fileID: 21300000, guid: d11d115268c39ec4aa77086f03b502bd, type: 2}
+      shortDescription: A primal warrior who rains down axes and spears while empowering his allies with ancient fire.
+      heroRarity: {fileID: 11400000, guid: 6f058874f7308eb4bb4f9354a97158be, type: 2}
+      attackType: 1
+    baseStats:
+      stats:
+      - statID: damage
+        statName: Damage
+        baseValue: 120
+      - statID: health
+        statName: Health
+        baseValue: 160
+      - statID: defense
+        statName: Defense
+        baseValue: 30
+      - statID: crit_chance
+        statName: Crit Chance
+        baseValue: 2
+      - statID: crit_damage
+        statName: Crit Damage
+        baseValue: 2.5
+    combatPositioning:
+      preferredDistance: 1.5
+      attackRange: 2
+    unlockConfiguration:
+      unlockShardRequirement: 5
+    autoAttack:
+      skillName: Flying Axe
+      icon: {fileID: 0}
+      description: Throws his hand axe to the closest enemy unit.
+      hasCooldown: 1
+      cooldown: 0.8
+      hasBaseDamageOrEffectValue: 0
+      baseDamageOrEffectValue: 0
+      usesHeroDamageMultiplier: 1
+      heroDamageMultiplier: 1.25
+      starUpgrades:
+      - requiredStar: 1
+        upgradeType: 0
+        value: 25
+        description: Deals 25% Extra Damage.
+      - requiredStar: 2
+        upgradeType: 0
+        value: 50
+        description: Extra damage increased to 50%.
+      - requiredStar: 3
+        upgradeType: 0
+        value: 75
+        description: Extra damage increased to 75%.
+      - requiredStar: 4
+        upgradeType: 0
+        value: 100
+        description: Extra damage increased to 100%.
+      - requiredStar: 5
+        upgradeType: 0
+        value: 150
+        description: Extra damage increased to 150%.
+    activeSkill:
+      skillName: Spear Rain
+      icon: {fileID: 0}
+      description: Throws a volley of spears towards enemy lines, creating a rain of spears.
+      hasCooldown: 1
+      cooldown: 9
+      hasBaseDamageOrEffectValue: 0
+      baseDamageOrEffectValue: 0
+      usesHeroDamageMultiplier: 1
+      heroDamageMultiplier: 3.5
+      starUpgrades:
+      - requiredStar: 1
+        upgradeType: 0
+        value: 25
+        description: Deals 25% Extra Damage.
+      - requiredStar: 2
+        upgradeType: 0
+        value: 50
+        description: Extra damage increased to 50%.
+      - requiredStar: 3
+        upgradeType: 0
+        value: 75
+        description: Extra damage increased to 75%.
+      - requiredStar: 4
+        upgradeType: 0
+        value: 100
+        description: Extra damage increased to 100%.
+      - requiredStar: 5
+        upgradeType: 0
+        value: 150
+        description: Extra damage increased to 150%.
+    passiveSkill:
+      skillName: Fire
+      icon: {fileID: 0}
+      description: Lights up a campfire and creates a damage-boosting zone, increasing the damage of allies by 20%.
+      hasCooldown: 1
+      cooldown: 12
+      hasBaseDamageOrEffectValue: 1
+      baseDamageOrEffectValue: 20
+      usesHeroDamageMultiplier: 0
+      heroDamageMultiplier: 1
+      starUpgrades:
+      - requiredStar: 1
+        upgradeType: 2
+        value: 5
+        description: Boost the effect by an additional 5%.
+      - requiredStar: 2
+        upgradeType: 2
+        value: 5
+        description: Boost the effect by an additional 5%.
+      - requiredStar: 3
+        upgradeType: 2
+        value: 5
+        description: Boost the effect by an additional 5%.
+      - requiredStar: 4
+        upgradeType: 2
+        value: 5
+        description: Boost the effect by an additional 5%.
+      - requiredStar: 5
+        upgradeType: 2
+        value: 5
+        description: Boost the effect by an additional 5%.
+    starTraitRewards:
+    - requiredStar: 1
+      rarity: 1
+      traitType: 0
+    - requiredStar: 2
+      rarity: 1
+      traitType: 3
+    - requiredStar: 3
+      rarity: 2
+      traitType: 6
+    - requiredStar: 4
+      rarity: 2
+      traitType: 5
+    - requiredStar: 5
+      rarity: 3
+      traitType: 0
+  - basicInfo:
+      heroID: clanky_bot
+      heroName: Clanky Bot
+      heroIcon: {fileID: 21300000, guid: f27e5a4f2aed8a84ea8b7c9fb89d1d03, type: 2}
+      shortDescription: A heavy combat machine built to crush enemies with metal fists, scorching flames, and relentless power.
+      heroRarity: {fileID: 11400000, guid: a46f270e675180d4f80ad23ece608896, type: 2}
+      attackType: 0
+    baseStats:
+      stats:
+      - statID: damage
+        statName: Damage
+        baseValue: 160
+      - statID: health
+        statName: Health
+        baseValue: 300
+      - statID: defense
+        statName: Defense
+        baseValue: 100
+      - statID: crit_chance
+        statName: Crit Chance
+        baseValue: 1
+      - statID: crit_damage
+        statName: Crit Damage
+        baseValue: 2
+    combatPositioning:
+      preferredDistance: 1.5
+      attackRange: 2
+    unlockConfiguration:
+      unlockShardRequirement: 5
+    autoAttack:
+      skillName: Metal Punch
+      icon: {fileID: 0}
+      description: Punches the closest enemy unit with his heavy metal fists.
+      hasCooldown: 1
+      cooldown: 2
+      hasBaseDamageOrEffectValue: 0
+      baseDamageOrEffectValue: 0
+      usesHeroDamageMultiplier: 1
+      heroDamageMultiplier: 1.5
+      starUpgrades:
+      - requiredStar: 1
+        upgradeType: 0
+        value: 25
+        description: Deals 25% Extra Damage.
+      - requiredStar: 2
+        upgradeType: 0
+        value: 50
+        description: Extra damage increased to 50%.
+      - requiredStar: 3
+        upgradeType: 0
+        value: 75
+        description: Extra damage increased to 75%.
+      - requiredStar: 4
+        upgradeType: 0
+        value: 100
+        description: Extra damage increased to 100%.
+      - requiredStar: 5
+        upgradeType: 0
+        value: 150
+        description: Extra damage increased to 150%.
+    activeSkill:
+      skillName: Furnace
+      icon: {fileID: 0}
+      description: Fires up his furnace chest and starts spitting fire towards enemies in front of him.
+      hasCooldown: 1
+      cooldown: 9
+      hasBaseDamageOrEffectValue: 0
+      baseDamageOrEffectValue: 0
+      usesHeroDamageMultiplier: 1
+      heroDamageMultiplier: 5.5
+      starUpgrades:
+      - requiredStar: 1
+        upgradeType: 0
+        value: 25
+        description: Deals 25% Extra Damage.
+      - requiredStar: 2
+        upgradeType: 0
+        value: 50
+        description: Extra damage increased to 50%.
+      - requiredStar: 3
+        upgradeType: 0
+        value: 75
+        description: Extra damage increased to 75%.
+      - requiredStar: 4
+        upgradeType: 0
+        value: 100
+        description: Extra damage increased to 100%.
+      - requiredStar: 5
+        upgradeType: 0
+        value: 150
+        description: Extra damage increased to 150%.
+    passiveSkill:
+      skillName: Roaring Engine
+      icon: {fileID: 0}
+      description: Clanky's engines start rumbling, increasing the hero's critical chance by 20% for 4 seconds.
+      hasCooldown: 1
+      cooldown: 13
+      hasBaseDamageOrEffectValue: 1
+      baseDamageOrEffectValue: 20
+      usesHeroDamageMultiplier: 0
+      heroDamageMultiplier: 1
+      starUpgrades:
+      - requiredStar: 1
+        upgradeType: 2
+        value: 5
+        description: Boost the effect by an additional 5%.
+      - requiredStar: 2
+        upgradeType: 2
+        value: 5
+        description: Boost the effect by an additional 5%.
+      - requiredStar: 3
+        upgradeType: 2
+        value: 5
+        description: Boost the effect by an additional 5%.
+      - requiredStar: 4
+        upgradeType: 2
+        value: 5
+        description: Boost the effect by an additional 5%.
+      - requiredStar: 5
+        upgradeType: 2
+        value: 5
+        description: Boost the effect by an additional 5%.
+    starTraitRewards:
+    - requiredStar: 1
+      rarity: 2
+      traitType: 4
+    - requiredStar: 2
+      rarity: 2
+      traitType: 1
+    - requiredStar: 3
+      rarity: 3
+      traitType: 0
+    - requiredStar: 4
+      rarity: 3
+      traitType: 2
+    - requiredStar: 5
+      rarity: 3
+      traitType: 3
+  - basicInfo:
+      heroID: black_knight
+      heroName: Black Knight
+      heroIcon: {fileID: 21300000, guid: 31dc352d7fa474146a99e55345e1d77b, type: 2}
+      shortDescription: An armored guardian who commands the frontline with a massive sword and an unbreakable shield.
+      heroRarity: {fileID: 11400000, guid: a46f270e675180d4f80ad23ece608896, type: 2}
+      attackType: 0
+    baseStats:
+      stats:
+      - statID: damage
+        statName: Damage
+        baseValue: 140
+      - statID: health
+        statName: Health
+        baseValue: 350
+      - statID: defense
+        statName: Defense
+        baseValue: 110
+      - statID: crit_chance
+        statName: Crit Chance
+        baseValue: 1
+      - statID: crit_damage
+        statName: Crit Damage
+        baseValue: 1.8
+    combatPositioning:
+      preferredDistance: 1.5
+      attackRange: 2
+    unlockConfiguration:
+      unlockShardRequirement: 5
+    autoAttack:
+      skillName: Big Slash
+      icon: {fileID: 0}
+      description: Swings his giant sword and slashes a large area in front of him, damaging all enemy units inside the area.
+      hasCooldown: 1
+      cooldown: 2.5
+      hasBaseDamageOrEffectValue: 0
+      baseDamageOrEffectValue: 0
+      usesHeroDamageMultiplier: 1
+      heroDamageMultiplier: 1.5
+      starUpgrades:
+      - requiredStar: 1
+        upgradeType: 0
+        value: 25
+        description: Deals 25% Extra Damage.
+      - requiredStar: 2
+        upgradeType: 0
+        value: 50
+        description: Extra damage increased to 50%.
+      - requiredStar: 3
+        upgradeType: 0
+        value: 75
+        description: Extra damage increased to 75%.
+      - requiredStar: 4
+        upgradeType: 0
+        value: 100
+        description: Extra damage increased to 100%.
+      - requiredStar: 5
+        upgradeType: 0
+        value: 150
+        description: Extra damage increased to 150%.
+    activeSkill:
+      skillName: Ricochet Shield
+      icon: {fileID: 0}
+      description: Throws his shield at the closest enemy unit. The shield bounces between different enemy units 5 times and then returns to the knight.
+      hasCooldown: 1
+      cooldown: 8
+      hasBaseDamageOrEffectValue: 0
+      baseDamageOrEffectValue: 0
+      usesHeroDamageMultiplier: 1
+      heroDamageMultiplier: 6
+      starUpgrades:
+      - requiredStar: 1
+        upgradeType: 0
+        value: 25
+        description: Deals 25% Extra Damage.
+      - requiredStar: 2
+        upgradeType: 0
+        value: 50
+        description: Extra damage increased to 50%.
+      - requiredStar: 3
+        upgradeType: 0
+        value: 75
+        description: Extra damage increased to 75%.
+      - requiredStar: 4
+        upgradeType: 0
+        value: 100
+        description: Extra damage increased to 100%.
+      - requiredStar: 5
+        upgradeType: 0
+        value: 150
+        description: Extra damage increased to 150%.
+    passiveSkill:
+      skillName: Tough Skin
+      icon: {fileID: 0}
+      description: Raises his shield and protects all ally units from 50% of incoming damage for 3 seconds.
+      hasCooldown: 1
+      cooldown: 11
+      hasBaseDamageOrEffectValue: 1
+      baseDamageOrEffectValue: 50
+      usesHeroDamageMultiplier: 0
+      heroDamageMultiplier: 1
+      starUpgrades:
+      - requiredStar: 1
+        upgradeType: 2
+        value: 5
+        description: Boost the effect by an additional 5%.
+      - requiredStar: 2
+        upgradeType: 2
+        value: 5
+        description: Boost the effect by an additional 5%.
+      - requiredStar: 3
+        upgradeType: 2
+        value: 5
+        description: Boost the effect by an additional 5%.
+      - requiredStar: 4
+        upgradeType: 2
+        value: 5
+        description: Boost the effect by an additional 5%.
+      - requiredStar: 5
+        upgradeType: 2
+        value: 5
+        description: Boost the effect by an additional 5%.
+    starTraitRewards:
+    - requiredStar: 1
+      rarity: 2
+      traitType: 4
+    - requiredStar: 2
+      rarity: 2
+      traitType: 1
+    - requiredStar: 3
+      rarity: 3
+      traitType: 4
+    - requiredStar: 4
+      rarity: 3
+      traitType: 0
+    - requiredStar: 5
+      rarity: 3
+      traitType: 3
+  - basicInfo:
+      heroID: mech_unit
+      heroName: Mech Unit
+      heroIcon: {fileID: 21300000, guid: 3f710f724fde2c049824b2664560d627, type: 2}
+      shortDescription: An advanced war machine that unleashes relentless gunfire, explosive attacks, and powerful combat boosts.
+      heroRarity: {fileID: 11400000, guid: a46f270e675180d4f80ad23ece608896, type: 2}
+      attackType: 1
+    baseStats:
+      stats:
+      - statID: damage
+        statName: Damage
+        baseValue: 175
+      - statID: health
+        statName: Health
+        baseValue: 250
+      - statID: defense
+        statName: Defense
+        baseValue: 80
+      - statID: crit_chance
+        statName: Crit Chance
+        baseValue: 3
+      - statID: crit_damage
+        statName: Crit Damage
+        baseValue: 2.2
+    combatPositioning:
+      preferredDistance: 1.5
+      attackRange: 2
+    unlockConfiguration:
+      unlockShardRequirement: 5
+    autoAttack:
+      skillName: Bullet Rain
+      icon: {fileID: 0}
+      description: Shoots enemy units with his mighty machine gun.
+      hasCooldown: 1
+      cooldown: 0.6
+      hasBaseDamageOrEffectValue: 0
+      baseDamageOrEffectValue: 0
+      usesHeroDamageMultiplier: 1
+      heroDamageMultiplier: 1.5
+      starUpgrades:
+      - requiredStar: 1
+        upgradeType: 0
+        value: 25
+        description: Deals 25% Extra Damage.
+      - requiredStar: 2
+        upgradeType: 0
+        value: 50
+        description: Extra damage increased to 50%.
+      - requiredStar: 3
+        upgradeType: 0
+        value: 75
+        description: Extra damage increased to 75%.
+      - requiredStar: 4
+        upgradeType: 0
+        value: 100
+        description: Extra damage increased to 100%.
+      - requiredStar: 5
+        upgradeType: 0
+        value: 150
+        description: Extra damage increased to 150%.
+    activeSkill:
+      skillName: Fiery Axe
+      icon: {fileID: 0}
+      description: Hurls his fiery axe at the nearest enemy unit, creating an explosion on impact and leaving a burning zone on the ground for 3 seconds.
+      hasCooldown: 1
+      cooldown: 7
+      hasBaseDamageOrEffectValue: 0
+      baseDamageOrEffectValue: 0
+      usesHeroDamageMultiplier: 1
+      heroDamageMultiplier: 6.5
+      starUpgrades:
+      - requiredStar: 1
+        upgradeType: 0
+        value: 25
+        description: Deals 25% Extra Damage.
+      - requiredStar: 2
+        upgradeType: 0
+        value: 50
+        description: Extra damage increased to 50%.
+      - requiredStar: 3
+        upgradeType: 0
+        value: 75
+        description: Extra damage increased to 75%.
+      - requiredStar: 4
+        upgradeType: 0
+        value: 100
+        description: Extra damage increased to 100%.
+      - requiredStar: 5
+        upgradeType: 0
+        value: 150
+        description: Extra damage increased to 150%.
+    passiveSkill:
+      skillName: Software Update
+      icon: {fileID: 0}
+      description: Releases a boost wave, increasing all ally units' damage by 20% for 4 seconds.
+      hasCooldown: 1
+      cooldown: 10
+      hasBaseDamageOrEffectValue: 1
+      baseDamageOrEffectValue: 20
+      usesHeroDamageMultiplier: 0
+      heroDamageMultiplier: 1
+      starUpgrades:
+      - requiredStar: 1
+        upgradeType: 2
+        value: 5
+        description: Boost the effect by an additional 5%.
+      - requiredStar: 2
+        upgradeType: 2
+        value: 5
+        description: Boost the effect by an additional 5%.
+      - requiredStar: 3
+        upgradeType: 2
+        value: 5
+        description: Boost the effect by an additional 5%.
+      - requiredStar: 4
+        upgradeType: 2
+        value: 5
+        description: Boost the effect by an additional 5%.
+      - requiredStar: 5
+        upgradeType: 2
+        value: 5
+        description: Boost the effect by an additional 5%.
+    starTraitRewards:
+    - requiredStar: 1
+      rarity: 2
+      traitType: 6
+    - requiredStar: 2
+      rarity: 2
+      traitType: 0
+    - requiredStar: 3
+      rarity: 3
+      traitType: 3
+    - requiredStar: 4
+      rarity: 3
+      traitType: 5
+    - requiredStar: 5
+      rarity: 3
+      traitType: 0
+  - basicInfo:
+      heroID: the_clown
+      heroName: The Clown
+      heroIcon: {fileID: 21300000, guid: f21d01c1db676024bbeb8ee634506616, type: 2}
+      shortDescription: A chaotic entertainer who turns deadly tricks, oversized weapons, and laughter into battlefield mayhem.
+      heroRarity: {fileID: 11400000, guid: a46f270e675180d4f80ad23ece608896, type: 2}
+      attackType: 1
+    baseStats:
+      stats:
+      - statID: damage
+        statName: Damage
+        baseValue: 190
+      - statID: health
+        statName: Health
+        baseValue: 220
+      - statID: defense
+        statName: Defense
+        baseValue: 100
+      - statID: crit_chance
+        statName: Crit Chance
+        baseValue: 2
+      - statID: crit_damage
+        statName: Crit Damage
+        baseValue: 2.6
+    combatPositioning:
+      preferredDistance: 1.5
+      attackRange: 2
+    unlockConfiguration:
+      unlockShardRequirement: 5
+    autoAttack:
+      skillName: Boink
+      icon: {fileID: 0}
+      description: Throws his juggling clubs at the closest enemy units.
+      hasCooldown: 1
+      cooldown: 1.2
+      hasBaseDamageOrEffectValue: 0
+      baseDamageOrEffectValue: 0
+      usesHeroDamageMultiplier: 1
+      heroDamageMultiplier: 1.5
+      starUpgrades:
+      - requiredStar: 1
+        upgradeType: 0
+        value: 25
+        description: Deals 25% Extra Damage.
+      - requiredStar: 2
+        upgradeType: 0
+        value: 50
+        description: Extra damage increased to 50%.
+      - requiredStar: 3
+        upgradeType: 0
+        value: 75
+        description: Extra damage increased to 75%.
+      - requiredStar: 4
+        upgradeType: 0
+        value: 100
+        description: Extra damage increased to 100%.
+      - requiredStar: 5
+        upgradeType: 0
+        value: 150
+        description: Extra damage increased to 150%.
+    activeSkill:
+      skillName: Hammer Time
+      icon: {fileID: 0}
+      description: Surprises the enemy units with a huge toy hammer smash, damaging all enemy units in range.
+      hasCooldown: 1
+      cooldown: 10
+      hasBaseDamageOrEffectValue: 0
+      baseDamageOrEffectValue: 0
+      usesHeroDamageMultiplier: 1
+      heroDamageMultiplier: 6
+      starUpgrades:
+      - requiredStar: 1
+        upgradeType: 0
+        value: 25
+        description: Deals 25% Extra Damage.
+      - requiredStar: 2
+        upgradeType: 0
+        value: 50
+        description: Extra damage increased to 50%.
+      - requiredStar: 3
+        upgradeType: 0
+        value: 75
+        description: Extra damage increased to 75%.
+      - requiredStar: 4
+        upgradeType: 0
+        value: 100
+        description: Extra damage increased to 100%.
+      - requiredStar: 5
+        upgradeType: 0
+        value: 150
+        description: Extra damage increased to 150%.
+    passiveSkill:
+      skillName: Funny Joke
+      icon: {fileID: 0}
+      description: Cracks a joke and heals all ally units for 15% of their health.
+      hasCooldown: 1
+      cooldown: 13
+      hasBaseDamageOrEffectValue: 1
+      baseDamageOrEffectValue: 15
+      usesHeroDamageMultiplier: 0
+      heroDamageMultiplier: 1
+      starUpgrades:
+      - requiredStar: 1
+        upgradeType: 2
+        value: 5
+        description: Boost the effect by an additional 5%.
+      - requiredStar: 2
+        upgradeType: 2
+        value: 5
+        description: Boost the effect by an additional 5%.
+      - requiredStar: 3
+        upgradeType: 2
+        value: 5
+        description: Boost the effect by an additional 5%.
+      - requiredStar: 4
+        upgradeType: 2
+        value: 5
+        description: Boost the effect by an additional 5%.
+      - requiredStar: 5
+        upgradeType: 2
+        value: 5
+        description: Boost the effect by an additional 5%.
+    starTraitRewards:
+    - requiredStar: 1
+      rarity: 2
+      traitType: 0
+    - requiredStar: 2
+      rarity: 2
+      traitType: 3
+    - requiredStar: 3
+      rarity: 3
+      traitType: 1
+    - requiredStar: 4
+      rarity: 3
+      traitType: 2
+    - requiredStar: 5
+      rarity: 3
+      traitType: 0
+  - basicInfo:
+      heroID: paladin
+      heroName: Paladin
+      heroIcon: {fileID: 21300000, guid: 96a092e7c9ef0e24fac2d3a4ac86e93b, type: 2}
+      shortDescription: A holy warrior who protects his allies with divine defenses while delivering devastating judgment.
+      heroRarity: {fileID: 11400000, guid: a46f270e675180d4f80ad23ece608896, type: 2}
+      attackType: 0
+    baseStats:
+      stats:
+      - statID: damage
+        statName: Damage
+        baseValue: 170
+      - statID: health
+        statName: Health
+        baseValue: 280
+      - statID: defense
+        statName: Defense
+        baseValue: 120
+      - statID: crit_chance
+        statName: Crit Chance
+        baseValue: 1
+      - statID: crit_damage
+        statName: Crit Damage
+        baseValue: 1.5
+    combatPositioning:
+      preferredDistance: 1.5
+      attackRange: 2
+    unlockConfiguration:
+      unlockShardRequirement: 5
+    autoAttack:
+      skillName: Hammer Bash
+      icon: {fileID: 0}
+      description: Smashes the closest enemy unit with his sturdy hammer.
+      hasCooldown: 1
+      cooldown: 1
+      hasBaseDamageOrEffectValue: 0
+      baseDamageOrEffectValue: 0
+      usesHeroDamageMultiplier: 1
+      heroDamageMultiplier: 1.5
+      starUpgrades:
+      - requiredStar: 1
+        upgradeType: 0
+        value: 25
+        description: Deals 25% Extra Damage.
+      - requiredStar: 2
+        upgradeType: 0
+        value: 50
+        description: Extra damage increased to 50%.
+      - requiredStar: 3
+        upgradeType: 0
+        value: 75
+        description: Extra damage increased to 75%.
+      - requiredStar: 4
+        upgradeType: 0
+        value: 100
+        description: Extra damage increased to 100%.
+      - requiredStar: 5
+        upgradeType: 0
+        value: 150
+        description: Extra damage increased to 150%.
+    activeSkill:
+      skillName: Golden Idol
+      icon: {fileID: 0}
+      description: Drops a huge golden statue of himself from the sky, smashing the enemy units under it.
+      hasCooldown: 1
+      cooldown: 9
+      hasBaseDamageOrEffectValue: 0
+      baseDamageOrEffectValue: 0
+      usesHeroDamageMultiplier: 1
+      heroDamageMultiplier: 6.5
+      starUpgrades:
+      - requiredStar: 1
+        upgradeType: 0
+        value: 25
+        description: Deals 25% Extra Damage.
+      - requiredStar: 2
+        upgradeType: 0
+        value: 50
+        description: Extra damage increased to 50%.
+      - requiredStar: 3
+        upgradeType: 0
+        value: 75
+        description: Extra damage increased to 75%.
+      - requiredStar: 4
+        upgradeType: 0
+        value: 100
+        description: Extra damage increased to 100%.
+      - requiredStar: 5
+        upgradeType: 0
+        value: 150
+        description: Extra damage increased to 150%.
+    passiveSkill:
+      skillName: Holy Protection
+      icon: {fileID: 0}
+      description: Imbues himself with a holy shield, reflecting 50% of the damage taken back to the enemy for 3 seconds.
+      hasCooldown: 1
+      cooldown: 9
+      hasBaseDamageOrEffectValue: 1
+      baseDamageOrEffectValue: 50
+      usesHeroDamageMultiplier: 0
+      heroDamageMultiplier: 1
+      starUpgrades:
+      - requiredStar: 1
+        upgradeType: 2
+        value: 5
+        description: Boost the effect by an additional 5%.
+      - requiredStar: 2
+        upgradeType: 2
+        value: 5
+        description: Boost the effect by an additional 5%.
+      - requiredStar: 3
+        upgradeType: 2
+        value: 5
+        description: Boost the effect by an additional 5%.
+      - requiredStar: 4
+        upgradeType: 2
+        value: 5
+        description: Boost the effect by an additional 5%.
+      - requiredStar: 5
+        upgradeType: 2
+        value: 5
+        description: Boost the effect by an additional 5%.
+    starTraitRewards:
+    - requiredStar: 1
+      rarity: 2
+      traitType: 4
+    - requiredStar: 2
+      rarity: 2
+      traitType: 1
+    - requiredStar: 3
+      rarity: 3
+      traitType: 0
+    - requiredStar: 4
+      rarity: 3
+      traitType: 4
+    - requiredStar: 5
+      rarity: 3
+      traitType: 3

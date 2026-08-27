@@ -1,0 +1,576 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb1e6ed40eebe54f362becb7561ce0f6, type: 3}
+  m_Name: QuestDB
+  m_EditorClassIdentifier:
+  allQuests:
+  - name: Burn Status
+    id: 0
+    idGroup: 0
+    description: Punch $X$ enemies with burn status
+    questType: 1
+    reward:
+      icon: {fileID: 0}
+      rewardAmouth: 2
+      rewardType: 3
+    needQuestTarget: 10
+    preventDifficultyIncrease: 0
+    collectedQuestTarget: 0
+    level: 0
+    maxLevel: 1000
+    isActive: 0
+  - name: Lightning Status
+    id: 1
+    idGroup: 0
+    description: Punch $X$ enemies with lightning status
+    questType: 2
+    reward:
+      icon: {fileID: 0}
+      rewardAmouth: 30
+      rewardType: 1
+    needQuestTarget: 10
+    preventDifficultyIncrease: 0
+    collectedQuestTarget: 0
+    level: 0
+    maxLevel: 1000
+    isActive: 0
+  - name: Freeze Status
+    id: 2
+    idGroup: 0
+    description: Punch $X$ enemies with freeze status
+    questType: 3
+    reward:
+      icon: {fileID: 0}
+      rewardAmouth: 1
+      rewardType: 2
+    needQuestTarget: 10
+    preventDifficultyIncrease: 0
+    collectedQuestTarget: 0
+    level: 0
+    maxLevel: 1000
+    isActive: 0
+  - name: Coin
+    id: 3
+    idGroup: 1
+    description: Collect $X$ coins
+    questType: 4
+    reward:
+      icon: {fileID: 0}
+      rewardAmouth: 2
+      rewardType: 3
+    needQuestTarget: 200
+    preventDifficultyIncrease: 0
+    collectedQuestTarget: 0
+    level: 0
+    maxLevel: 1000
+    isActive: 0
+  - name: Gem
+    id: 4
+    idGroup: 1
+    description: Gather $X$ talent gems
+    questType: 5
+    reward:
+      icon: {fileID: 0}
+      rewardAmouth: 30
+      rewardType: 1
+    needQuestTarget: 15
+    preventDifficultyIncrease: 0
+    collectedQuestTarget: 0
+    level: 0
+    maxLevel: 1000
+    isActive: 0
+  - name: Chest
+    id: 5
+    idGroup: 1
+    description: Unlock $X$ chest.
+    questType: 6
+    reward:
+      icon: {fileID: 0}
+      rewardAmouth: 2
+      rewardType: 3
+    needQuestTarget: 2
+    preventDifficultyIncrease: 0
+    collectedQuestTarget: 0
+    level: 0
+    maxLevel: 1000
+    isActive: 0
+  - name: Boss
+    id: 7
+    idGroup: 2
+    description: 'Face and defeat $X$ boss enemy '
+    questType: 8
+    reward:
+      icon: {fileID: 0}
+      rewardAmouth: 30
+      rewardType: 1
+    needQuestTarget: 1
+    preventDifficultyIncrease: 1
+    collectedQuestTarget: 0
+    level: 0
+    maxLevel: 1000
+    isActive: 0
+  - name: Enemy
+    id: 8
+    idGroup: 2
+    description: Defeat $X$ enemies
+    questType: 9
+    reward:
+      icon: {fileID: 0}
+      rewardAmouth: 2
+      rewardType: 3
+    needQuestTarget: 200
+    preventDifficultyIncrease: 0
+    collectedQuestTarget: 0
+    level: 0
+    maxLevel: 1000
+    isActive: 0
+  - name: Arm
+    id: 9
+    idGroup: 3
+    description: Buy $X$ extra arms
+    questType: 10
+    reward:
+      icon: {fileID: 0}
+      rewardAmouth: 30
+      rewardType: 1
+    needQuestTarget: 5
+    preventDifficultyIncrease: 0
+    collectedQuestTarget: 0
+    level: 0
+    maxLevel: 1000
+    isActive: 0
+  - name: Level
+    id: 10
+    idGroup: 3
+    description: Gain $X$ levels in fights
+    questType: 11
+    reward:
+      icon: {fileID: 0}
+      rewardAmouth: 2
+      rewardType: 3
+    needQuestTarget: 15
+    preventDifficultyIncrease: 0
+    collectedQuestTarget: 0
+    level: 0
+    maxLevel: 1000
+    isActive: 0
+  - name: Range
+    id: 11
+    idGroup: 3
+    description: Increase punch range by $X$  feets.
+    questType: 12
+    reward:
+      icon: {fileID: 0}
+      rewardAmouth: 1
+      rewardType: 2
+    needQuestTarget: 4
+    preventDifficultyIncrease: 0
+    collectedQuestTarget: 0
+    level: 0
+    maxLevel: 1000
+    isActive: 0
+  - name: Ice
+    id: 13
+    idGroup: 4
+    description: Inflict freeze to $X$ enemies
+    questType: 14
+    reward:
+      icon: {fileID: 0}
+      rewardAmouth: 30
+      rewardType: 1
+    needQuestTarget: 35
+    preventDifficultyIncrease: 0
+    collectedQuestTarget: 0
+    level: 0
+    maxLevel: 1000
+    isActive: 0
+  - name: Fire
+    id: 14
+    idGroup: 4
+    description: Inflict burn to $X$ enemies
+    questType: 15
+    reward:
+      icon: {fileID: 0}
+      rewardAmouth: 2
+      rewardType: 3
+    needQuestTarget: 45
+    preventDifficultyIncrease: 0
+    collectedQuestTarget: 0
+    level: 0
+    maxLevel: 1000
+    isActive: 0
+  - name: Lightning
+    id: 15
+    idGroup: 4
+    description: Inflict lightning to $X$ enemies
+    questType: 16
+    reward:
+      icon: {fileID: 0}
+      rewardAmouth: 1
+      rewardType: 2
+    needQuestTarget: 55
+    preventDifficultyIncrease: 0
+    collectedQuestTarget: 0
+    level: 0
+    maxLevel: 1000
+    isActive: 0
+  - name: Crit
+    id: 16
+    idGroup: 4
+    description: Deal critical damages to $X$ enemies
+    questType: 17
+    reward:
+      icon: {fileID: 0}
+      rewardAmouth: 2
+      rewardType: 3
+    needQuestTarget: 10
+    preventDifficultyIncrease: 0
+    collectedQuestTarget: 0
+    level: 0
+    maxLevel: 1000
+    isActive: 0
+  - name: Rank
+    id: 17
+    idGroup: 5
+    description: Reach $X$ rank
+    questType: 18
+    reward:
+      icon: {fileID: 0}
+      rewardAmouth: 30
+      rewardType: 1
+    needQuestTarget: 4
+    preventDifficultyIncrease: 0
+    collectedQuestTarget: 0
+    level: 0
+    maxLevel: 1000
+    isActive: 0
+  - name: Merge
+    id: 20
+    idGroup: 6
+    description: Merge items $X$ times
+    questType: 20
+    reward:
+      icon: {fileID: 0}
+      rewardAmouth: 5
+      rewardType: 3
+    needQuestTarget: 5
+    preventDifficultyIncrease: 0
+    collectedQuestTarget: 0
+    level: 0
+    maxLevel: 1000
+    isActive: 0
+  - name: Level
+    id: 21
+    idGroup: 6
+    description: Level up items for $X$ times
+    questType: 21
+    reward:
+      icon: {fileID: 0}
+      rewardAmouth: 1
+      rewardType: 2
+    needQuestTarget: 20
+    preventDifficultyIncrease: 0
+    collectedQuestTarget: 0
+    level: 0
+    maxLevel: 1000
+    isActive: 0
+  savedQuests:
+  - name: Burn Status
+    id: 0
+    idGroup: 0
+    description: Punch $X$ enemies with burn status
+    questType: 1
+    reward:
+      icon: {fileID: 0}
+      rewardAmouth: 2
+      rewardType: 3
+    needQuestTarget: 10
+    preventDifficultyIncrease: 0
+    collectedQuestTarget: 0
+    level: 0
+    maxLevel: 1000
+    isActive: 0
+  - name: Lightning Status
+    id: 1
+    idGroup: 0
+    description: Punch $X$ enemies with lightning status
+    questType: 2
+    reward:
+      icon: {fileID: 0}
+      rewardAmouth: 30
+      rewardType: 1
+    needQuestTarget: 10
+    preventDifficultyIncrease: 0
+    collectedQuestTarget: 0
+    level: 0
+    maxLevel: 1000
+    isActive: 0
+  - name: Freeze Status
+    id: 2
+    idGroup: 0
+    description: Punch $X$ enemies with freeze status
+    questType: 3
+    reward:
+      icon: {fileID: 0}
+      rewardAmouth: 1
+      rewardType: 2
+    needQuestTarget: 10
+    preventDifficultyIncrease: 0
+    collectedQuestTarget: 0
+    level: 0
+    maxLevel: 1000
+    isActive: 0
+  - name: Coin
+    id: 3
+    idGroup: 1
+    description: Collect $X$ coins
+    questType: 4
+    reward:
+      icon: {fileID: 0}
+      rewardAmouth: 2
+      rewardType: 3
+    needQuestTarget: 300
+    preventDifficultyIncrease: 0
+    collectedQuestTarget: 0
+    level: 1
+    maxLevel: 1000
+    isActive: 0
+  - name: Gem
+    id: 4
+    idGroup: 1
+    description: Gather $X$ talent gems
+    questType: 5
+    reward:
+      icon: {fileID: 0}
+      rewardAmouth: 30
+      rewardType: 1
+    needQuestTarget: 15
+    preventDifficultyIncrease: 0
+    collectedQuestTarget: 0
+    level: 0
+    maxLevel: 1000
+    isActive: 0
+  - name: Chest
+    id: 5
+    idGroup: 1
+    description: Unlock $X$ chest.
+    questType: 6
+    reward:
+      icon: {fileID: 0}
+      rewardAmouth: 2
+      rewardType: 3
+    needQuestTarget: 2
+    preventDifficultyIncrease: 0
+    collectedQuestTarget: 0
+    level: 0
+    maxLevel: 1000
+    isActive: 0
+  - name: Boss
+    id: 7
+    idGroup: 2
+    description: 'Face and defeat $X$ boss enemy '
+    questType: 8
+    reward:
+      icon: {fileID: 0}
+      rewardAmouth: 30
+      rewardType: 1
+    needQuestTarget: 1
+    preventDifficultyIncrease: 1
+    collectedQuestTarget: 0
+    level: 0
+    maxLevel: 1000
+    isActive: 0
+  - name: Enemy
+    id: 8
+    idGroup: 2
+    description: Defeat $X$ enemies
+    questType: 9
+    reward:
+      icon: {fileID: 0}
+      rewardAmouth: 2
+      rewardType: 3
+    needQuestTarget: 300
+    preventDifficultyIncrease: 0
+    collectedQuestTarget: 0
+    level: 1
+    maxLevel: 1000
+    isActive: 0
+  - name: Arm
+    id: 9
+    idGroup: 3
+    description: Buy $X$ extra arms
+    questType: 10
+    reward:
+      icon: {fileID: 0}
+      rewardAmouth: 30
+      rewardType: 1
+    needQuestTarget: 5
+    preventDifficultyIncrease: 0
+    collectedQuestTarget: 0
+    level: 0
+    maxLevel: 1000
+    isActive: 0
+  - name: Level
+    id: 10
+    idGroup: 3
+    description: Gain $X$ levels in fights
+    questType: 11
+    reward:
+      icon: {fileID: 0}
+      rewardAmouth: 2
+      rewardType: 3
+    needQuestTarget: 15
+    preventDifficultyIncrease: 0
+    collectedQuestTarget: 0
+    level: 0
+    maxLevel: 1000
+    isActive: 1
+  - name: Range
+    id: 11
+    idGroup: 3
+    description: Increase punch range by $X$  feets.
+    questType: 12
+    reward:
+      icon: {fileID: 0}
+      rewardAmouth: 1
+      rewardType: 2
+    needQuestTarget: 4
+    preventDifficultyIncrease: 0
+    collectedQuestTarget: 0
+    level: 0
+    maxLevel: 1000
+    isActive: 1
+  - name: Ice
+    id: 13
+    idGroup: 4
+    description: Inflict freeze to $X$ enemies
+    questType: 14
+    reward:
+      icon: {fileID: 0}
+      rewardAmouth: 30
+      rewardType: 1
+    needQuestTarget: 35
+    preventDifficultyIncrease: 0
+    collectedQuestTarget: 0
+    level: 0
+    maxLevel: 1000
+    isActive: 0
+  - name: Fire
+    id: 14
+    idGroup: 4
+    description: Inflict burn to $X$ enemies
+    questType: 15
+    reward:
+      icon: {fileID: 0}
+      rewardAmouth: 2
+      rewardType: 3
+    needQuestTarget: 45
+    preventDifficultyIncrease: 0
+    collectedQuestTarget: 0
+    level: 0
+    maxLevel: 1000
+    isActive: 0
+  - name: Lightning
+    id: 15
+    idGroup: 4
+    description: Inflict lightning to $X$ enemies
+    questType: 16
+    reward:
+      icon: {fileID: 0}
+      rewardAmouth: 1
+      rewardType: 2
+    needQuestTarget: 55
+    preventDifficultyIncrease: 0
+    collectedQuestTarget: 0
+    level: 0
+    maxLevel: 1000
+    isActive: 0
+  - name: Crit
+    id: 16
+    idGroup: 4
+    description: Deal critical damages to $X$ enemies
+    questType: 17
+    reward:
+      icon: {fileID: 0}
+      rewardAmouth: 2
+      rewardType: 3
+    needQuestTarget: 10
+    preventDifficultyIncrease: 0
+    collectedQuestTarget: 0
+    level: 0
+    maxLevel: 1000
+    isActive: 0
+  - name: Rank
+    id: 17
+    idGroup: 5
+    description: Reach $X$ rank
+    questType: 18
+    reward:
+      icon: {fileID: 0}
+      rewardAmouth: 30
+      rewardType: 1
+    needQuestTarget: 4
+    preventDifficultyIncrease: 0
+    collectedQuestTarget: 0
+    level: 0
+    maxLevel: 1000
+    isActive: 0
+  - name: Merge
+    id: 20
+    idGroup: 6
+    description: Merge items $X$ times
+    questType: 20
+    reward:
+      icon: {fileID: 0}
+      rewardAmouth: 5
+      rewardType: 3
+    needQuestTarget: 5
+    preventDifficultyIncrease: 0
+    collectedQuestTarget: 0
+    level: 0
+    maxLevel: 1000
+    isActive: 0
+  - name: Level
+    id: 21
+    idGroup: 6
+    description: Level up items for $X$ times
+    questType: 21
+    reward:
+      icon: {fileID: 0}
+      rewardAmouth: 1
+      rewardType: 2
+    needQuestTarget: 20
+    preventDifficultyIncrease: 0
+    collectedQuestTarget: 0
+    level: 0
+    maxLevel: 1000
+    isActive: 0
+  lastCompleteds:
+  energyRewardStartAmount: 2
+  energyRewardIncreasePerClaim: 0
+  rewardProgressions:
+  - rewardType: 0
+    startAmount: 500
+    increasePerIndex: 125
+    multiplierPerIndex: 0
+  - rewardType: 1
+    startAmount: 30
+    increasePerIndex: 10
+    multiplierPerIndex: 0
+  - rewardType: 2
+    startAmount: 1
+    increasePerIndex: 1
+    multiplierPerIndex: 0
+  - rewardType: 3
+    startAmount: 2
+    increasePerIndex: 0
+    multiplierPerIndex: 0

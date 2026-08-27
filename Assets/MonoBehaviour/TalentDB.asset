@@ -1,0 +1,232 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cd9c99d877254e99a5d7a9e1ca24861, type: 3}
+  m_Name: TalentDB
+  m_EditorClassIdentifier:
+  allTalents:
+  - name: Punch Damage
+    description: Increase punch damage +$x$
+    typeOfTalent: 1
+    rare: 0
+    isActivated: 0
+    effetValue: 0.25
+    prefix:
+    suffix:
+    icon: {fileID: 21300000, guid: c63225f3de9003f40ae5c0cedad01dbe, type: 2}
+  - name: Punch Rate
+    description: Increase punch rate +$x$
+    typeOfTalent: 2
+    rare: 0
+    isActivated: 0
+    effetValue: 0.1
+    prefix:
+    suffix: '%'
+    icon: {fileID: 21300000, guid: 41aebb0fd2e8b1f49a7ba4d432f6ef20, type: 2}
+  - name: Punch Range
+    description: Increase punch range +$x$
+    typeOfTalent: 3
+    rare: 0
+    isActivated: 0
+    effetValue: 0.01
+    prefix:
+    suffix:
+    icon: {fileID: 21300000, guid: 6777601c4f963b748a8cb6c1854b7e66, type: 2}
+  - name: Knockback
+    description: Increase knockback +$x$
+    typeOfTalent: 4
+    rare: 0
+    isActivated: 0
+    effetValue: 0.02
+    prefix:
+    suffix:
+    icon: {fileID: 21300000, guid: 9edc6d56fc60b8144a8dfb9a85808ff9, type: 2}
+  - name: Exp
+    description: Increase exp gain +$x$
+    typeOfTalent: 6
+    rare: 0
+    isActivated: 0
+    effetValue: 0.25
+    prefix:
+    suffix: '%'
+    icon: {fileID: 21300000, guid: bb82506f67d5f6245a468b53eaf68004, type: 2}
+  - name: Critical Chance
+    description: Increase critical chance +$x$
+    typeOfTalent: 7
+    rare: 0
+    isActivated: 0
+    effetValue: 0.025
+    prefix:
+    suffix: '%'
+    icon: {fileID: 21300000, guid: 397cf548c9b47d949aef9afa2196ea71, type: 2}
+  - name: Critical Damage
+    description: Increase critical damage +$x$
+    typeOfTalent: 8
+    rare: 0
+    isActivated: 0
+    effetValue: 0.1
+    prefix: x
+    suffix:
+    icon: {fileID: 21300000, guid: a98ac71dbd42f7c49a0f691a53b05180, type: 2}
+  - name: Quest
+    description: Unlock Quests
+    typeOfTalent: 9
+    rare: 0
+    isActivated: 0
+    effetValue: 0
+    prefix:
+    suffix:
+    icon: {fileID: 21300000, guid: 833aab523e7a92a409b3e13010a778fa, type: 2}
+  - name: Punch Meteor
+    description: Unlock <color=green>Punch Meteor</color> skill
+    typeOfTalent: 10
+    rare: 0
+    isActivated: 0
+    effetValue: 0
+    prefix:
+    suffix:
+    icon: {fileID: 0}
+  - name: Rocket Punch
+    description: Unlock <color=green>Rocket Punch</color> skill
+    typeOfTalent: 11
+    rare: 0
+    isActivated: 0
+    effetValue: 0
+    prefix:
+    suffix:
+    icon: {fileID: 0}
+  - name: Missile Punches
+    description: Unlock <color=green>Missile Punches</color> skill
+    typeOfTalent: 12
+    rare: 0
+    isActivated: 0
+    effetValue: 0
+    prefix:
+    suffix:
+    icon: {fileID: 0}
+  - name: Granade Punch
+    description: Unlock <color=green>Granade Punch</color> skill
+    typeOfTalent: 13
+    rare: 0
+    isActivated: 0
+    effetValue: 0
+    prefix:
+    suffix:
+    icon: {fileID: 0}
+  - name: Deathbomb Punch
+    description: Unlock <color=green>Deathbomb Punch</color> skill
+    typeOfTalent: 14
+    rare: 0
+    isActivated: 0
+    effetValue: 0
+    prefix:
+    suffix:
+    icon: {fileID: 0}
+  - name: Void Punch
+    description: Unlock <color=green>Void Punch</color> skill
+    typeOfTalent: 15
+    rare: 0
+    isActivated: 0
+    effetValue: 0
+    prefix:
+    suffix:
+    icon: {fileID: 0}
+  - name: Knife Volley
+    description: Unlock <color=green>Knife Volley</color> skill
+    typeOfTalent: 16
+    rare: 0
+    isActivated: 0
+    effetValue: 0
+    prefix:
+    suffix:
+    icon: {fileID: 0}
+  - name: Fire Punch
+    description: Unlock <color=green>Fire Punch</color> skill
+    typeOfTalent: 17
+    rare: 0
+    isActivated: 0
+    effetValue: 0
+    prefix:
+    suffix:
+    icon: {fileID: 0}
+  - name: Ice Punch
+    description: Unlock <color=green>Ice Punch</color> skill
+    typeOfTalent: 18
+    rare: 0
+    isActivated: 0
+    effetValue: 0
+    prefix:
+    suffix:
+    icon: {fileID: 0}
+  - name: Lightning Punch
+    description: Unlock <color=green>Lightning Punch</color> skill
+    typeOfTalent: 19
+    rare: 0
+    isActivated: 0
+    effetValue: 0
+    prefix:
+    suffix:
+    icon: {fileID: 0}
+  - name: Bouncing Punch
+    description: Unlock <color=green>Bouncing Punch</color> skill
+    typeOfTalent: 20
+    rare: 0
+    isActivated: 0
+    effetValue: 0
+    prefix:
+    suffix:
+    icon: {fileID: 0}
+  - name: Gun Punch
+    description: 'Unlock <color=green>Gun Punch</color> skill '
+    typeOfTalent: 21
+    rare: 0
+    isActivated: 0
+    effetValue: 0
+    prefix:
+    suffix:
+    icon: {fileID: 0}
+  - name: Ricochet Punch
+    description: Unlock <color=green>Ricochet Punch</color> skill
+    typeOfTalent: 22
+    rare: 0
+    isActivated: 0
+    effetValue: 0
+    prefix:
+    suffix:
+    icon: {fileID: 0}
+  - name: Fire Zone
+    description: Unlock <color=green>Fire Zone</color> skill
+    typeOfTalent: 23
+    rare: 0
+    isActivated: 0
+    effetValue: 0
+    prefix:
+    suffix:
+    icon: {fileID: 0}
+  - name: Ice Zone
+    description: Unlock <color=green>Ice Zone</color> skill
+    typeOfTalent: 24
+    rare: 0
+    isActivated: 0
+    effetValue: 0
+    prefix:
+    suffix:
+    icon: {fileID: 0}
+  - name: Lightning Zone
+    description: Unlock <color=green>Lightning Zone</color> skill
+    typeOfTalent: 25
+    rare: 4
+    isActivated: 0
+    effetValue: 0
+    prefix:
+    suffix:
+    icon: {fileID: 0}
+  talentTierDB: {fileID: 11400000, guid: e571939c6ad4adc469008a7c6fee9d5a, type: 2}
