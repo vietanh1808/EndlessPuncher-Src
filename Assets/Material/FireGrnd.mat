@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: FireGrnd
+  m_Shader: {fileID: 4800000, guid: e66c38f4312cbfb4b9790803346cc13c, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _GROUNDFADE
+  - _SURFACE_TYPE_TRANSPARENT
+  - _USECUSTOMRANDOM
+  m_InvalidKeywords:
+  - _BUILTIN_SURFACE_TYPE_TRANSPARENT
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 1
+  m_CustomRenderQueue: 3000
+  stringTagMap:
+    RenderType: Transparent
+  disabledShaderPasses:
+  - DepthOnly
+  - MOTIONVECTORS
+  m_LockedProperties:
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _FireMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: {}
+    m_Floats:
+      _2ndAlpha: 1
+      _2ndAlphaScale: 10.53
+      _AlphaClip: 0
+      _AlphaToMask: 0
+      _BUILTIN_AlphaClip: 0
+      _BUILTIN_Blend: 2
+      _BUILTIN_CullMode: 0
+      _BUILTIN_DstBlend: 1
+      _BUILTIN_QueueControl: 0
+      _BUILTIN_QueueOffset: 0
+      _BUILTIN_SrcBlend: 5
+      _BUILTIN_Surface: 1
+      _BUILTIN_ZTest: 4
+      _BUILTIN_ZWrite: 0
+      _BUILTIN_ZWriteControl: 0
+      _Blend: 0
+      _BlendModePreserveSpecular: 0
+      _CastShadows: 1
+      _Cull: 0
+      _DstBlend: 10
+      _DstBlendAlpha: 10
+      _Emission: 1.21
+      _EmissionDamage: 10
+      _FlowStrength: 0.19
+      _GROUNDFADE: 1
+      _InvFade: 3
+      _Opacity: 6.11
+      _Power: 1.91
+      _QueueControl: 0
+      _QueueOffset: 0
+      _ReceiveShadows: 1
+      _ShinnySpeed: 119.7
+      _Speed: -0.5
+      _Speed2: -1
+      _SpeedY: 0.3
+      _SrcBlend: 5
+      _SrcBlendAlpha: 1
+      _Surface: 1
+      _UFlowSpeed: -3.7
+      _USECUSTOMRANDOM: 1
+      _UseCustomData: 0
+      _UseShinny: 0
+      _UseSideFade: 1
+      _Usedepth: 0
+      _VFlowSpeed: 164.12
+      _VertexAlphaUse: 1
+      _WorkflowMode: 1
+      _XRMotionVectorsPass: 1
+      _ZTest: 4
+      _ZWrite: 0
+      _ZWriteControl: 0
+    m_Colors:
+      _BottomFade: {r: 0.99, g: -0.1, b: 0, a: 0}
+      _Color: {r: 3.2490096, g: 0.5041347, b: 0, a: 1}
+      _DistortionSpeedXYPowerZ1: {r: 1, g: -1.14, b: -43.67, a: -100}
+      _GroundSmooth: {r: 1, g: 0.2, b: 0, a: 0}
+      _Tilling: {r: 0.3, g: 0.3, b: 0, a: 0}
+      _TintColor: {r: 0, g: 0, b: 0, a: 0.5}
+      _Vector2: {r: 1, g: 0, b: 0, a: 0}
+      _Vector4: {r: -0.83, g: 0.04, b: 0.85, a: -1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 0
